@@ -1,0 +1,4 @@
+Replace regex:
+B1: Câu\s*\d+\s*:   =>   /qe\n/qb 
+    ^\d+\s*   =>   /qe\n/qb 
+B2: ^\s*(?:/a)?[A-D]\s*[:\.]?\s*   =>   /o 

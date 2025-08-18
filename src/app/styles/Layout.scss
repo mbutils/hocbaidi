@@ -1,0 +1,19 @@
+.container {
+    min-height: calc(100% - 16px);
+    width: 100%;
+    padding: 8px 0;
+    display: flex;
+    justify-content: center;
+    background-color: #fff9f4;
+    // font-family: 'PatrickHand-R', cursive !important;
+    font-family: BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue' !important;
+
+    .container-layout {
+        width: 100%;
+        max-width: 1100px;
+    }
+
+    .container__content {
+        height: 100%;
+    }
+}
