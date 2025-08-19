@@ -16,6 +16,7 @@ const Exam = () => {
     const [openConfirmModel, setOpenConfirmModel] = useState(false);
     const [isEnd, setIsEnd] = useState(false);
     const [modal, contextHolder] = Modal.useModal();
+    const [resultImg, setResultImg] = useState("");
 
     const onChange = (quesNum, value) => {
         setUserAnswers({
@@ -55,13 +56,14 @@ const Exam = () => {
 
         const countCorrect = questions.filter(question => userAnswer[question.quesNum] === question.answerOp).length;
         setResult(countCorrect);
+        getRandomImage();
     }
 
     const getRandomImage = () => {
         const totalImages = 5;
         const randomIndex = Math.floor(Math.random() * totalImages) + 1;
         const imgType = result/questions.length >= 8 ? 'highscore' : 'lowscore';
-        return `/resource/${imgType}/${randomIndex}.png`;
+        setResultImg(`/resource/${imgType}/${randomIndex}.png`);
     };
 
     return (
@@ -105,7 +107,7 @@ const Exam = () => {
                         <div className='result'>
                             <p className='m-0'>Kết quả: {result}/{questions.length}</p>
                             <p className='m-0 score'>Điểm {result/questions.length}</p>
-                            <img src={getRandomImage()}
+                            <img src={resultImg}
                                 style={{ width: '100%', maxHeight: '80vh', objectFit: 'contain' }}
                             />
                         </div>
