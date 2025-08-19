@@ -47,24 +47,24 @@ const Exam = () => {
         setView("start");
         setCurQuestion(0);
         setUserAnswers({});
-        setResult({});
+        setResult(0);
         setIsEnd(false);
     }
 
     const submit = () => {
-       setIsEnd(true);
+        setIsEnd(true);
 
-       const countCorrect = questions.filter(question => userAnswer[question.quesNum] === question.answerOp).length;
-       setResult(countCorrect);
-       getRandomImage(countCorrect);
-   }
+        const countCorrect = questions.filter(question => userAnswer[question.quesNum] === question.answerOp).length;
+        setResult(countCorrect);
+        getRandomImage(countCorrect);
+    }
 
-   const getRandomImage = (result) => {
-       const totalImages = 5;
-       const randomIndex = Math.floor(Math.random() * totalImages) + 1;
-       const imgType = result/questions.length >= 8 ? 'highscore' : 'lowscore';
-       setResultImg(`/resource/${imgType}/${randomIndex}.png`);
-   };
+    const getRandomImage = (result) => {
+        const totalImages = 5;
+        const randomIndex = Math.floor(Math.random() * totalImages) + 1;
+        const imgType = (result/questions.length*10) >= 8 ? 'highscore' : 'lowscore';
+        setResultImg(`/resource/${imgType}/${randomIndex}.png`);
+    };
 
     return (
         <div className='exam-container'>
@@ -85,7 +85,6 @@ const Exam = () => {
                         question={questions[curQuestion]}
                         curAnswer={userAnswer[curQuestion]}
                         changeAnswer={onChange}
-                        curQuestion={curQuestion}
                         nextPage={(p) => setCurQuestion(curQuestion + p)}
                         maxQuesNum={questions.length}
                         time={time}
@@ -106,7 +105,7 @@ const Exam = () => {
                     {isEnd ? (
                         <div className='result'>
                             <p className='m-0'>Kết quả: {result}/{questions.length}</p>
-                            <p className='m-0 score'>Điểm {result/questions.length}</p>
+                            <p className='m-0 score'>Điểm {result/questions.length*10}</p>
                             <img src={resultImg}
                                 style={{ width: '100%', maxHeight: '40vh', objectFit: 'contain' }}
                             />
