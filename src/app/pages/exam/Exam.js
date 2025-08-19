@@ -108,7 +108,7 @@ const Exam = () => {
                             <p className='m-0'>Kết quả: {result}/{questions.length}</p>
                             <p className='m-0 score'>Điểm {result/questions.length}</p>
                             <img src={resultImg}
-                                style={{ width: '100%', maxHeight: '80vh', objectFit: 'contain' }}
+                                style={{ width: '100%', maxHeight: '40vh', objectFit: 'contain' }}
                             />
                         </div>
                     ) : null}
