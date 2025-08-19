@@ -52,19 +52,19 @@ const Exam = () => {
     }
 
     const submit = () => {
-        setIsEnd(true);
+       setIsEnd(true);
 
-        const countCorrect = questions.filter(question => userAnswer[question.quesNum] === question.answerOp).length;
-        setResult(countCorrect);
-        getRandomImage();
-    }
+       const countCorrect = questions.filter(question => userAnswer[question.quesNum] === question.answerOp).length;
+       setResult(countCorrect);
+       getRandomImage(countCorrect);
+   }
 
-    const getRandomImage = () => {
-        const totalImages = 5;
-        const randomIndex = Math.floor(Math.random() * totalImages) + 1;
-        const imgType = result/questions.length >= 8 ? 'highscore' : 'lowscore';
-        setResultImg(`/resource/${imgType}/${randomIndex}.png`);
-    };
+   const getRandomImage = (result) => {
+       const totalImages = 5;
+       const randomIndex = Math.floor(Math.random() * totalImages) + 1;
+       const imgType = result/questions.length >= 8 ? 'highscore' : 'lowscore';
+       setResultImg(`/resource/${imgType}/${randomIndex}.png`);
+   };
 
     return (
         <div className='exam-container'>
