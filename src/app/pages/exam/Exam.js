@@ -17,8 +17,6 @@ const Exam = () => {
     const [isEnd, setIsEnd] = useState(false);
     const [modal, contextHolder] = Modal.useModal();
 
-    
-
     const onChange = (quesNum, value) => {
         setUserAnswers({
             ...userAnswer,
@@ -59,6 +57,13 @@ const Exam = () => {
         setResult(countCorrect);
     }
 
+    const getRandomImage = () => {
+        const totalImages = 5;
+        const randomIndex = Math.floor(Math.random() * totalImages) + 1;
+        const imgType = result/questions.length >= 8 ? 'highscore' : 'lowscore';
+        return `/resource/${imgType}/${randomIndex}.png`;
+    };
+
     return (
         <div className='exam-container'>
             {view === "start" ? (
@@ -87,7 +92,7 @@ const Exam = () => {
                             modal.info({
                                 title: 'Kết thúc',
                                 content: (
-                                    <p>Hết giờ, mời bạn nộp bài.</p>
+                                    <p>Hết giờ, xin mời nộp bài.</p>
                                 ),
                                 onOk() {
                                     submit();
@@ -97,7 +102,13 @@ const Exam = () => {
                     />
 
                     {isEnd ? (
-                        <div className='result'>Kết quả: {result}/{questions.length}</div>
+                        <div className='result'>
+                            <p className='m-0'>Kết quả: {result}/{questions.length}</p>
+                            <p className='m-0 score'>Điểm {result/questions.length}</p>
+                            <img src={getRandomImage()}
+                                style={{ width: '100%', maxHeight: '80vh', objectFit: 'contain' }}
+                            />
+                        </div>
                     ) : null}
 
                     <Row className='overview-question'>

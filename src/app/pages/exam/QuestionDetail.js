@@ -66,9 +66,10 @@ const QuestionDetail = (props) => {
             >Sau</Button>
         </div>
 
-        {!timeout && !isEnd ? (
+        {!timeout && !isEnd ? (<>
             <div className='mt-5'>Thời gian: {timeTx}</div>
-        ): null}
+            <div className='mt-1 fs-12 note'>Lưu ý không tải lại trang</div>
+        </>): null}
         </>
     )
 } 
