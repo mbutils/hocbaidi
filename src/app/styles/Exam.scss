@@ -40,11 +40,15 @@
 }
 
 .question-detail {
-    min-height: 40vh;
-
-    .question {
-        font-weight: 500;
-    }
+    min-height: 40vh;
+ 
+    .question {
+        font-weight: 500;
+        white-space: pre-wrap;
+    }
+    .answer-correct {
+        white-space: pre-wrap;
+    }
 }
 .nav-question-btn {
     display: flex;
