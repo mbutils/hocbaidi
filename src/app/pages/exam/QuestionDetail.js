@@ -33,7 +33,7 @@ const QuestionDetail = (props) => {
    return ( 
        <> 
        <div className='question-detail'> 
-           <div className="question">
+           <div className="question" style={{whiteSpace: "pre-wrap"}}>
                <span className="fw-b">Câu {question.quesNum + 1}: </span>
                {question.question}
            </div> 
