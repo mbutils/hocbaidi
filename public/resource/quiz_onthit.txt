@@ -1,0 +1,2049 @@
+/qb 
+Làm sao để đảm bảo thứ tự của message trên 1 topic kafka
+/o Tạo 1 topic chỉ có 1 partition
+/o Khi gửi message lên kafka thì gửi thêm 1 key dùng chung cho các message muốn đảm bảo thứ tự
+/o Mặc định kafka đã đảm bảo thứ tự rồi không cần làm gì
+/o /a Cả 1 và 2 đều đúng
+/qe
+
+/qb A subquery can be used to _________.
+/o Create groups of data
+/o Sort data in a specific order
+/o Convert data to a different format
+/o /a Retrieve data based on an unknown condition.
+/qe
+
+/qb AI khác với phần mềm truyền thống ở điểm nào?
+/o AI chỉ chạy được trên máy chủ đặc biệt
+/o /a AI có khả năng học và cải thiện theo dữ liệu mới.
+/o AI không cần dữ liệu
+/o AI không bao giờ sai
+/qe
+
+/qb /multi API Flask bị lỗi 500, log không rõ ràng. Bạn sẽ dùng AI như thế nào?
+/o /a Copy traceback vào AI, nhờ phân tích nguyên nhân.
+/o /a Nhờ AI gợi ý cách bật debug và logging chi tiết hơn.
+/o Nhờ AI viết lại toàn bộ API
+/o Không cần AI, chỉ restart server
+/qe
+
+/qb Ai là đối tượng chính sử dụng báo cáo từ DevSecOps?
+/o /a Tất cả các nhóm trên.
+/o Developer
+/o DevOps Engineer
+/o Security/Compliance team
+/qe
+
+/qb Apache Kafka thường được sử dụng trong tích hợp hệ thống cho mục đích gì?
+/o Xử lý giao dịch cơ sở dữ liệu
+/o /a Truyền tải dữ liệu thời gian thực với khối lượng lớn, dưới dạng stream.
+/o Quản lý phiên bản mã nguồn
+/o Tối ưu hóa hình ảnh
+/qe
+
+/qb /multi Ba câu lệnh SELECT nào hiển thị 2000 theo định dạng “$2,000.00”?
+/o SELECT TO CNAR(2000, ‘$#,###.##’)
+FROM dual;
+/o /a SELECT TO CNAR(2000, ‘$0,000.00’)
+FROM dual; .
+/o /a SELECT TO CNAR(2000, ‘$9,999.00’)
+FROM dual; .
+/o /a SELECT TO CNAR(2000, ‘$9,999.99’)
+FROM dual; .
+/o SELECT TO CNAR(2000, ‘$2,000.00’)
+FROM dual;
+/o SELECT TO CNAR(2000, ‘$N,NNN.NN’)
+FROM dual;
+/qe
+
+/qb /multi Biện pháp phòng chống SQL Injection là gì?
+/o /a Sử dụng ORM.
+/o Phân quyền DML, DDL cho ứng dụng
+/o /a Lọc input bằng regex đơn giản.
+/o /a Sử dụng các truy vấn được tham số hóa (PreparedStatement).
+/qe
+
+/qb Black Duck KnowledgeBase là gì?
+/o /a CSDL chứa thông tin thành phần OSS, license và lỗ hổng bảo mật.
+/o Kho chứa source code mở cho lập trình viên
+/o Hệ thống ticket để quản lý bug
+/o API marketplace
+/qe
+
+/qb Black Duck SCA giúp phát hiện những loại rủi ro nào?
+/o /a Tất cả các lựa chọn trên.
+/o Lỗ hổng bảo mật trong thành phần mã mở
+/o License không tương thích
+/o Thành phần mã mở lỗi thời
+/qe
+
+/qb Black Duck có thể quét loại artifact nào sau đây?
+/o /a Tất cả các lựa chọn trên.
+/o Mã nguồn (source code)
+/o Container image
+/o Binary/compiled artifacts
+/qe
+
+/qb /multi Bạn có một file code 1000 dòng chứa logic, query và UI lẫn lộn. Dùng AI thế nào cho refactor?
+/o /a Hỏi AI tách code thành Controller, Service, Repository.
+/o Nhờ AI viết lại toàn bộ bằng ngôn ngữ khác
+/o /a Nhờ AI gợi ý cách tổ chức lại codebase theo design pattern.
+/o Hỏi AI thêm nhiều comment
+/qe
+
+/qb /multi Bạn có một hàm Python kiểm tra số nguyên tố chạy rất chậm. Cách nào sau đây là cách dùng AI để tối ưu?
+/o Copy code vào AI, yêu cầu AI viết lại với vòng lặp đầy đủ từ 2 đến n
+/o /a Yêu cầu AI tối ưu và AI gợi ý chỉ lặp đến căn bậc hai của n.
+/o Hỏi AI viết code mới bằng Java thay cho Python
+/o /a Nhờ AI gợi ý thêm phương pháp dùng thư viện sẵn có như sympy.
+/qe
+
+/qb Bạn cần hiển thị cột last_names của bảng employees có chữ cái “A” là ký tự thứ 2 trong tên
+Câu lệnh nào trả kết quả đúng?
+/o /a SELECT last_name
+FROM EMP
+WHERE last_name LIKE ‘_A%’ .
+/o SELECT last_name
+FROM EMP
+WHERE last name =’*A%’
+/o SELECT last_name
+FROM EMP
+WHERE last name =’_A%’;
+/o SELECT last_name
+FROM EMP
+WHERE last name LIKE ‘*A%’
+/qe
+
+/qb /multi Bạn cần học nhanh một framework mới (Spring, Django). AI hỗ trợ ra sao?
+/o /a Nhờ AI sinh ví dụ code chuẩn, giải thích best practice.
+/o /a AI tóm tắt tài liệu chính thức.
+/o AI viết framework mới
+/o AI tạo API ngẫu nhiên
+/qe
+
+/qb Bạn cần tính tổng lương của tất cả các nhân viên trong phòng kế toán. Bạn nên sử dụng hàm nào?
+/o MAX
+/o MIN
+/o /a SUM
+/o COUNT
+/o TOTAL
+/o LARGEST
+/qe
+
+/qb Bạn cần tạo báo cáo gửi thư cho tất cả khách hàng. Thông tin gửi thư chứa id, tên, địa chỉ, điện thoại của khách hàng. Bảng CUSTOMERS có các cột sau:
+CUST_ID NUMBER(4) NOT NULL
+CUST_NAME VARCHAR2(100)
+CUST_ADDRESS VARCHAR2(150)
+CUST_PHONE VARCHAR2(20)
+Câu lệnh SELECT nào thực hiện nhiệm vụ này?
+/o SELECT*
+FROM customers;
+/o SELECT name, address
+FROM customers;
+/o SELECT id, name, address, phone
+FROM customers;
+/o SELECT cust_name, cust_address
+FROM customers; .
+/o /a SELECT cust_id, cust_name, cust_address, cust_ phone
+FROM customers;
+/qe
+
+/qb /multi Bạn cần tối ưu một truy vấn SQL chậm. Cách dùng AI hợp lý nhất là gì?
+/o /a Nhờ AI rewrite SQL và so sánh execution plan.
+/o Hỏi AI viết SQL khác ngẫu nhiên
+/o /a Dùng AI gợi ý index phù hợp.
+/o Không cần AI, chỉ thêm index tùy ý
+/qe
+
+/qb Bạn deploy một ứng dụng web lên Kubernetes, nhưng mỗi khi Pod bị xóa hoặc restart thì user mất toàn bộ session. Nguyên nhân hợp lý nhất là gì?
+/o /a Dữ liệu session lưu trong container filesystem, không có Persistent Volume.
+/o Pod không expose ra ngoài bằng Service
+/o Pod chưa được cấu hình liveness probe
+/o Cluster chưa có Ingress Controller
+/qe
+
+/qb /multi Bạn gặp memory leak trong ứng dụng Java. AI có thể giúp gì?
+/o /a Phân tích stack trace và gợi ý chỗ có memory leak.
+/o /a Đề xuất công cụ như VisualVM hoặc JProfiler để kiểm tra.
+/o Sinh thêm class mới
+/o Xóa log để giảm bộ nhớ
+/qe
+
+/qb /multi Bạn muốn AI review đoạn code có hardcode password. Đâu là mong đợi hợp lý?
+/o /a AI gợi ý sử dụng hashing và quản lý secret qua biến môi trường.
+/o AI khen code ngắn gọn dễ hiểu
+/o AI gợi ý thêm comment giải thích
+/o /a AI chỉ ra hardcode password là vi phạm best practice.
+/qe
+
+/qb Bạn muốn hiển thị system date theo format "Monday, 01 June, 2001".
+Câu lệnh nào sau đây đúng?
+/o SELECT TO_DATE(SYSDATE, 'FMDAY, DD Month,
+YYYY') FROM dual;
+/o SELECT TO_CHAR(SYSDATE, 'FMDD, DY Month,
+'YYY') FROM dual;
+/o /a SELECT TO_CHAR(SYSDATE, 'FMDay, DD Month,
+YYYY') FROM dual; .
+/o SELECT TO_CHAR(SYSDATE, 'FMDY, DDD Month,
+YYYY') FROM dual;
+/o SELECT TO_DATE(SYSDATE, 'FMDY, DDD Month,
+YYYY') FROM dual;
+/qe
+
+/qb /multi Bạn muốn viết tài liệu kỹ thuật nhanh hơn bằng AI. Cách nào hợp lý?
+/o /a Nhờ AI tạo docstring, README và summary từ codebase.
+/o /a Nhờ AI gợi ý checklist các phần cần có trong tài liệu.
+/o Không dùng AI, viết thủ công 100%
+/o Hỏi AI sinh tài liệu bất kỳ không liên quan
+/qe
+
+/qb /multi Bạn muốn đánh giá chất lượng code AI sinh ra. Phương pháp nào phù hợp nhất?
+/o /a Chạy static analysis, unit test, security scan.
+/o Merge ngay vào production
+/o Hỏi AI có chắc không
+/o /a Thực hiện benchmark hiệu năng so sánh với baseline.
+/qe
+
+/qb Bạn triển khai một ứng dụng xử lý dữ liệu lớn, cần truyền dữ liệu nhạy cảm giữa các Pod trong cluster. Biện pháp nào sau đây giúp tăng cường bảo mật nhất?
+/o /a Mã hóa traffic giữa Pod bằng mTLS (Mutual TLS). 
+/o Chỉ chạy Pod trong cùng một Namespace
+/o Dùng ConfigMap để lưu token API
+/o Dùng Horizontal Pod Autoscaler để tăng số Pod
+/qe
+
+/qb Bạn đã thêm cột PHONE_NUMBER thuộc kiểu dữ liệu NUMBER vào bảng EMPLOYEES hiện có. Bảng EMPLOYEES đã chứa các bản ghi của 100 nhân viên. Bây giờ, bạn muốn nhập số điện thoại của từng nhân viên trong số 100 nhân viên vào bảng.
+Một số nhân viên có thể không có số điện thoại.
+Bạn sử dụng câu lệnh DML nào?
+/o MERGE
+/o INSERT.
+/o /a UPDATE
+/o ADD
+/o ENTER
+/o You cannot enter the phone numbers for the existing employee records.
+/qe
+
+/qb Bảng EMP có 3 cột:
+ENAME VARCHAR2(35)
+SALARY NUMBER(8,2)
+HIRE_DATE DATE
+Manager muốn có danh sách tên của những nhân viên đã làm việc tại công ty hơn năm năm. Câu lệnh SQL nào sẽ hiển thị kết quả?
+/o SELECT ENAME
+FROM EMP
+WHERE SYSDATE - HIRE_DATE > 5;
+/o SELECT ENAME
+FROM EMP
+WHERE HIRE_DATE-SYSDATE > 5;
+/o /a SELECT ENAME
+FROM EMP
+WHERE (SYSDATE-HIRE_DATE)/365 > 5; .
+/o SELECT ENAME
+FROM EMP
+WHERE (SYSDATE-HIRE_DATE)* 365 > 5;
+/qe
+
+/qb Bảng EMPLOYEE có 3 cột sau:
+LAST_NAME VARCHAR2(35)
+SALARY NUMBER(8,2)
+COMMISSION_PCT NUMBER(5,2)
+Bạn muốn hiển thị tên và mức lương hàng năm nhân với commission_pct của tất cả nhân viên. Đối với các bản ghi có commission_pct NULL, phải hiển thị số 0 trên cột được tính toán.
+Câu lệnh SQL nào hiển thị kết quả mong muốn?
+/o SELECT last_name, (salary * 12) * commission_pct
+FROM EMPLOYEES;
+/o SELECT last_name, (salary * 12) * IFNULL(commission_pct, 0)
+FROM EMPLOYEES;
+/o SELECT last_name, (salary * 12) * NVL2(commission_pct, 0)
+FROM EMPLOYEES;
+/o /a SELECT last_name, (salary * 12) * NVL(commission_pct, 0)
+FROM EMPLOYEES; .
+/qe
+
+/qb /multi Bảng STUDENTS có cấu trúc:
+STD_ ID NUMBER(4)
+COURSE_ID VARCHARD2(10)
+START_DATE DATE
+END_DATE DATE
+Hai hàm tính nào hợp lệ trên cột START_DATE?
+/o SUM(start_date)
+/o AVG(start_date)
+/o /a COUNT(start_date)
+/o AVG(start_date, end_date) .
+/o /a MIN(start_date) .
+/o MAXIMUM(start_date)
+/qe
+
+/qb Bảng STUDENT_GRADES có 3 cột:
+STUDENT_ ID NUMBER(12)
+SEMESTER_END DATE
+GPA NUMBER(4,3)
+Sổ đăng ký đã yêu cầu một báo cáo liệt kê điểm trung bình tích lũy (GPA) của sinh viên, được sắp xếp từ điểm trung bình tích lũy cao nhất đến thấp nhất trong mỗi học kỳ, bắt đầu từ ngày đầu tiên. Câu lệnh nào thực hiện được điều này?
+/o SELECT student_id, semester_end, gpa
+FROM student_grades
+ORDER BY semester_end DESC, gpa DESC;
+/o SELECT student_id, semester_end, gpa
+FROM student_grades
+ORDER BY semester_end ASC, gpa ASC;
+/o /a SELECT student_id, semester_end, gpa
+FROM student_grades
+ORDER BY semester_end, gpa DESC;
+/o SELECT student_id, semester_end, gpa
+FROM student_grades
+ORDER BY gpa DESC, semester_end DESC;
+/o SELECT student_id, semester_end, gpa
+FROM student_grades
+ORDER BY gpa DESC, semester_end ASC; .
+/qe
+
+/qb CSRF (Cross-Site Request Forgery) thường khai thác điểm yếu nào?
+/o /a Session / cookie không có token chống giả mạo.
+/o Input không kiểm tra
+/o CORS sai cấu hình
+/o Hash yếu
+/qe
+
+/qb Chia sẻ file lưu trữ từ s3 ra ngoài internet như thế nào là an toàn?
+/o Chia sẻ link file cố định không thay đổi
+/o Chia sẻ link file được phân quyền và không thay đổi theo thời gian
+/o /a Chia sẻ link file được phân quyền và thay đổi theo thời gian hiệu lực token.
+/qe
+
+/qb /multi Cho câu lệnh SQL tạo ra bảng ORDERS:
+CREATE TABLE orders
+(SER_NO NUMBER UNIQUE,
+ORDER_ ID NUMBER,
+ORDER_DATE DATE NOT NULL
+STATUS VARCHARD2(10)
+CHECK (status IN (‘CREDIT’,’CASH’)),
+PROD_ID_NUMBER
+REFERENCES PRODUCTS(PRODUCT_ID),
+ORD_TOTAL NUMBER,
+PRIMARY KEY (order id, order date));
+Chỉ mục (index) sẽ tự động được tạo cho những cột nào khi bạn thực thi câu lệnh SQL trên?
+/o /a SER_NO
+/o ORDER_ ID
+/o STATUS
+/o PROD_ID
+/o ORD_TOTAL
+/o /a Composite index on ORDER_ID and ORDER_DATE .
+/qe
+
+/qb Container khác VM ở điểm nào?
+/o /a Container chạy trực tiếp trên kernel của host, còn VM có hypervisor.
+/o Container ảo hóa toàn bộ phần cứng, còn VM chỉ ảo hóa OS
+/o Container cần hypervisor để chạy, còn VM thì không
+/o  Container không thể chạy nhiều ứng dụng, VM thì có thể
+/qe
+
+/qb Container runtime (như containerd, CRI-O) trong kiến trúc Kubernetes có vai trò gì?
+/o /a Chạy và quản lý vòng đời container.
+/o Cung cấp UI quản lý container
+/o Quản lý việc build image
+/o Đảm bảo RBAC trong cluster
+/qe
+
+/qb /multi Các hoạt động chính trong quản lý kiến trúc là?
+/o /a Định nghĩa nguyên tắc kiến trúc.
+/o /a Quản lý roadmap kiến trúc.
+/o /a Kiểm soát tuân thủ kiến trúc.
+/o Lập trình chi tiết module ứng dụng
+/qe
+
+/qb /multi Các hành động minh họa cho quá trình ra quyết định dựa trên dữ liệu:
+/o /a Thu thập phản hồi từ khách hàng để xác định được tính năng, sản phẩm và dịch vụ khách hàng yêu thích.
+/o /a Thực hiện các bài thí nghiệm quy mô nhỏ để kiểm tra xu hướng sử dụng của khách hàng, cũng như phát hiện các lỗi có thể gặp phải khi chính thức khởi chạy sản phẩm/ dịch vụ.
+/o /a Thử nghiệm chạy sản phẩm mới ở một thị trường mới để kiểm tra tính thích hợp của sản phẩm.
+/o Dựa vào tâm lý học để khám phá và tìm hiểu sở thích của nkhách hàng
+/qe
+
+/qb Các hệ thống NoSQL thường ưu tiên điều nào theo CAP theorem?
+/o Consistency (Nhất quán) và Partition tolerance (Khả năng chịu phân vùng)
+/o /a Availability (Sẵn sàng) và Partition tolerance (Khả năng chịu phân vùng).
+/o Consistency (Nhất quán) và Availability (Sẵn sàng)
+/o Chỉ Consistency (Nhất quán)
+/qe
+
+/qb Các thuộc tính của một giải thuật chữ ký số
+/o Phải xác nhận chính xác người ký và ngày giờ phát sinh chữ ký
+/o Phải xác thực nội dung thông tin ngay tại thời điểm phát sinh chữ ký
+/o Phải có khả năng cho phép kiểm chứng bởi một người thứ 3 để giải quyết các tranh chấp nếu có
+/o /a Tất cả các câu trên.
+/qe
+
+/qb /multi Các trường hợp nào CBQL sẽ cần tham gia vào quá trình ra quyết định về phương án xử lý sự cố
+/o /a Không thống nhất được phương án xử lý sự cố trong Incident team.
+/o /a Phương án thực hiện khắc phục sự cố có tác động tới đơn vị nghiệp vụ.
+/o /a Phương án thực hiện khắc phục sự cố cần thực hiện thay đổi.
+/o CBQL không cần tham gia xử lý sự cố
+/qe
+
+/qb /multi Cách xử lý an toàn cho api quản trị /actuator trên spring
+/o Cấu hình port quản trị /actuator cùng port ứng dụng
+/o /a Cấu hình port quản trị /actuator khác port ứng dụng.
+/o /a Giới hạn những path cho phép truy cập quản trị.
+/o Tất cả đều đúng
+/qe
+
+/qb Câu lệnh SQL nào định nghĩa ràng buộc KHÓA NGOẠI trên cột DEPTNO của bảng EMP?
+/o /a CREATE TABLE EMP (
+empno NUMBER(4),
+ename VARCHAR2(35),
+deptno NUMBER(7,2) NOT NULL,
+CONSTRAINT emp_deptno_fk FOREIGN KEY (deptno)
+   REFERENCES dept (deptno);
+/o CREATE TABLE EMP
+(empno NUMBER(4),
+ename VARCNAR2(35),
+deptno NUMBER(7,2)
+CONSTRAINT emp_deptno_fk REFERENCES dept (deptno));
+/o CREATE TABLE EMP
+(empno NUMBER(4)
+ename VARCHAR2(35),
+deptno NUMBER(7,2) NOT NULL,
+CONSTRAINT emp_deptno_fk REFERENCES dept (deptno)
+FOREIGN KEY (d eptno)); .
+/o CREATE TABLE EMP (empno NUMBER(4),
+ename VARCNAR2(35),
+deptno NUMBER(7,2) FOREIGN KEY
+CONSTRAINT emp deptno fk REFERENCES dept (deptno));
+/qe
+
+/qb Câu lệnh nào dùng để thêm dữ liệu mới vào bảng?
+/o SELECT
+/o UPDATE
+/o /a INSERT
+/o DELETE
+/qe
+
+/qb Công cụ nào chuyên dùng để quản lý database schema change theo workflow DevOps?
+/o /a Bytebase.
+/o Prometheus
+/o Nexus
+/o Harbor
+/qe
+
+/qb Công cụ nào sau đây là một hệ quản trị cơ sở dữ liệu NoSQL?
+/o MySQL
+/o PostgreSQL
+/o /a Cassandra.
+/o Oracle DB
+/qe
+
+/qb /multi Công nghệ nào thường được dùng để xây dựng chatbot hỗ trợ khách hàng?
+/o AI thị giác (Computer Vision)
+/o /a Xử lý ngôn ngữ tự nhiên (NLP).
+/o /a Mô hình ngôn ngữ lớn (LLM).
+/o Học tăng cường (Reinforcement Learning)
+/qe
+
+/qb Cơ chế least privilege nghĩa là gì?
+/o /a Người dùng chỉ có quyền tối thiểu cần thiết.
+/o Admin toàn quyền
+/o User toàn quyền
+/o Guest có quyền như admin
+/qe
+
+/qb Cơ chế nào của Android giúp mã hóa khóa bảo mật bên trong thiết bị?
+/o SQLite
+/o /a Android Keystore.
+/o SharedPreferences
+/o Manifest
+/qe
+
+/qb Cơ sở dữ liệu NoSQL thường phù hợp với khối lượng dữ liệu như thế nào?
+/o Dữ liệu nhỏ, ít biến đổi
+/o /a Dữ liệu lớn, phi cấu trúc hoặc bán cấu trúc.
+/o Dữ liệu có cấu trúc chặt chẽ và ít thay đổi
+/o Dữ liệu được lưu dưới dạng bảng quan hệ
+/qe
+
+/qb Cấu trúc dữ liệu nào dùng để lưu trữ các phần tử theo thứ tự nhập đầu tiên ra đầu tiên ra (FIFO)?
+/o Stack
+/o /a Queue.
+/o Linked List
+/o Tree
+/qe
+
+/qb Cấu trúc dữ liệu nào sau đây sử dụng nguyên tắc Last In First Out (LIFO)?
+/o Queue
+/o ArrayList
+/o /a Stack.
+/o HashMap
+/o TreeSet
+/qe
+
+/qb Cấu trúc dữ liệu nào được sử dụng để duyệt qua các phần tử một cách tuần tự và dễ dàng thực hiện thêm/xóa phần tử ở cuối danh sách?
+/o Array
+/o Stack
+/o Queue
+/o /a Double Linked List.
+/qe
+
+/qb Data Lake vs Data Warehouse trong tích hợp ETL khác nhau cơ bản ở điểm nào?
+/o /a Data Lake thường lưu dữ liệu  thô, còn Data Warehouse lưu dữ liệu đã được chuẩn hóa.
+/o Data Lake có latency thấp hơn Data Warehouse
+/o Data Warehouse chỉ dùng cho streaming, Data Lake chỉ dùng cho batch
+/o Data Lake không cần ETL
+/qe
+
+/qb DevSecOps là gì?
+/o /a Tích hợp bảo mật vào mọi giai đoạn DevOps lifecycle.
+/o Công cụ quét mã nguồn mở
+/o Dịch vụ pentest thuê ngoài
+/o Chỉ tập trung vào bảo mật production
+/qe
+
+/qb Dữ liệu trong Key-Value Store được lưu trữ như thế nào?
+/o Dưới dạng bảng với hàng và cột
+/o /a Dưới dạng cặp khóa (key) và giá trị (value).
+/o Dưới dạng đồ thị có các đỉnh và cạnh
+/o Dưới dạng tài liệu JSON
+/qe
+
+/qb ETL (Extract, Transform, Load) thường được sử dụng trong loại tích hợp hệ thống nào?
+/o Tích hợp ứng dụng thời gian thực
+/o /a Tích hợp dữ liệu, đặc biệt trong kho dữ liệu (data warehousing).
+/o Tích hợp dịch vụ dựa trên microservices
+/o Tích hợp bảo mật hệ thống
+/qe
+
+/qb ETL pipeline thường bao gồm những bước nào?
+/o Extract → Transfer → Load
+/o /a Extract → Transform → Load.
+/o Extract → Transform → Link
+/o Extract → Load → Transform
+/qe
+
+/qb Git dùng để
+/o Chạy code
+
+/o /a Quản lý mã nguồn.
+
+/o Thiết kế UI
+
+/o Quản lý cơ sở dữ liệu
+/qe
+
+/qb GitHub là gì?
+/o Một ngôn ngữ lập trình
+
+
+
+/o Một framework Java
+/o /a Nền tảng lưu trữ và chia sẻ mã nguồn.
+/o Một hệ điều hành
+/qe
+
+/qb Giải pháp Caching thường được dùng để làm gì?
+/o Giảm dung lượng ổ cứng
+/o /a Tăng tốc độ truy xuất dữ liệu.
+/o Thay thế database
+/o Sao lưu dữ liệu
+/qe
+
+/qb /multi Giải pháp nào giúp cải thiện hiệu năng truy xuất dữ liệu đọc nhiều hơn ghi?
+/o /a Caching (Redis, Memcached).
+/o Sharding Database
+/o /a CDN (Content Delivery Network).
+/o Message Queue
+/qe
+
+/qb HTML dùng để
+/o Xử lý dữ liệu server
+
+/o /a 
+Thiết kế giao diện web.
+
+/o Viết API
+
+/o Viết ứng dụng di động
+/qe
+
+/qb HTTP status code 404 nghĩa là?
+/o Server lỗi nội bộ
+
+/o 
+Thành công
+
+/o /a Không tìm thấy tài nguyên.
+
+/o Không có quyền truy cập
+/qe
+
+/qb HTTPS sử dụng giao thức nào để mã hóa?
+/o /a SSL/TLS
+/o FTP
+/o SMTP
+/o SSH
+/qe
+
+/qb /multi Hai câu nào sau đây về quan điểm là đúng?
+/o /a A view can be created as read only.
+/o /a A view can be created as a join on two or more tables.
+/o A view cannot have an ORDER BY clause in the SELECT statement.
+/o A view cannot be created with a GROUP BY clause in the SELECT statement.
+/o A view must have aliases defined for the column names in the SELECT statement.
+/qe
+
+/qb /multi Hiện nay tại MB trong việc triển khai AI thì vai trò của khối CNTT là gì?
+/o /a Triển khai hạ tầng AI.
+/o /a Tích hợp hệ thống.
+/o Đào tạo nghiệp vụ tín dụng
+/o /a Đảm bảo bảo mật và tuân thủ.
+/qe
+
+/qb /multi Hiện tượng "Overfiting"  xảy ra do những nguyên nhân nào?
+/o /a Do mô hình quá lớn, phức tạp.
+/o /a Do dữ liệu thiếu tính đa dạng.
+/o /a Do quá trình huấn luyện.
+/o Do áp dụng kỹ thuật Regularization
+/qe
+
+/qb Hybrid Integration Platform (HIP) kết hợp những gì?
+/o Chỉ tích hợp on-premise
+/o Chỉ tích hợp đám mây
+/o /a Tích hợp giữa hệ thống on-premise và đám mây, hỗ trợ đa nền tảng.
+/o Tích hợp chỉ với cơ sở dữ liệu
+/qe
+
+/qb Học có giám sát(Supervised Learning) khác học không giám sát( Unsupervised Learning) ở điểm nào?
+/o Supervised không cần nhãn, Unsupervised cần nhãn
+/o /a Supervised cần dữ liệu có nhãn, Unsupervised không cần nhãn.
+/o Supervised chỉ dùng cho hình ảnh, Unsupervised chỉ dùng cho văn bản
+/o Không có sự khác biệt
+/qe
+
+/qb IDE phổ biến cho Java là?
+/o PyCharm
+
+
+
+/o /a IntelliJ IDEA.
+/o Visual Studio
+/o  Xcode
+/qe
+
+/qb Istio Gateway chủ yếu hoạt động ở mode nào?
+/o /a L7 routing.
+/o L3 routing
+/o L4 routing
+/o L2 routing
+/qe
+
+/qb Khi cần đồng bộ dữ liệu theo thời gian thực giữa nhiều hệ thống, cách tiếp cận nào phù hợp nhất?
+/o Batch processing hằng ngày
+/o /a Event-driven messaging (MQ, Kafka).
+/o Gửi file qua FTP
+/o Email notification
+/qe
+
+/qb Khi dùng AI để hỗ trợ ra quyết định, điều quan trọng là
+/o /a Luôn xem xét và kiểm tra kết quả của AI trước khi áp dụng.
+/o Tin tuyệt đối vào AI
+/o Để AI tự động quyết định thay con người
+/o Không cần quan tâm dữ liệu đầu vào
+/qe
+
+/qb Khi dùng Automatic Sidecar Injection, Istio dựa vào đâu để quyết định chèn sidecar?
+/o /a Namespace label.
+/o ServiceAccount
+/o ConfigMap
+/o Deployment name
+/qe
+
+/qb Khi huấn luyện, dữ liệu huấn luyện nên chia theo tỷ lệ nào?
+/o /a Tỷ lệ Train/Validate là 8/2
+/o Tỷ lệ Train/Validate là 5/5
+/o Tỷ lệ Train/Validate là 4/6
+/o Tỷ lệ Train/Validate là 2/8
+/qe
+
+/qb Khi hệ thống có yêu cầu xử lý batch khối lượng lớn, thành phần nào thường được bổ sung vào kiến trúc?
+/o ESB
+/o /a Job Scheduler/Batch Processing Engine.
+/o Firewall
+/o Load balancer
+/qe
+
+/qb Khi hệ thống cần xử lý hàng triệu request đồng thời, kiến trúc sư nên ưu tiên giải pháp nào?
+/o Vertical Scaling (mở rộng theo chiều dọc: tăng RAM, CPU)
+/o /a Horizontal Scaling  (Mở rộng theo chiều ngang bằng cách bổ sung máy chủ và sử dụng Load Balancer).
+/o Tăng RAM cho Database
+/o Giảm số lượng API
+/qe
+
+/qb /multi Khi lập trình số tiền phải để dạng nào
+/o Int
+/o /a BigDecimal
+/o Double
+/o /a Long
+/o /a String
+/o Float
+/qe
+
+/qb Khi lập trình ứng dụng Android, thông tin nhạy cảm (như token, password) không nên lưu ở đâu?
+/o /a SharedPreferences ở dạng plaintext.
+/o EncryptedSharedPreferences
+/o Android Keystore
+/o Secure Server API
+/qe
+
+/qb Khi nhận thấy % used phân vùng /var/ gần sử dụng hết và muốn kiểm tra dung lượng của tất cả file, thư mục trong phần vùng /var để xoá bớt, lệnh nào để kiểm tra: 
+/o /a du -sh /var/*
+/o ls -lh /var/*
+/o df -h /var/*
+/o stat /var/*
+/qe
+
+/qb /multi Khi phát hiện thư viện sử dụng có lỗ hổng CVE(Common Vulnerabilities and Exposures) cần:
+/o /a Phân tích cách thức khai thác lỗ hổng, Đánh giá các tính năng ảnh hưởng đang sử dụng. Ngăn chặn ngay các hành vi khai thác lỗ hổng bằng các phương thức phù hợp khả thi.
+/o Chờ đợi thư viện cập nhật bản vá để nâng cấp
+/o /a Không làm gì cả, lỗ hổng CVE không nguy hiểm tới hệ thống.
+/o /a Xóa đoạn mã liên quan tới thư viện bị CVE.
+/qe
+
+/qb Khi phát triển ứng dụng Android, permission nào được coi là rủi ro cao?
+/o INTERNET
+/o /a READ_CONTACTS
+/o VIBRATE
+/o ACCESS_NETWORK_STATE
+/qe
+
+/qb Khi phát triển ứng dụng mobile, tại sao không nên log dữ liệu nhạy cảm (password, token) vào logcat?
+/o Vì logcat làm chậm ứng dụng
+/o /a Vì dữ liệu trong logcat có thể bị đọc bởi app khác hoặc attacker khi debug.
+/o Vì logcat chỉ hoạt động trên iOS
+/o Vì logcat không hỗ trợ Unicode
+/qe
+
+/qb Khi quản lý danh mục ứng dụng (application portfolio), EA cần quan tâm yếu tố nào nhất?
+/o Mỗi ứng dụng có giao diện đẹp
+/o /a Tránh trùng lặp chức năng và tối ưu chi phí.
+/o Mỗi ứng dụng viết bằng một ngôn ngữ lập trình khác nhau
+/o Tất cả ứng dụng chạy trên cùng một server
+/qe
+
+/qb Khi sử dụng Change Data Capture (CDC) qua log-based thay vì trigger-based, ưu điểm là gì?
+/o /a Không gây overhead cho cơ sở dữ liệu nguồn.
+/o Hỗ trợ rollback tự động
+/o Không cần quyền truy cập vào log database
+/o Không cần cấu hình replication
+/qe
+
+/qb /multi Khi thiết kế giải thuật, những yếu tố nào sau đây nên được ưu tiên xem xét?
+/o /a Độ phức tạp thời gian (Time Complexity).
+/o Mức độ sử dụng thư viện ngoài
+/o /a Độ phức tạp không gian (Space Complexity).
+/o /a Khả năng mở rộng và bảo trì.
+/o Số lượng dòng code tối đa
+/qe
+
+/qb /multi Khi thiết kế hệ thống cần mức độ sẵn sàng cao (high availability) cần xem xét yếu tố nào?
+/o /a Cluster.
+/o /a Load balancing.
+/o /a Monitoring & failover.
+/o Chỉ dùng một server hiệu năng cao
+/qe
+
+/qb Khi thiết kế hệ thống xử lý thanh toán yêu cầu độ tin cậy cao, kiến trúc sư cần ưu tiên yếu tố nào?
+/o Tính mở rộng (Scalability)
+/o /a Tính sẵn sàng (Availability).
+/o Tính di động (Portability)
+/o Tính dễ bảo trì (Maintainability)
+/qe
+
+/qb Khi thiết kế ứng dụng thanh toán yếu tố nào cần quan tâm hàng đầu?
+/o Logging đầy đủ
+/o /a Tính toàn vẹn giao dịch và bảo mật dữ liệu.
+/o Trải nghiệm UX đẹp
+/o Hỗ trợ nhiều ngôn ngữ
+/qe
+
+/qb /multi Khi thiết kế ứng dụng xử lý dữ liệu nhạy cảm cần tuân thủ những nguyên tắc nào?
+/o /a Mã hóa dữ liệu khi lưu trữ và truyền tải.
+/o /a Kiểm soát truy cập theo vai trò (RBAC).
+/o Bỏ qua logging để tăng hiệu năng
+/o /a Sao lưu dữ liệu định kỳ.
+/qe
+
+/qb /multi Khi triển khai AI code assistant cho toàn team, bạn cần lưu ý gì?
+/o /a Quản lý license, bảo mật dữ liệu và đào tạo dev cách sử dụng.
+/o Để dev tự dùng tùy ý
+/o /a Đánh giá tuân thủ chính sách bảo mật của tổ chức.
+/o Chỉ dùng cho junior dev
+/qe
+
+/qb /multi Khi triển khai hệ thống AI dự đoán gian lận giao dịch, Công nghệ thông tin cần phối hợp với đơn vị nào để hiệu chỉnh mô hình để đạt độ chính xác cao nhất
+/o /a 	Khối Quản trị rủi ro.
+/o /a Khối Pháp chế và Tuân thủ.
+/o Ban Sản phẩm Marketing
+/o Khối Hành chính
+/qe
+
+/qb Khi triển khai hệ thống CNTT mới, rủi ro lớn nhất với tổ chức thường là
+/o Chi phí giấy phép phần mềm
+
+
+
+/o /a Người dùng cuối không chấp nhận/ không sử dụng.
+/o Máy chủ thiếu dung lượng RAM
+/o Không đủ plugin cài đặt
+/qe
+
+/qb /multi Khi triển khai hệ thống/giải pháp API, đâu là các thực hành tốt nhất?
+/o /a Sử dụng API Gateway.
+/o /a Sử dụng Rate Limiting.
+/o Gộp tất cả API vào một monolith
+/o /a Bảo mật bằng OAuth 2.0 .
+/qe
+
+/qb Khi tích hợp hệ thống với các nền tảng Cloud , rủi ro chính cần giảm thiểu là gì?
+/o Tăng tốc độ triển khai ứng dụng
+/o Loại bỏ hoàn toàn nhu cầu sử dụng API
+/o /a Rủi ro về bảo mật dữ liệu và tuân thủ quy định khi dữ liệu di chuyển giữa on-premise và Cloud.
+/o Giảm chi phí lưu trữ dữ liệu
+/qe
+
+/qb Khi xây dựng API tích hợp nhiều hệ thống, một trong những best practice để đảm bảo khả năng mở rộng là gì?
+/o Thiết kế API tightly coupled với logic business của từng hệ thống
+/o /a Sử dụng API Gateway để quản lý routing, rate limit, auth.
+/o Luôn sử dụng synchronous API thay vì async
+/o Không sử dụng caching để đảm bảo dữ liệu real-time
+/qe
+
+/qb Khi xây dựng kiến trúc doanh nghiệp, yếu tố quan trọng nhất cần liên kết là gì?
+/o Công nghệ với chi phí
+/o /a Chiến lược kinh doanh với CNTT.
+/o DevOps với Agile
+/o Phần cứng với phần mềm
+/qe
+
+/qb Khi đánh giá hệ thống EA cần quan tâm đến yếu tố nào nhất để đảm bảo tính bền vững?
+/o Hệ thống có sử dụng phần mềm miễn phí
+/o /a Khả năng mở rộng, bảo mật và dễ tích hợp.
+/o Ngôn ngữ lập trình được ưa chuộng
+/o Có nhiều báo cáo đẹp
+/qe
+
+/qb Kiến trúc hướng sự kiện (Event-Driven Architecture) mang lại lợi ích chính nào?
+/o Đảm bảo dữ liệu không bao giờ bị mất
+/o /a Giúp hệ thống phản ứng nhanh với thay đổi và giảm coupling.
+/o Loại bỏ nhu cầu dùng message broker
+/o Chỉ áp dụng được cho cloud
+/qe
+
+/qb Kiến trúc monolithic có nhược điểm chính là gì?
+/o Dễ triển khai
+/o /a Khó mở rộng quy mô độc lập từng chức năng.
+/o Tích hợp dễ dàng với hệ thống khác
+/o Giảm chi phí quản trị ban đầu
+/qe
+
+/qb Kiểm tra file upload một cách an toàn cần:
+/o /a Quy hoạch các vùng riêng biệt an toàn cho việc upload file , Xác thực file name , Xác thực định dạng magic bytes , Kiểm tra độ lớn của file, quét malware.
+/o Xác thực file name , Xác thực định dạng magic bytes , Kiểm tra độ lớn của file
+/o Quy hoạch các vùng riêng biệt an toàn cho việc upload file , Xác thực file name, Kiểm tra độ lớn của file
+/o Quy hoạch các vùng riêng biệt an toàn cho việc upload file , Xác thực định dạng magic bytes , Kiểm tra độ lớn của file
+/qe
+
+/qb Kubernetes giải quyết vấn đề nào sau đây?
+/o /a Tự động quản lý, scale, và phục hồi container.
+/o Viết code backend hiệu quả hơn
+/o Giúp developer không cần học CI/CD
+/o Thay thế hoàn toàn Docker
+/qe
+
+/qb Kỹ thuật nào giúp bảo vệ mật khẩu người dùng khi lưu trữ trong cơ sở dữ liệu?
+/o Mã hóa đối xứng bằng AES và lưu key trong code
+/o /a Hash mật khẩu bằng Bcrypt hoặc Argon2 kèm salt trước khi lưu trữ.
+/o Hash mật khẩu bằng SHA1 hoặc MD5 trước khi lưu trữ
+/o Không cần mã hóa hay hash trước khi lưu trữ
+/qe
+
+/qb Kỹ thuật nào phổ biến để phân tích ngược ứng dụng Android?
+/o Reverse proxy
+/o /a APK decompilation (APKTool, JADX)
+/o SQL Injection
+/o Burp Suite only
+/qe
+
+/qb Kỹ thuật rate limit trong lập trình để làm gì
+/o Giúp code viết gọn, sạch sẽ, dễ nhìn
+/o /a Giới hạn tần suất các truy cập dịch vụ trong một khoảng thời gian nhất định.
+/o Để vẽ giao diện web có thể tương thích với thiết bị mobile
+/qe
+
+/qb Loại cơ sở dữ liệu nào không thuộc NoSQL?
+/o Document Store
+/o Graph Database
+/o /a Relational Database.
+/o Key-Value Store
+/qe
+
+/qb Lý do chính để chuẩn hóa kiến trúc ứng dụng là gì?
+/o Dễ thay đổi logo giao diện
+/o /a Đảm bảo tuân thủ, bảo mật và tích hợp hệ thống hiệu quả.
+/o Tăng số lượng nhân sự vận hành
+/o Để tất cả ứng dụng dùng chung một CSDL
+/qe
+
+/qb Lệnh TRUNCATE có thể làm gì?
+/o Removes the table
+/o /a Removes all rows from a table.
+/o Shortens the table to 10 rows
+/o Removes all columns from a table
+/o Removes foreign keys from a table
+/qe
+
+/qb Lệnh nào dùng để hiển thị dung lượng disk còn trống trong Linux?
+/o /a df -h.
+/o ls
+/o du -sh
+/o pwd
+/qe
+
+/qb Lệnh nào dùng để kiểm tra dung lượng RAM khả dụng trên hệ thống?
+/o /a free -h.
+/o ls -l
+/o df -h
+/o uname –a
+/qe
+
+/qb Lệnh nào dùng để restart jenkins agent trên các slave dùng systemd?
+/o /a  systemctl restart jenkins.
+/o service jenkins reboot
+/o  /etc/init.d/jenkins reload
+/o refresh jenkins
+/qe
+
+/qb Lỗ hổng Accessibility có thể xảy ra khi?
+/o /a App cho phép dịch vụ trợ năng đọc dữ liệu nhạy cảm hoặc điều khiển thiết bị.
+/o Người dùng dùng mật khẩu yếu
+/o Không validate form
+/o Server bật debug mode
+/qe
+
+/qb Lợi ích chính của DevSecOps là gì?
+
+/o /a Giảm rủi ro bảo mật và license bằng cách phát hiện sớm trong vòng đời phát triển.
+/o Tăng tốc CI/CD bằng cách bỏ qua scan bảo mật
+/o Thay thế hoàn toàn cho kiểm thử bảo mật ứng dụng động (DAST)
+/o Thay thế cho pentest
+/qe
+
+/qb Lợi ích chính của việc sử dụng microservices là gì?
+/o Tăng hiệu suất của hệ thống bằng cách tận dụng tài nguyên máy chủ tốt hơn
+/o Giảm độ phức tạp của mã nguồn và dễ dàng bảo trì
+/o Thuận tiện để quản lý và triển khai các ứng dụng lớn
+/o /a Tất cả các phương án trên.
+/qe
+
+/qb Manual Injection trong Istio thực hiện bằng cách nào?
+/o /a Dùng lệnh istioctl kube-inject.
+/o Sửa Deployment YAML trực tiếp
+/o Sử dụng MutatingAdmissionWebhook
+/o Gắn label cho namespace
+/qe
+
+/qb Message Queue (hàng đợi tin nhắn) như RabbitMQ được sử dụng trong tích hợp hệ thống để làm gì?
+/o /a Đảm bảo truyền tải tin nhắn không đồng bộ, đáng tin cậy giữa các hệ thống.
+/o Lưu trữ dữ liệu lâu dài
+/o Xử lý yêu cầu HTTP thời gian thực
+/o Mã hóa dữ liệu nhạy cảm
+/qe
+
+/qb MongoDB là ví dụ của loại NoSQL nào?
+/o Key-Value Store
+/o /a Document Store.
+/o Graph Database
+/o Column Store
+/qe
+
+/qb Một cuộc tấn công MITM (Man-in-the-Middle) chủ yếu xảy ra ở đâu?
+/o Trong code backend
+/o /a Trên mạng khi truyền dữ liệu.
+/o Trong database
+/o Máy chủ ứng dụng
+/qe
+
+/qb Một hệ thống được yêu cầu phải tuân thủ PCI DSS. Thành phần nào bắt buộc phải được bảo vệ chặt chẽ nhất?
+/o Hệ thống báo cáo
+/o /a Dữ liệuthanh toán Thẻ (Cardholder Data).
+/o Dịch vụ CDN
+/o Logging Service
+/qe
+
+/qb Một rủi ro thường gặp khi tích hợp qua API sync thay vì async là gì?
+/o Dữ liệu không đồng bộ tức thì
+/o /a Hệ thống bị block khi downstream chậm hoặc lỗi.
+/o Không thể triển khai load balancing
+/o Khó implement logging
+/qe
+
+/qb Một trong các thách thức lớn nhất khi áp dụng DevSecOps là gì?
+/o /a Thiếu văn hóa hợp tác giữa Dev, Sec, Ops.
+/o Chỉ cần mua nhiều công cụ bảo mật
+/o Không cần đào tạo developer
+/o Không cần CI/CD
+/qe
+
+/qb Một trong những lợi ích chính của việc áp dụng framework kiến trúc (VD: TOGAF) là gì?
+/o Giảm chi phí mua phần cứng
+/o Tăng tốc độ phát triển mã nguồn
+/o /a Chuẩn hóa quy trình thiết kế kiến trúc.
+/o Thay thế hẳn các phương pháp quản lý dự án
+/qe
+
+/qb Một tổ chức gặp tình trạng: Mỗi lần release phần mềm đều mất nhiều giờ downtime. Cách tiếp cận DevOps nào phù hợp nhất để giải quyết?
+/o /a Triển khai canary release hoặc blue-green deployment.
+/o Sử dụng database lớn hơn để tăng hiệu năng
+/o Dùng thêm công cụ logging để xem lỗi sau khi release
+/o Thêm nhân sự để triển khai song song
+/qe
+
+/qb /multi Một ứng dụng Android cho phép dịch vụ Accessibility đọc toàn bộ nội dung màn hình, bao gồm OTP và mật khẩu. Điều này có thể gây ra các rủi ro nào?
+/o /a Rò rỉ dữ liệu nhạy cảm như OTP, password
+/o /a Ứng dụng độc hại lợi dụng để thực hiện hành động thay người dùng (ví dụ: click, nhập dữ liệu).
+/o Giảm hiệu suất CPU/GPU của thiết bị
+/o /a Dẫn đến tấn công Overlay hoặc Phishing trên màn hình.
+/qe
+
+/qb Một ứng dụng camera yêu cầu quyền truy cập SMS và Danh bạ mặc dù không cần thiết để hoạt động. Điều này vi phạm nguyên tắc nào?
+/o /a Principle of Least Privilege.
+/o Secure Coding Guidelines
+/o Denial of Service Prevention
+/o Sandboxing Isolation
+/qe
+
+/qb /multi Mục tiêu thực tế khi đưa AI vào công việc là gì?
+/o /a Tăng hiệu suất & chất lượng.
+/o Thay thế hoàn toàn con người
+/o Giảm giao tiếp nội bộ 
+/o Chỉ để lưu trữ dữ liệu
+/o /a Tăng hiệu suất & chất lượng.
+/o Thay thế hoàn toàn con người
+/o Giảm giao tiếp nội bộ 
+/o Chỉ để lưu trữ dữ liệu
+/qe
+
+/qb Nguyên tắc thiết kế kiến trúc hệ thống/dịch vụ của MB là gì?
+/o Đảm bảo mô hình kiếm trúc 2 lớp
+/o "- Có phương án triển khai DR
+- Triển khai môi trường DEV/TEST dịch vụ độc lập hoàn toàn với môi trường LIVE"
+/o Không cần tuân thủ
+/o /a "-Đảm bảo tối thiêu 3 lớp: Lớp hiện diện, Lớp Logic nghiệp vụ, Lớp truy xuất dữ liệu
+-  Khuyến khích thiết kế có phương án triển khai môi trường Staging
+- Có phương án triển khai DR
+- Triển khai môi trường DEV/TEST dịch vụ độc lập hoàn toàn với môi trường MB.
+- Có Cơ chế HA;
+- Phân chia vùng Quản trị và Người dùng thông thường;" .
+/qe
+
+/qb Nguyên tắc “shift-left security” trong DevSecOps có nghĩa là gì?
+/o /a Đưa kiểm thử bảo mật vào giai đoạn sớm như coding và CI.
+/o Đưa kiểm thử bảo mật sang giai đoạn vận hành
+/o Bỏ qua kiểm thử bảo mật để rút ngắn thời gian
+/o Chỉ kiểm thử khi release
+/qe
+
+/qb Ngôn ngữ nào thường được dùng nhất để lập trình ứng dụng Android
+/o Swift
+
+/o /a Kotlin.
+
+/o PHP
+
+/o Ruby
+/qe
+
+/qb /multi Những biện pháp nào sau đây giúp chống reverse engineering ứng dụng mobile?
+/o /a Sử dụng ProGuard hoặc R8 để obfuscate code.
+/o /a Áp dụng code obfuscation + shrinking + resource shrinking.
+/o Lưu API key trực tiếp trong mã nguồn
+/o /a Sử dụng kỹ thuật detect root/jailbreak và debugger.
+/qe
+
+/qb /multi Những cấu trúc dữ liệu nào sau đây thường được sử dụng để cài đặt bộ nhớ đệm (cache) hoặc tra cứu nhanh?
+/o /a Hash Table.
+/o Linked List
+/o /a Binary Search Tree.
+/o Stack
+/o Array
+/qe
+
+/qb /multi Những cấu trúc/collection nào trong Java duy trì thứ tự chèn (insertion order)?
+/o /a ArrayList.
+/o HashSet
+/o /a LinkedHashMap.
+/o /a LinkedHashSet.
+/o TreeMap
+/qe
+
+/qb /multi Những lợi ích chính của caching trong kiến trúc ứng dụng:
+/o /a Giảm tải database.
+/o /a Tăng tốc độ truy vấn.
+/o Loại bỏ nhu cầu backup
+/o /a Giảm độ trễ người dùng.
+/qe
+
+/qb /multi Những thuật toán nào thuộc nhóm sắp xếp so sánh (comparison-based sorting)?
+/o /a Bubble Sort.
+/o /a Insertion Sort.
+/o Counting Sort
+/o /a Quick Sort.
+/qe
+
+/qb /multi Những đặc điểm nào sau đây là lợi ích của việc sử dụng đệ quy trong giải thuật?
+/o Giảm độ phức tạp tính toán của chương trình
+/o /a Dễ mô tả các bài toán phân rã đệ quy (như cây, phân hoạch).
+/o Dễ thay thế vòng lặp trong mọi trường hợp
+/o /a Giúp biểu diễn lời giải ngắn gọn và tự nhiên hơn.
+/o Luôn chạy nhanh hơn vòng lặp
+/qe
+
+/qb /multi Những Ưu điểm của kiến trúc microservices 
+/o /a Mở rộng độc lập từng dịch vụ.
+/o /a Tách biệt vòng đời triển khai.
+/o Không cần quản lý hạ tầng
+/o /a Giảm coupling giữa các thành phần.
+/qe
+
+/qb NoSQL là gì?
+/o Một loại cơ sở dữ liệu quan hệ
+/o /a Một loại cơ sở dữ liệu không quan hệ, không sử dụng SQL truyền thống.
+/o Một ngôn ngữ lập trình mới
+/o Một phần mềm hệ điều hàn
+/qe
+
+/qb Nếu cán bộ quản lý phát hiện nhân viên đưa trực tiếp dữ liệu gốc của khách hàng vào LLM thương mại, hành động nào sau đây là đúng nhất?
+/o Khuyến khích tiếp tục vì mô hình sẽ học nhanh hơn.
+/o Không cần lo vì mô hình đã có chính sách bảo mật.
+/o /a Ngăn chặn ngay lập tức và yêu cầu sử dụng kênh nội bộ/LLM riêng tư.
+/o Chỉ cảnh báo miệng, không cần xử lý gì thêm.
+/qe
+
+/qb Nếu một pod thuộc namespace có label istio-injection=enabled, nhưng pod có annotation sidecar.istio.io/inject: "false" thì kết quả là gì?
+/o /a Không inject.
+/o Vẫn inject
+/o Tạo thêm một sidecar rỗng
+/o Lỗi admission webhook
+/qe
+
+/qb /multi Oracle DB ngầm tạo ra chỉ mục (index) duy nhất cho các ràng buộc nào?
+/o NOT NULL
+/o /a PRIMARY KEY.
+/o FOREIGN KEY
+/o CHECK
+/o /a UNIQUE.
+/qe
+
+/qb Phân tích dữ liệu bảng bằng AI nên:
+/o /a Mô tả cột, câu hỏi, ràng buộc, định dạng output.
+/o Chỉ dán bảng rồi “phán”
+/o Trò chuyện ngoài lề
+/o Gửi ảnh meme kèm theo
+/qe
+
+/qb Phương thức nào sau đây là điểm bắt đầu của một chương trình Java?
+/o run()
+/o start()
+/o init()
+/o /a main()
+/o execute()
+/qe
+
+/qb Quá trình truyền, nhận dữ liệu giữa client và server trong lập trình Socket dùng giao thức TCP/IP dữ liệu được truyền, nhận ở dạng nào sau đây?
+/o Dạng ký tự
+/o /a Dạng nhị phân.
+/o Dạng chuỗi
+/o Tất cả các câu trên
+/qe
+
+/qb RESTful API thường giao tiếp bằng giao thức nào?
+/o FTP
+
+
+
+/o /a HTTP/HTTPS.
+/o SMTP
+/o SSH
+/qe
+
+/qb Redis có thể được sử dụng để giải quyết vấn đề nào sau đây?
+/o Lưu trữ dữ liệu tĩnh như cấu hình và thông tin phiên làm việc của người dùng
+/o Lưu trữ dữ liệu phân tán và duy trì trạng thái của các sessions
+/o Lưu trữ dữ liệu trung gian để tăng tốc độ truy vấn
+/o /a Tất cả các phương án trên.
+/qe
+
+/qb Redis hỗ trợ kiểu dữ liệu nào sau đây?
+/o Dictionaries (Hashes)
+/o Lists
+/o Sets
+/o /a Tất cả các phương án trên.
+/qe
+
+/qb Redis là gì?
+/o Hệ quản trị cơ sở dữ liệu quan hệ (RDBMS)
+/o Hệ thống hàng đợi (Queueing system)
+/o /a Hệ thống bộ nhớ cache và lưu trữ key-value.
+/o Hệ thống tìm kiếm phân tán
+/qe
+
+/qb SOAP API khác với REST API ở điểm nào?
+/o SOAP chỉ hỗ trợ JSON
+/o REST sử dụng XML làm định dạng chính
+/o /a SOAP sử dụng XML và có tiêu chuẩn bảo mật tích hợp (WS-Security), trong khi REST linh hoạt hơn với JSON.
+/o SOAP không hỗ trợ phương thức HTTP
+/qe
+
+/qb SQL là gì?
+/o Một hệ quản trị cơ sở dữ liệu
+/o /a Ngôn ngữ truy vấn dữ liệu trong cơ sở dữ liệu quan hệ.
+/o Một loại cơ sở dữ liệu NoSQL
+/o Một phần mềm xử lý ảnh
+/qe
+
+/qb Sự khác biệt chính giữa SOA (Service-Oriented Architecture) và Microservices là gì?
+/o SOA không hỗ trợ tích hợp API
+/o Microservices tập trung vào các dịch vụ nhỏ, độc lập, trong khi SOA sử dụng các dịch vụ lớn hơn và thường chia sẻ dữ liệu
+/o /a Microservices nhấn mạnh tính độc lập cao hơn, với mỗi dịch vụ có cơ sở dữ liệu riêng, trong khi SOA thường sử dụng ESB trung tâm.
+/o SOA chỉ sử dụng REST, còn Microservices chỉ sử dụng SOAP
+/qe
+
+/qb Sự khác biệt giữa AI, Machine Learning (ML) và Deep Learning (DL) là gì?
+/o AI < ML < DL
+/o ML < DL < AI
+/o /a DL < ML < AI
+/o AI = ML = DL
+/qe
+
+/qb Theo quy định pháp luật Việt Nam hiện hành, văn bản nào quy định trực tiếp và chi tiết nhất về bảo vệ dữ liệu cá nhân?
+/o Luật An toàn thông tin mạng 2015
+/o /a Nghị định 13/2023/NĐ-CP về bảo vệ dữ liệu cá nhân.
+/o Luật Giao dịch điện tử 2005
+/o Nghị định 72/2013/NĐ-CP về quản lý, cung cấp, sử dụng dịch vụ Internet
+/qe
+
+/qb Thuận toán băm nào an toàn nên sử dụng?
+/o MD5
+/o SHA1
+/o /a bcrypt / Argon2
+/o Base64
+/qe
+
+/qb Thuật toán nào dùng để sắp xếp một danh sách phần tử theo thứ tự tăng dần hoặc giảm dần?
+/o Bubble Sort
+/o Merge Sort
+/o Quick Sort
+/o /a Tất cả các phương án trên.
+/qe
+
+/qb Thuật toán nào dùng để tìm kiếm một phần tử trong một danh sách đã được sắp xếp?
+/o Linear Search
+/o /a Binary Search.
+/o Depth-First Search
+/o Breadth-First Search
+/qe
+
+/qb Trong Apache Kafka, cơ chế nào được sử dụng bởi Idempotent Producer để đảm bảo tính idempotent của các tin nhắn gửi đi?
+/o Message timestamp
+/o /a Sequence number.
+/o Producer Acknowledgements
+/o Message checksum
+/qe
+
+/qb /multi Trong CI/CD pipeline, bạn muốn dùng AI để phát hiện bug sớm. Cách hợp lý là gì?
+/o /a Tích hợp AI để phân tích log build/test và dự báo lỗi.
+/o /a Dùng AI để review cấu hình pipeline YAML.
+/o Không dùng AI, chỉ rely vào manual test
+/o Hỏi AI cách tăng tốc server
+/qe
+
+/qb /multi Trong DevOps, IaC (Infrastructure as Code) mang lại lợi ích nào?
+/o /a Tự động hóa hạ tầng, dễ tái lập môi trường
+/o /a Tăng tính lặp lại và giảm lỗi do cấu hình thủ công.
+/o Giúp triển khai ứng dụng nhanh hơn mà không cần code
+/o Cho phép chạy nhiều ứng dụng trong cùng một container
+/qe
+
+/qb Trong EA, "Architecture Principles" (nguyên tắc kiến trúc) có vai trò gì?
+/o Hướng dẫn chi tiết cách viết code
+/o /a Xác định chuẩn mực và định hướng quyết định kiến trúc.
+/o Thay thế SLA
+/o Quản lý ngân sách
+/qe
+
+/qb Trong Git, lệnh git clone dùng để?
+/o Tạo commit mới
+
+/o /a 
+Sao chép repo về máy.
+
+/o Tải thư viện
+
+/o Xóa repo
+/qe
+
+/qb Trong Istio, chế độ Sidecar Injection có mấy loại chính?
+/o /a 2 loại.
+/o 1 loại
+/o 3 loại
+/o 4 loại
+/qe
+
+/qb Trong JWT, điều gì xác định việc token có thể được sử dụng cho các dịch vụ nào?
+/o Thuộc tính "sub"
+/o Thuộc tính "iss"
+/o /a Thuộc tính "aud".
+/o Thuộc tính "exp"
+/qe
+
+/qb Trong Java, interface khác với abstract class ở điểm nào sau đây?
+/o Interface có thể chứa constructor
+/o Abstract class không thể chứa phương thức trừu tượng
+/o /a Một lớp có thể implements nhiều interface.
+/o Interface không thể kế thừa interface khác
+/o Abstract class chỉ chứa các phương thức tĩnh
+/qe
+
+/qb Trong Java, kiểu dữ liệu primitive nào sau đây dùng để lưu trữ số nguyên?
+/o float
+/o boolean
+/o /a int
+/o char
+/o double
+/qe
+
+/qb Trong Java, từ khóa nào được dùng để định nghĩa một lớp?
+/o def
+/o function
+/o /a class
+/o struct
+/o object
+/qe
+
+/qb Trong Java, để lưu trữ các đối tượng theo cặp key-value và đảm bảo tính duy nhất của các key, bạn sẽ sử dụng cấu trúc dữ liệu nào?
+/o Stack
+/o Queue
+/o Set
+/o /a Map
+/qe
+
+/qb Trong Java, để tạo một đối tượng từ lớp Student, bạn sử dụng cú pháp nào?
+/o Student s = Student();
+/o /a Student s = new Student();
+/o Student s();
+/o new Student = s();
+/o create Student s();
+/qe
+
+/qb Trong Java, đối tượng nào được sử dụng để chờ cho một luồng kết thúc thực thi?
+/o CyclicBarrier
+/o /a CountDownLatch.
+/o Semaphore
+/o ExecutorService
+/qe
+
+/qb Trong Kubernetes, Secret thường dùng để lưu trữ loại thông tin nào?
+/o /a 
+Mật khẩu và token truy cập.
+/o ConfigMap
+/o Pod logs
+/o Node hostname
+/qe
+
+/qb Trong Kubernetes, cơ chế nào cho phép kiểm soát lưu lượng mạng giữa các Pod?
+/o /a NetworkPolicy.
+/o RBAC
+/o PodSecurityPolicy (PSP)
+/o Secrets Encryption
+/qe
+
+/qb Trong Redis, lệnh nào được sử dụng để đặt một giá trị vào một key?
+/o /a SET
+/o GET
+/o PUSH
+/o POP
+/qe
+
+/qb Trong Spring Boot, cách nào sau đây được sử dụng để gọi một phương thức bất đồng bộ và không chờ kết quả?
+/o Sử dụng phương thức run() của Future
+/o /a Sử dụng phương thức async() của CompletableFuture.
+/o Sử dụng phương thức await() của AsyncTask
+/o Sử dụng phương thức start() của ExecutorService
+/qe
+
+/qb /multi Trong T24, "Fatal error in (S.JOB.RUN) error Error in VN0010001-COB DATES record. Dates are not cycled"
+Nguyên nhân nào có thể dẫn đến lỗi này?
+/o Do không tồn tại rtn S.JOB.RUN
+/o /a Do ngày trên 2 record VN0010001 và VN0010001-COB trong bảng F.DATES đang lệch nhau.
+/o /a Do bản ghi VN0010001-COB trong bảng F.DATES bị thiếu.
+/o Do trường CO.BATCH.STATUS trong bảng F.DATES từ B về O
+/qe
+
+/qb Trong T24, Bảng nào sau đây lưu toàn bộ các bút toán phát sinh trên P&L
+/o STMT.ENTRY & STMT.ENTRY.DETAIL
+/o /a CATEG.ENTRY & CATEG.ENTRY.DETAIL
+/o RE.CONSOL.SPEC.ENTRY & RE.SPEC.ENTRY.DETAIL
+/o STMT.ENTRY & CATEG.ENTRY
+/qe
+
+/qb Trong T24, ID bút toán STMT có dạng: XXXXXYYYYYZZZZZ.MMMMMM thì ZZZZZ thể hiện:
+/o 5 chữ số thể hiện số ngày từ 31/12/1967
+/o /a 5 chữ số thể hiện thời gian theo giây.
+/o 5 chữ số thể hiện mã người dùng
+/o 5 chữ số thể hiện mã chi nhánh hạch toán
+/qe
+
+/qb /multi Trong T24, Khai báo PGM.FILE cho service như thế nào để chạy đa luồng?
+/o /a TYPE = B
+BATCH.JOB = @BATCH.JOB.CONTROL
+/o /a TYPE = B
+BATCH.JOB = Rỗng
+/o TYPE = B
+BATCH.JOB = @TÊN SERVICE
+/o TYPE = B
+BATCH.JOB = B
+/qe
+
+/qb Trong T24, Khi muốn điều chỉnh số lượng agent cho 1 service  thì phải làm thế nào?
+/o /a Thực hiện thay đổi giá trị cần điều chỉnh vào trong Work Profile.1 trong TSA.SERVICE
+/o Thực hiện thay đổi giá trị cần điều chỉnh vào trong Work Profile.1 trong TSA.STATUS
+/o Thực hiện thay đổi giá trị cần điều chỉnh vào trong Work Profile.1 trong TSA.PARAMETER
+/o Không có đáp án nào đúng
+/qe
+
+/qb Trong T24, Sự khác nhau giữa việc sử dụng 2 lệnh đọc vào bảng READ và READU là gì?
+/o READ là đọc vào bảng có lock bản ghi. READU là đọc vào bảng nhưng không lock bản ghi
+/o /a READU là đọc vào bảng có lock bản ghi. READ là đọc vào bảng nhưng không lock bản ghi.
+/o Cả READ và READU đều có lock bản ghi khi đọc vào bảng
+/o Cả READ và READU đều không lock bản ghi khi đọc vào bảng
+/qe
+
+/qb Trong T24, Thông tin số dư của tài khoản/hợp đồng được lưu chung trong bảng nào sau đây
+/o ACCOUNT
+/o RE.CONSOL.CONTRACT
+/o /a EB.CONTRACT.BALANCES
+/o ACT.ACTIVITY
+/qe
+
+/qb Trong T24, Trong chuỗi OFS nào có số REF check trùng?
+/o FUNDS.TRANSFER,OFS/I/PROCESS,HO.IT.1004/Mb123456,FT123456789,TRANSACTION.TYPE::=AC,DEBIT.ACCT.NO::=VND1625000150800,DEBIT.CURRENCY::=VND,DEBIT.AMOUNT::=1000M,CREDIT.ACCT.NO::=0050114414007,PAYMENT.DETAILS::=KET CHUYEN XX TK,TXN.PURPOSE::=71
+/o /a FUNDS.TRANSFER,OFS/I/PROCESS,HO.IT.1004/Mb123456,8888/FT123456789,TRANSACTION.TYPE::=AC,DEBIT.ACCT.NO::=VND1625000150800,DEBIT.CURRENCY::=VND,DEBIT.AMOUNT::=1000M,CREDIT.ACCT.NO::=0050114414007,PAYMENT.DETAILS::=KET CHUYEN XX TK,TXN.PURPOSE::=71
+/o FUNDS.TRANSFER,OFS/I/PROCESS,HO.IT.1004/Mb123456,8888,TRANSACTION.TYPE::=AC,DEBIT.ACCT.NO::=VND1625000150800,DEBIT.CURRENCY::=VND,DEBIT.AMOUNT::=1000M,CREDIT.ACCT.NO::=0050114414007,PAYMENT.DETAILS::=KET CHUYEN XX TK,TXN.PURPOSE::=71
+/o FUNDS.TRANSFER,OFS/I/PROCESS,HO.IT.1004/Mb123456/VN0010001,FT123456789, TRANSACTION.TYPE::=AC,DEBIT.ACCT.NO::=VND1625000150800,DEBIT.CURRENCY::=VND,DEBIT.AMOUNT::=1000M,CREDIT.ACCT.NO::=0050114414007,PAYMENT.DETAILS::=KET CHUYEN XX TK,TXN.PURPOSE::=71
+/qe
+
+/qb Trong T24, Ứng dụng nào sau đây hỗ trợ thu phí định kỳ theo mã phí không đi kèm giao dịch tài chính
+/o AC.CHARGE.REQUEST
+/o /a IC.CHARGE
+/o FUNDS.TRANSFER
+/o TELLER
+/qe
+
+/qb Trong T24,Khi OPENSEQ và WRITESEQ thì bắt buộc phải làm gì 
+/o RETURN
+/o /a CLOSESEQ
+/o END
+/o STOP
+/qe
+
+/qb Trong T24,Thuộc tính GTS.CONTROL trong VERSION có những giá trị nào?
+/o Null/1/2
+/o Null/1/2/3
+/o /a Null/1/2/3/4
+/o 1/2/3/4
+/qe
+
+/qb Trong T24,Ứng dụng nào sau đây hỗ trợ thu phí 1 lần ngay theo mã phí không đi kèm giao dịch tài chính
+/o /a AC.CHARGE.REQUEST
+/o IC.CHARGE
+/o FUNDS.TRANSFER
+/o TELLER
+/qe
+
+/qb /multi Trong chiến lược SDLC, bạn sẽ áp dụng AI hiệu quả nhất ở đâu?
+/o Chỉ trong giai đoạn coding
+/o /a Trong toàn bộ vòng đời: design, coding, testing, deployment, monitoring.
+/o Chỉ ở bước testing
+/o /a Dùng AI cho cả monitoring log và anomaly detection.
+/qe
+
+/qb Trong câu lệnh SELECT có mệnh đề WHERE, mệnh đề GROUP BY được đặt trong câu lệnh SELECT ở đâu?
+/o Immediately after the SELECT clause
+/o Before the WHERE clause
+/o Before the FROM clause
+/o After the ORDER BY clause
+/o /a After the WHERE clause .
+/qe
+
+/qb Trong cơ sở dữ liệu, PRIMARY KEY dùng để?
+/o Đánh số cột
+
+
+
+/o /a Định danh duy nhất mỗi bản ghi.
+/o Xác định khóa ngoại
+/o Tạo index tự động
+/qe
+
+/qb Trong danh sách liên kết (linked list), mỗi nút (node) có tham chiếu đến phần tử tiếp theo trong danh sách. Đây được gọi là tham chiếu nào?
+/o Head
+/o Tail
+/o /a Next
+/o Previous
+/qe
+
+/qb Trong giải thuật sắp xếp, thuật toán Bubble Sort có độ phức tạp thời gian trung bình là?
+/o O(1)
+/o O(log n)
+/o O(n)
+/o O(n log n)
+/o /a O(n²)
+/qe
+
+/qb Trong iOS, framework nào được dùng để quản lý Keychain?
+/o CoreData
+/o /a Security.framework
+/o UIKit
+/o Foundation
+/qe
+
+/qb Trong kiến trúc hướng sự kiện (Event-driven), thành phần nào thường chịu trách nhiệm truyền tải thông điệp?
+/o Load Balancer
+/o /a Message Broker (Kafka, RabbitMQ).
+/o Web Server
+/o Proxy Server
+/qe
+
+/qb Trong kiến trúc tích hợp, "fan-out" pattern có đặc điểm gì?
+/o /a Một sự kiện được phát cho nhiều consumer khác nhau.
+/o Một producer chỉ gửi dữ liệu cho đúng một consumer
+/o Nhiều API cùng gọi về một hệ thống trung tâm
+/o Dữ liệu được phân mảnh và gửi theo từng batch
+/qe
+
+/qb Trong kiến trúc web, Frontend là?
+/o Phần xử lý logic server
+
+
+
+/o /a Phần giao diện người dùng.
+/o Cơ sở dữ liệu
+/o API nội bộ
+/qe
+
+/qb Trong microservices, cách nào sau đây được sử dụng để xử lý vấn đề giữa các dịch vụ khi một dịch vụ gây ra lỗi và không thể xử lý yêu cầu?
+/o Service Mesh
+/o Service Discovery
+/o Load Balancer
+/o /a Circuit Breaker.
+/qe
+
+/qb Trong microservices, cơ chế nào được sử dụng để giao tiếp giữa các dịch vụ?
+/o SOAP (Simple Object Access Protocol)
+/o /a REST (Representational State Transfer)
+/o GraphQL
+/o RPC (Remote Procedure Call)
+/qe
+
+/qb Trong microservices, cơ chế nào được sử dụng để quản lý và tìm kiếm các dịch vụ?
+/o API Gateway
+/o /a Service Registry.
+/o Load Balancer
+/o Circuit Breaker
+/qe
+
+/qb /multi Trong mô hình event-driven integration, việc sử dụng Kafka so với ETL truyền thống mang lại lợi ích gì?
+/o Đảm bảo dữ liệu luôn đúng 100% không cần xử lý lại
+/o /a Tăng khả năng xử lý theo thời gian thực.
+/o Giảm độ phức tạp triển khai
+/o /a Dễ dàng scale theo chiều ngang.
+/qe
+
+/qb Trong môi trường production, cách nào KHÔNG được khuyến nghị khi sử dụng container?
+/o /a Chạy container với quyền root.
+/o Dùng image từ registry chính thức hoặc trusted registry
+/o Scan image trước khi đưa vào production
+/o Giới hạn capability của container
+/qe
+
+/qb Trong môi trường production, cách nào sau đây KHÔNG phải là best practice để bảo mật Secret trong Kubernetes?
+/o /a Lưu Secret dưới dạng plain-text trong ConfigMap.
+/o Bật tính năng Encryption at Rest cho etcd
+/o Lưu Secret dưới dạng plain-text trong ConfigMap
+/o Giới hạn RBAC chỉ cho phép Pod đọc Secret cần thiết
+/qe
+
+/qb Trong một dự án AI, yếu tố nào quan trọng nhất để đảm bảo mô hình hoạt động hiệu quả?
+/o Thuật toán, mô hình phức tạp nhất
+/o /a Chất lượng dữ liệu và phân phối dữ liệu.
+/o Máy chủ mạnh nhất
+/o Số lượng kỹ sư AI đông nhất
+/qe
+
+/qb Trong một dự án CNTT, yếu tố nào thường được xem là quan trọng nhất để đảm bảo thành công
+/o Công nghệ tiên tiến nhất
+
+
+
+/o Quy trình quản lý chặt chẽ
+/o /a Con người và sự phối hợp trong nhóm.
+/o Ngân sách dồi dào
+/qe
+
+/qb Trong một dự án tích hợp hệ thống quy mô lớn, đâu là rủi ro quản trị thường gặp nhất?
+/o /a Thiếu đồng bộ về quy trình và tiêu chuẩn dữ liệu giữa các bên liên quan.
+/o Chưa chọn đúng công nghệ message broker
+/o Tốc độ xử lý ETL chưa đủ nhanh
+/o Đội ngũ kỹ sư không quen ngôn ngữ lập trình mới
+/qe
+
+/qb Trong một hệ thống tích hợp phức tạp, Event Sourcing kết hợp với CQRS (Command Query Responsibility Segregation) mang lại lợi ích gì?
+/o Giảm chi phí lưu trữ dữ liệu bằng cách xóa lịch sử giao dịch
+/o /a Tách biệt xử lý lệnh và truy vấn, lưu trữ lịch sử sự kiện để tái tạo trạng thái, hỗ trợ tích hợp không đồng bộ.
+/o Tăng tốc độ giao dịch bằng cách sử dụng cơ sở dữ liệu chung
+/o Tự động hóa việc tạo giao diện người dùng
+/qe
+
+/qb Trong phát triển web, biện pháp nào giúp ngăn Directory Traversal Attack?
+/o Sử dụng prepared statement trong SQL
+/o /a Xác thực và lọc đường dẫn do người dùng nhập vào.
+/o Mã hóa dữ liệu trên đường truyền bằng HTTPS
+/o Bật chế độ CORS trên server
+/qe
+
+/qb Trong phương pháp học tăng cường(Reinforcement Learning), khái niệm "Reward" là gì?
+/o Dữ liệu huấn luyện
+/o /a Phản hồi của môi trường về hành động của agent.
+/o Hệ số phạt của của giá trị dự đoán và giá trị kỳ vọng
+/o Bộ tham số của agent
+/qe
+
+/qb /multi Trong pipeline trích xuất thông tin từ hồ sơ (CV, hóa đơn, sao kê...), việc triển khai AI cần đảm bảo yếu tố nào sau đây?
+/o /a Quản lý lỗi và retry tự động.
+/o Đào tạo lại mô hình theo chu kỳ
+/o /a Gắn nhãn dữ liệu chuẩn.
+/o /a Lưu trữ và truy xuất dữ liệu nhanh.
+/qe
+
+/qb Trong quá trình thiết lập kết nối HTTPS, giao thức nào được sử dụng để trao đổi khóa và thiết lập kết nối bảo mật?
+/o SSL
+/o /a TLS. 
+/o HTTP
+/o SSH
+/qe
+
+/qb Trong quản trị kiến trúc, "as-is" architecture là gì?
+/o Kiến trúc mong muốn trong tương lai
+/o /a Kiến trúc hiện trạng đang vận hành.
+/o Kiến trúc được mô phỏng
+/o Kiến trúc thử nghiệm
+/qe
+
+/qb Trong thiết kế ứng dụng, load balancer đóng vai trò chính gì?
+/o Lưu trữ dữ liệu
+/o /a Phân phối lưu lượng tới nhiều server để cân bằng tải.
+/o Quản lý user account
+/o Bảo mật ứng dụng
+/qe
+
+/qb Trong tích hợp CDC, thuật ngữ "snapshot + incremental" thường mang ý nghĩa gì?
+/o /a Lấy toàn bộ dữ liệu ban đầu (snapshot), sau đó chỉ đồng bộ các thay đổi phát sinh (incremental).
+/o Chỉ lấy một phần dữ liệu mới nhất
+/o Luôn đồng bộ toàn bộ dữ liệu mỗi lần chạy
+/o Áp dụng caching cho dữ liệu tạm thời
+/qe
+
+/qb Trong tích hợp hệ thống, "Data Mapping" là gì?
+/o /a Quá trình chuyển đổi và ánh xạ dữ liệu từ định dạng này sang định dạng khác để đảm bảo tính nhất quán.
+/o Lưu trữ dữ liệu vào đám mây
+/o Mã hóa dữ liệu trước khi truyền
+/o Xóa dữ liệu thừa
+/qe
+
+/qb Trong tích hợp hệ thống, "Idempotency" đảm bảo điều gì?
+/o Dữ liệu được truyền nhanh hơn
+/o /a Một hoạt động có thể được thực hiện nhiều lần mà không làm thay đổi kết quả.
+/o Dữ liệu được mã hóa
+/o Kết nối được thiết lập chỉ một lần
+/qe
+
+/qb Trong tích hợp hệ thống, "Loose Coupling" nghĩa là gì?
+/o Các hệ thống kết nối chặt chẽ, phụ thuộc lẫn nhau
+/o /a Các hệ thống kết nối lỏng lẻo, dễ thay đổi mà không ảnh hưởng đến nhau.
+/o Tích hợp chỉ qua cơ sở dữ liệu chung.
+/o Sử dụng mã nguồn mở để kết nối
+/qe
+
+/qb Trong tích hợp hệ thống, API Gateway có vai trò gì?
+/o Lưu trữ dữ liệu giao dịch
+/o /a Quản lý, định tuyến và bảo mật các yêu cầu API giữa các hệ thống.
+/o Tạo giao diện người dùng cho ứng dụng
+/o Thực hiện phân tích dữ liệu lớn
+/qe
+
+/qb Trong tích hợp hệ thống, API RESTful thường sử dụng giao thức nào làm cơ sở?
+/o SOAP
+/o /a HTTP/HTTPS.
+/o JMS (Java Message Service)
+/o FTP
+/qe
+
+/qb Trong tích hợp hệ thống, API throttling được áp dụng nhằm mục đích gì?
+/o Cải thiện tốc độ phản hồi API
+/o /a Giới hạn số lượng request để bảo vệ hệ thống.
+/o Đảm bảo tính idempotent của API
+/o Giảm thiểu độ trễ mạng
+/qe
+
+/qb Trong tích hợp hệ thống, API versioning được sử dụng để:
+/o Tăng tốc độ truyền dữ liệu
+/o Tạo giao diện người dùng
+/o /a Quản lý các phiên bản API để đảm bảo tính tương thích khi tích hợp.
+/o Tự động hóa sao lưu dữ liệu
+/qe
+
+/qb Trong tích hợp hệ thống, Change Data Capture (CDC) thường được sử dụng cho mục đích gì?
+/o Giảm tải cho API Gateway
+/o /a Đồng bộ dữ liệu theo thời gian (near real-time).
+/o Truy vấn dữ liệu phức tạp từ Data Lake
+/o Bảo mật dữ liệu giữa các hệ thống
+/qe
+
+/qb Trong tích hợp hệ thống, việc sử dụng Service Mesh (như Istio) trong kiến trúc microservices giúp giải quyết vấn đề gì?
+/o Tạo bản sao lưu dữ liệu tự động
+/o Tăng tốc độ xử lý giao dịch bằng cách bỏ qua xác thực
+/o /a Quản lý giao tiếp giữa các dịch vụ, cung cấp khả năng giám sát, bảo mật và xử lý lỗi trong tích hợp microservices.
+/o Tự động hóa việc kiểm thử giao diện người dùng
+/qe
+
+/qb Trong đánh giá mô hình phân loại mất cân bằng dữ liệu (imbalanced dataset), metric nào quan trọng hơn Accuracy?
+/o /a Recall và Precision.
+/o Loss
+/o Mean Squared Error
+/o R2 Score (Hệ số giả định)
+/qe
+
+/qb Trong ứng dụng web, cơ chế Content Security Policy (CSP) được sử dụng để làm gì?
+/o Ngăn tấn công SQL Injection
+/o /a Kiểm soát nguồn tài nguyên (script, style, media) mà trình duyệt được phép tải.
+/o Tăng tốc độ phản hồi của web server
+/o Cho phép bypass Same-Origin Policy
+/qe
+
+/qb Trên Android, thư mục nào không an toàn để lưu trữ dữ liệu nhạy cảm?
+/o Internal Storage
+/o /a External Storage (SD card)
+/o Encrypted SharedPreferences
+/o Android Keystore
+/qe
+
+/qb Trên iOS, cơ chế nào giúp cô lập ứng dụng để tránh rò rỉ dữ liệu sang ứng dụng khác?
+/o iCloud
+/o Keychain
+/o /a App Sandbox.
+/o Touch ID
+/qe
+
+/qb Trước khi gửi nội dung AI tạo cho khách hàng, nên:
+/o /a Soát lỗi + kiểm nguồn/căn cứ.
+/o Tin 100% và gửi ngay
+/o Nhờ đồng nghiệp gửi hộ không cần đọc
+/o Bỏ qua vì “nội bộ”
+/qe
+
+/qb Tác vụ nào phù hợp tự động hoá bằng AI trước?
+/o /a Lặp lại, quy tắc rõ, rủi ro thấp.
+/o Quyết định pháp lý cuối cùng
+/o Định hướng chiến lược mơ hồ
+/o Đánh cược rủi ro cao
+/qe
+
+/qb Tích hợp hệ thống point-to-point (điểm-đến-điểm) có đặc điểm gì?
+/o Sử dụng một trung tâm trung gian để kết nối tất cả các hệ thống
+/o Mỗi hệ thống kết nối trực tiếp với hệ thống khác, dẫn đến độ phức tạp cao khi mở rộng
+/o /a Sử dụng bus dịch vụ doanh nghiệp (ESB) để quản lý luồng dữ liệu.
+/o Chỉ hỗ trợ tích hợp dữ liệu thời gian thực mà không cần lưu trữ
+/qe
+
+/qb /multi Tại sao các ngân hàng lớn ưu tiên xây dựng hệ thống AI nội bộ thay vì phụ thuộc hoàn toàn vào dịch vụ bên thứ 3?
+/o /a Bảo mật và quyền riêng tư dữ liệu.
+/o Tối ưu chi phí thuê ngoài
+/o /a Kiểm soát chất lượng và logic mô hình.
+/o Do quy định của nhà nước
+/qe
+
+/qb /multi Vai trò chính của Enterprise Architect trong quản lý kiến trúc là:
+/o /a Xây dựng chiến lược kiến trúc.
+/o /a Đảm bảo kiến trúc phù hợp với mục tiêu kinh doanh.
+/o Trực tiếp code các module ứng dụng
+/o /a Định nghĩa tiêu chuẩn và nguyên tắc kiến trúc.
+/qe
+
+/qb Vai trò chính của Enterprise Architect trong tổ chức là gì?
+/o Lập trình và phát triển ứng dụng
+/o Quản lý dự án CNTT
+/o /a Định hình kiến trúc tổng thể và định hướng công nghệ.
+/o Vận hành hệ thống hàng ngày
+/qe
+
+/qb /multi Việc triển khai ứng dụng AI bạn cần tuân thủ quy định pháp lý nào sau đây?
+/o /a Nghị định về bảo vệ dữ liệu cá nhân.
+/o /a Luật dữ liệu.
+/o Mức độ tin cậy của mô hình sử dụng
+/o Chính sách về đạo đức AI
+/qe
+
+/qb /multi Ví dụ bảng EMPLOYEES có cấu trúc sau:
+EMPLOYEE_ID NUMBER Primary Key
+FIRST_NAME VARCHAR2(25)
+LAST_NAME VARCHAR2(25)
+Ba câu lệnh nào chèn một hàng vào bảng?
+/o INSERT INTO employees
+VALUES ( NULL, ‘John’,‘Smith’);
+/o INSERT INTO employees( first_name, last_name)
+
+VALUES(‘John’,‘Smith’); .
+/o /a INSERT INTO employees
+VALUES (‘1000’,‘John’,NULL);
+/o INSERT INTO employees(first_name,last_name, employee_id)
+VALUES ( 1000, ‘John’,‘Smith’);
+/o /a INSERT INTO employees (employee_id)
+VALUES (1000); .
+/o /a INSERT INTO employees (employee_id, first_name, last_name)
+VALUES ( 1000, ‘John’,‘’); .
+/qe
+
+/qb XSS cho phép attacker làm gì?
+/o /a Inject JavaScript vào trang web để đánh cắp cookie/session.
+/o Truy cập DB server
+/o Làm nghẽn băng thông
+/o Tăng tốc web
+/qe
+
+/qb /multi Yếu tố nào cần thiết để đảm bảo bảo mật ứng dụng?
+/o /a Authentication & Authorization.
+/o /a Mã hóa dữ liệu.
+/o /a  Kiểm soát truy cập vật lý.
+/o Không dùng password
+/qe
+
+/qb Yếu tố nào quan trọng nhất trong thiết kế hệ thống xử lý dữ liệu khách hàng nhạy cảm?
+/o Hiệu năng
+/o /a Bảo mật và tuân thủ quy định.
+/o Giao diện hiện đại
+/o Tích hợp mạng xã hội
+/qe
+
+/qb Điểm yếu bảo mật phổ biến nhất khi lập trình mobile app là gì?
+/o /a Lưu mật khẩu trong code hoặc file cấu hình.
+/o Dùng HTTPS cho tất cả kết nối
+/o Thường xuyên cập nhật SDK và thư viện
+/o Giới hạn quyền truy cập (permission)
+/qe
+
+/qb Đánh giá câu lệnh SQL:
+SELECT ROUND(TRUNC(MOD(1600,10),-1),2)
+FROM dual;
+Kết quả gì sẽ được hiển thị?
+/o /a 0
+/o 1
+/o 0.00
+/o An error statement
+/qe
+
+/qb Đâu là biện pháp an toàn quan trọng nhất trước khi gửi dữ liệu khách hàng lên LLM?
+/o Giảm kích thước file bằng cách nén dữ liệu.
+/o /a Ẩn danh hóa (anonymization) hoặc mã hóa dữ liệu nhạy cảm.
+/o Chia dữ liệu ra nhiều phần nhỏ để gửi dần.
+/o Chỉ gửi dữ liệu trong giờ hành chính.
+/qe
+
+/qb Đâu là cách khai báo một mảng 1 chiều trong Java?
+/o int arr = new int[];
+/o int arr[] = new int[5];
+/o int[] arr = {1, 2, 3};
+/o array<int> arr = [1, 2, 3];
+/o /a A và C đúng.
+/qe
+
+/qb /multi Đâu là cách tích hợp AI an toàn vào codebase lớn?
+/o Cho AI tự động merge code
+/o /a Dùng AI sinh code gợi ý, dev review, chạy test coverage trước khi merge.
+/o Tin tưởng 100% code AI sinh ra
+/o /a Dùng AI kết hợp static analysis tool để phát hiện bug.
+/qe
+
+/qb Đâu là một lợi ích của lập trình hướng đối tượng (OOP)?
+/o Tăng tốc độ xử lý của phần cứng
+/o /a Dễ dàng quản lý, bảo trì mã nguồn.
+/o Tự động tối ưu hoá thời gian chạy
+/o Hạn chế sử dụng bộ nhớ
+/o Loại bỏ hoàn toàn lỗi logic
+/qe
+
+/qb Đâu là những đặc điểm của một MBer có Kỹ năng số - Digital Skills:
+/o Chủ động cập nhật các xu hướng công nghệ để làm việc hiệu quả hơn
+/o Hiểu về các công nghệ, ứng dụng đang có sẵn và sử dụng chúng một cách hiệu quả
+/o Quan tâm tới tính an toàn và bảo mật trong môi trường kỹ thuật số
+/o /a Cả 3 đáp án trên.
+/qe
+
+/qb Đâu là phương thức cấu hình dữ liệu nhạy cảm KHÔNG an toàn:
+/o Sử dụng mã hóa dữ liệu nhạy cảm trên file cấu hình
+/o Sử dụng các giải pháp vault để che dấu dữ liệu nhạy cảm trên file cấu hình
+/o Mã hóa/băm dữ liệu cấu hình nhạy cảm được lưu trữ trên database
+/o /a Cấu hình dữ liệu nhạy cảm bản rõ trên file và database.
+/qe
+
+/qb /multi Đâu là phương thức đăng nhập an toàn?
+/o /a Sử dụng Captcha.
+/o Cho phép đăng nhập vô hạn
+/o /a Khóa user khi đăng nhập thất bại nhiều lần.
+/o /a Sử dụng xác thực đa yếu tố MFA.
+/qe
+
+/qb Đâu là từ khóa trong Java dùng để kế thừa từ một lớp khác?
+/o implements
+/o /a extends.
+/o inherit
+/o super
+/o override
+/qe
+
+/qb Đặc điểm nổi bật của NoSQL là gì?
+/o /a Tính linh hoạt cao trong cấu trúc dữ liệu.
+/o Tuân thủ nghiêm ngặt ACID
+/o Chỉ lưu trữ dữ liệu dạng bảng
+/o Không hỗ trợ mở rộng theo chiều ngang
+/qe
+
+/qb /multi Để dùng AI trong monitoring hệ thống production, bạn sẽ áp dụng cách nào?
+/o /a AI phân tích log, cảnh báo anomaly, gợi ý nguyên nhân sự cố.
+/o AI tự động restart hệ thống mà không cần giám sát
+/o AI thay thế hoàn toàn logging
+/o /a AI kết hợp dashboard để cung cấp insight real-time.
+/qe
+
+/qb Để giám sát chất lượng tích hợp qua API Gateway, chỉ số (metric) nào quan trọng nhất để cấp quản lý kỹ thuật cần theo dõi?
+/o CPU usage của server Gateway
+/o /a Số lượng request, latency, error rate.
+/o Số dòng log sinh ra mỗi giờ
+/o Số lượng API được publish
+/qe
+
+/qb /multi Để phòng chống replay attack trong giao tiếp client-server, có thể áp dụng:
+/o Password plaintext
+/o /a Token ngắn hạn.
+/o /a Timestamp.
+/o /a Nonce (số ngẫu nhiên một lần).
+/qe
+
+/qb /multi Để sinh test case cho module xử lý ngày tháng với nhiều edge case, cách hiệu quả là gì?
+/o Nhờ AI viết thêm code random test không kiểm chứng
+/o /a Hỏi AI sinh test cho các trường hợp năm nhuận, timezone khác nhau.
+/o /a Nhờ AI đề xuất fuzz test để phát hiện lỗi tiềm ẩn.
+/o Không dùng AI, chỉ test bằng dữ liệu mẫu nhỏ
+/qe
+
+/qb Để tăng khả năng mở rộng (scalability)  giải pháp phù hợp là gì?
+/o Tăng dung lượng RAM
+/o /a Load balancing và clustering.
+/o Giảm số lượng ứng dụng chạy song song
+/o Giảm logging
+/qe
+
+/qb /multi Để viết Prompt hiệu quả cho tác vụ phát triển phần mềm là gì
+/o /a Nêu bối cảnh, vai trò, mục tiêu, tiêu chí đầu ra.
+/o /a Chia nhỏ tác vụ.
+/o Dùng từ mơ hồ để “tự do sáng tạo”
+/o Ghép nhiều yêu cầu lẫn lộn
+/o /a Nêu bối cảnh, vai trò, mục tiêu, tiêu chí đầu ra.
+/o /a Chia nhỏ tác vụ.
+/o Dùng từ mơ hồ để “tự do sáng tạo”
+/o Ghép nhiều yêu cầu lẫn lộn
+/qe
+
+/qb Độ phủ coverage khi Unitest trong lập trình theo quy định hiện tại là bao nhiêu
+/o 0.1
+/o 0.3
+/o /a 0.7
+/qe
+
+/qb Độ phức tạp thời gian (time complexity) của thuật toán Quick Sort là bao nhiêu trong trường hợp trung bình?
+/o O(n)
+/o /a O(n log n)
+/o O(n^2)
+/o O(log n)
+/qe
+
+/qb Ưu điểm chính của ETL theo batch so với CDC streaming là gì?
+/o Độ trễ thấp hơn
+/o /a Dễ quản lý và tối ưu cho khối lượng dữ liệu lớn theo chu kỳ.
+/o Tích hợp tốt hơn với microservice
+/o Hỗ trợ REST API tốt hơn
+/qe
+
+/qb Ưu điểm chính của REST API so với SOAP trong ứng dụng nội bộ là gì?
+/o Không cần kết nối mạng
+/o /a Nhẹ, đơn giản, dễ tích hợp.
+/o Tự động đảm bảo bảo mật
+/o Chỉ áp dụng cho cloud
+/qe
+
+/qb Ưu điểm chính của container so với máy ảo (VM) là gì?
+/o /a Container nhẹ, khởi tạo nhanh, tận dụng tài nguyên hiệu quả hơn.
+/o Container chạy được mà không cần hệ điều hành
+/o Container không cần network để hoạt động
+/o Container bảo mật tuyệt đối, không cần vá lỗi
+/qe
+
+/qb Ưu điểm chính của kiến trúc microservices  so với kiến trúc monolithic là gì?
+/o Tăng khả năng chạy trên cloud
+/o /a Cho phép triển khai và mở rộng độc lập từng dịch vụ.
+/o Không cần quản lý database
+/o Giảm chi phí đầu tư phần cứng ngay lập tức
+/qe
+
+/qb Ưu điểm chính của việc dùng kiến trúc phân tầng (layered architecture) là gì?
+/o Tăng hiệu năng xử lý
+/o Giảm thiểu thời gian phát triển
+/o /a Tách biệt logic, dễ bảo trì và tái sử dụng.
+/o Giúp hệ thống không cần bảo mật
+/qe
+
+/qb Ưu điểm của kiến trúc nhiều lớp (N-tier) trong ngân hàng là gì?
+/o Dữ liệu dễ bị phân tán
+/o /a Bảo mật, tách biệt vai trò và kiểm soát tốt hơn.
+/o Không cần tường lửa
+/o Giảm số lượng server
+/qe
+
+/qb Ưu điểm của việc sử dụng message queue trong kiến trúc ứng dụng là gì?
+/o Loại bỏ nhu cầu database
+/o /a Giúp tách biệt producer/consumer, tăng tính chịu lỗi.
+/o Tăng tốc độ mạng LAN
+/o Giảm nhu cầu logging
+/qe
+
+/qb Ưu điểm lớn nhất của NoSQL so với SQL là gì?
+/o /a Tốc độ xử lý dữ liệu lớn và khả năng mở rộng tốt hơn.
+/o Dễ dàng thao tác với dữ liệu quan hệ phức tạp
+/o Hỗ trợ giao dịch phức tạp hơn
+/o Luôn an toàn hơn SQL
+/qe
+
+/qb Ứng dụng phổ biến khi dùng vector database trong các ứng dụng AI là gì?
+/o Lưu trữ hồ sơ
+/o /a Tìm kiếm tương đồng về ngữ nghĩa.
+/o Gửi thông báo cảnh báo
+/o Lưu dữ liệu dạng số học
+/qe
+
+/qb “Ảo giác” (hallucination) của AI là:
+/o /a AI bịa/tự suy diễn thông tin nghe có vẻ hợp lý.
+/o Lỗi chính tả
+/o Máy nhiễm virus
+/o Mạng chậm
+/qe
+
