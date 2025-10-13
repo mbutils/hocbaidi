@@ -173,7 +173,7 @@ const Exam = () => {
                <p>Số câu đã làm: {Object.keys(userAnswer).length}/{questions.length}</p> 
            </Modal> 
            <Modal 
-               title="Xác nhận kết thúc?" 
+               title="Cài đặt câu hỏi" 
                open={openSetupModel} 
                onOk={() => {
                    setMaxQuesNum(maxQuesNumTemp);
@@ -188,7 +188,7 @@ const Exam = () => {
                }} 
            > 
                <Row>
-                   <Col span={8}><label>Số câu:</label></Col>
+                   <Col span={8}><label>Số câu hỏi:</label></Col>
                    <Col><InputNumber value={maxQuesNumTemp} onChange={setMaxQuesNumTemp} /></Col>
                </Row>
                <Row className='mt-3'>
