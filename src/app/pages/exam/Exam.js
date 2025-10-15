@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react'; 
 import { Button, Row, Col } from 'antd'; 
 import { EditOutlined } from '@ant-design/icons';
+import { isMobile } from "react-device-detect";
 
-//import "../../styles/Exam.scss"; 
-import "../../styles/Exam copy.css";
+import "../../styles/Exam copy.css"; 
 import ExamInProgress from './ExamInProgress';
 import SetupExam from './SetupExam';
 import {parseQuestions, shuffleQuestions, EXAM_SET} from "../../utils/examUtils"; 
@@ -21,7 +21,7 @@ const Exam = () => {
 
     useEffect(() => {
         const setup = localStorage.getItem("examSetup");
-        console.log("setup",setup);
+        console.log("setup",setup,isMobile);
         if (setup) {
             setExamSetup(JSON.parse(setup));
         }
@@ -74,21 +74,21 @@ const Exam = () => {
                     <Button icon={<EditOutlined />} onClick={() => setOpenSetupModel(true)}/>
                     <div className='info-exam'>
                         <Row className='mt-2'>
-                            <Col span={2} offset={10}>Số câu hỏi:</Col>
-                            <Col span={8}>{examSetup.maxQuesNum}</Col>
+                            <Col span={isMobile ? 6 : 2} offset={isMobile ? 4 : 10}>Số câu hỏi:</Col>
+                            <Col span={12}>{examSetup.maxQuesNum}</Col>
                         </Row>
                         <Row className='mt-2'>
-                            <Col span={2} offset={10}>Thời gian:</Col>
-                            <Col span={8}>{examSetup.time} phút</Col>
+                            <Col span={isMobile ? 6 : 2} offset={isMobile ? 4 : 10}>Thời gian:</Col>
+                            <Col span={12}>{examSetup.time} phút</Col>
                         </Row>
                         <Row className='mt-2'>
-                            <Col span={2} offset={10}>Bộ đề thi:</Col>
-                            <Col span={8}>
+                            <Col span={isMobile ? 6 : 2} offset={isMobile ? 4 : 10}>Bộ đề thi:</Col>
+                            <Col span={12}>
                                 {EXAM_SET.map((a) => {
                                     if (!examSetup.selectExam.includes(a.value)) return;
                                     return (
                                     <Row>
-                                        <Col span={3}>{examSetup.ratioExam[a.value]}%</Col>
+                                        <Col span={isMobile ? 4 : 3}>{examSetup.ratioExam[a.value]}%</Col>
                                         <Col>{a.label}</Col>
                                     </Row>
                                 )
