@@ -86,7 +86,8 @@ export function shuffleQuestions(array, limit) {
 }
 
 export const EXAM_SET = [
-    { value: 0, label: "Thi gây mê", file: "quiz_ta.txt" },
-    { value: 1, label: "Thi chuyên môn 2025", file: "quiz_chuyenmon2025.txt" },
-    { value: 2, label: "Thi chức danh 2024", file: "quiz_chucdanh2024.txt" },
+    { value: 0, label: "Thi gây mê TA (140 câu)", file: "quiz_ta.txt" },
+    { value: 1, label: "Thi chuyên môn 2025 (263 câu)", file: "quiz_chuyenmon2025.txt" },
+    { value: 2, label: "Thi chức danh 2024 (119 câu)", file: "quiz_chucdanh2024.txt" },
+    { value: 3, label: "Thi 1688 2025 (128 câu)", file: "quiz_1688.txt" },
 ];
