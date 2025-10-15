@@ -1018,10 +1018,6 @@ Thành công
 /o Thay thế hoàn toàn con người
 /o Giảm giao tiếp nội bộ 
 /o Chỉ để lưu trữ dữ liệu
-/o /a Tăng hiệu suất & chất lượng.
-/o Thay thế hoàn toàn con người
-/o Giảm giao tiếp nội bộ 
-/o Chỉ để lưu trữ dữ liệu
 /qe
 
 /qb Nguyên tắc thiết kế kiến trúc hệ thống/dịch vụ của MB là gì?
