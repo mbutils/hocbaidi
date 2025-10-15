@@ -1,0 +1,867 @@
+/qb Để tra cứu, tìm kiếm các văn bản nội bộ Anh/Chị truy cập vào web nào dưới đây?
+/o /a https://vbnb.mbbank.com.vn/
+/o https://moffice.mbbank.com.vn/
+/o https://hcm.mbbank.com.vn/
+/o https://confluence.mbbank.com.vn/
+/qe
+
+/qb Trung tâm dữ liệu chính của MB đang được đặt ở đâu
+/o 21 Cát Linh
+/o /a Số 3 Liễu Giai
+/o 63 Lê Văn Lương
+/o Viettel IDC Pháp Vân
+/qe
+
+/qb Quyết định số 857/QĐ-MB-HĐQT ban hành Quy định, chức năng nhiệm vụ của Khối Công nghệ thông tin có hiệu lực từ thời điểm nào
+/o /a 2024-04-10 00:00:00
+/o 2024-06-11 00:00:00
+/o 2024-04-26 00:00:00
+/o 2024-07-02 00:00:00
+/qe
+
+/qb Theo mô hình tổ chức mới năm 2024, Khối CNTT gồm bao nhiêu trung tâm?
+/o 6
+/o 7
+/o 8
+/o /a 9
+/qe
+
+/qb /multi Chức năng nhiệm vụ của Khối CNTT gồm
+/o /a Tham mưu cho Hội đồng Quản trị, Tổng Giám Đốc về việc nghiên cứu, xây dựng định hướng chiến lược CNTT, ứng dụng và phát triển CNTT linh hoạt, tự chủ đáp ứng yêu cầu kinh doanh và quản trị điều hành của MBGroup theo từng thời kỳ
+/o /a Quản lý và tổ chức triển khai các hoạt động phát triển, vận hành, cung cấp các sản phẩm dịch vụ CNTT đáp ứng yêu cầu của đơn vị kinh doanh và phù hợp với định hướng chiến lược của MB
+/o /a Tổ chức, quản lý hoạt động CNTT Tập đoàn bám sát chiến lược của MBGroup
+/o Quản lý nhân sự CNTT
+/qe
+
+/qb Chức năng nhiệm vụ nào dưới đây của Trung tâm BA?
+/o Xây dựng các sản phẩm, dịch vụ, nâng cấp hệ thống core của ngân hàng
+/o Quản lý hoạt động CNTT Tập đoàn
+/o /a Thực hiện phân tích yêu cầu, xây dựng giải pháp đáp ứng yêu cầu kinh doanh và quản lý
+/o Nghiên cứu các công nghệ AI áp dụng cho hoạt động ngân hàng
+/qe
+
+/qb Chức năng nhiệm vụ nào dưới đây của Trung tâm AI?
+/o Quy hoạch kiến trúc sản phẩm dịch vụ cho các hệ thống
+/o /a Nghiên cứu các công nghệ AI áp dụng cho hoạt động ngân hàng
+/o Quản lý thiết bị đầu cuối
+/o Hỗ trợ quản lý và lưu trữ máy chủ cho các CTTV
+/qe
+
+/qb Chức năng nhiệm vụ nào dưới đây của Trung tâm An toàn thông tin?
+/o /a Tham mưu cho Ban lãnh đạo Khối về các vấn đề an ninh  trong hoạt động của hệ thống
+/o Xây dựng các sản phẩm, dịch vụ, nâng cấp hệ thống core của ngân hàng
+/o Hỗ trợ người dùng trong quá trình sử dụng các dịch vụ CNTT
+/o Xây dựng sản phẩm , dịch vụ phục vụ cho các kênh giao dịch
+/qe
+
+/qb Đơn vị nào chịu trách nhiệm quản lý đối tác tại CNTT?
+/o Phòng Quản trị và CNTT Tập đoàn
+/o /a Phòng Quản lý đầu tư và đối tác
+/o Phòng Quản trị rủi ro
+/o Trung tâm Hạ tầng
+/qe
+
+/qb Nhiệm vụ quản lý rủi ro và tuân thủ thuộc trung tâm nào?
+/o Trung tâm AI
+/o Trung tâm Quản trị CNTT
+/o /a Phòng Quản lý rủi ro và Tuân thủ
+/o Trung tâm An toàn thông tin
+/qe
+
+/qb /multi Phòng BA Khách hàng số có thể phối hợp với những đơn vị nào để triển khai sản phẩm Mobile Banking?
+/o /a Phòng Công nghệ dịch vụ số
+/o /a Phòng Đảm bảo an toàn thông tin
+/o Phòng CNTT Miền Nam
+/o Phòng CNTT Miền Trung
+/qe
+
+/qb Đơn vị nào thuộc TT BA có trách nhiệm phân tích, xây dựng giải pháp hỗ trợ kinh doanh?
+/o Phòng BA Khách hàng số
+/o Phòng BA Quản trị DN
+/o /a Phòng BA Hỗ trợ kinh doanh
+/o Phòng BA Tài trợ thương mại
+/qe
+
+/qb Thực hiện kiểm thử các ứng dụng CNTT là nhiệm vụ của Trung tâm nào?
+/o /a Trung tâm Đảm bảo chất lượng
+/o Trung tâm BA
+/o Trung tâm An toàn thông tin
+/o Trung tâm Hạ tầng
+/qe
+
+/qb Đơn vị nào có chức năng xây dựng quy trình, quy định liên quan đến hoạt động quản lý chất lượng dịch vụ tại CNTT?
+/o Phòng Kiểm thử ứng dụng số
+/o Phòng Kiểm thử nghiệp vụ
+/o Phòng Kiểm thử nội bộ
+/o /a Phòng Đảm bảo Chất lượng dịch vụ CNTT
+/qe
+
+/qb Khi triển khai dự án core banking, cần liên hệ đơn vị nào để test hiệu năng?
+/o Phòng Đảm bảo chất lượng
+/o Phòng BA Tín dụng
+/o /a Phòng Nền tảng kiểm thử
+/o Phòng Quản lý rủi ro
+/qe
+
+/qb /multi Các phòng thuộc TT Công nghệ nền tảng gồm:
+/o /a Phòng Ngân hàng lõi
+/o /a Phòng Giải pháp quản trị nội bộ
+/o Phòng Công nghệ doanh nghiệp số
+/o /a Phòng Kiến trúc ứng dụng
+/qe
+
+/qb Phòng nào chịu trách nhiệm xây dựng sản phẩm, dịch vụ trên hệ thống core T24
+/o /a Phòng Ngân hàng lõi
+/o Phòng Công nghệ quản trị
+/o Phòng Tích hợp
+/o Phòng Công nghệ số
+/qe
+
+/qb Khi triển khai hệ thống CRM, phòng nào cần tham gia chính?
+/o Phòng Hạ tầng
+/o Phòng BA tín dụng
+/o Phòng CNTT miền Nam
+/o /a Phòng Công nghệ quản lý khách hàng
+/qe
+
+/qb Phòng Công nghệ thị giác máy tính có nhiệm vụ gì?
+/o Xử lý ngôn ngữ tự nhiên
+/o /a Xử lý hình ảnh/video
+/o Quản trị cơ sở dữ liệu
+/o Quản lý quy trình
+/qe
+
+/qb /multi Các phòng thuộc TT AI gồm:
+/o /a Công nghệ trợ lý ảo
+/o /a Công nghệ thị giác máy tính
+/o /a Công nghệ ngôn ngữ
+/o /a Nghiên cứu & phát triển AI
+/qe
+
+/qb Khi có yêu cầu người dùng (level 1), ai xử lý đầu tiên?
+/o /a Phòng Hỗ trợ dịch vụ CNTT
+/o Phòng CNTT miền Bắc
+/o Phòng BA dịch vụ số
+/o Phòng Quản trị rủi ro
+/qe
+
+/qb /multi Các phòng thuộc TT Vận hành dịch vụ công nghệ gồm:
+/o /a Hỗ trợ dịch vụ CNTT
+/o /a CNTT Miền Trung
+/o /a CNTT Miền Nam
+/o /a Vận hành hệ thống CNTT
+/qe
+
+/qb /multi Các phòng thuộc TT Hạ tầng gồm:
+/o /a Mạng và thiết bị đầu cuối
+/o /a Hạ tầng máy chủ
+/o /a Hạ tầng TTDL
+/o /a Điện toán đám mây
+/qe
+
+/qb TT Quản trị  có chức năng quản lý hoạt động CNTT Tập đoàn?
+/o /a Yes
+/o No
+/qe
+
+/qb Hệ thống Core Banking thuộc quản lý  của phòng nào?
+/o /a Phòng Ngân hàng lõi
+/o Phòng Tích hợp
+/o Phòng Kiến trúc ứng dụng
+/o Phòng Công nghệ số
+/qe
+
+/qb Phòng Kiến trúc ứng dụng có nhiệm vụ xây dựng cấu trúc hệ thống CNTT chuẩn cho MB?
+/o /a Yes
+/o No
+/qe
+
+/qb Phòng Công nghệ ngôn ngữ và tiếng nói có nhiệm vụ xử lý giọng nói, hội thoại AI?
+/o /a Yes
+/o No
+/qe
+
+/qb Người dùng báo lỗi Outlook không gửi được mail, đơn vị nào xử lý trước?
+/o /a Phòng Hỗ trợ dịch vụ CNTT
+/o Phòng Hạ tầng máy chủ
+/o Phòng CNTT Miền Nam
+/o Phòng BA dịch vụ số
+/qe
+
+/qb Máy chủ chính gặp sự cố, đơn vị nào chịu trách nhiệm chính?
+/o Phòng Mạng & thiết bị đầu cuối
+/o /a Phòng Hạ tầng máy chủ
+/o Phòng CNTT Miền Trung
+/o Phòng Vận hành ATTT
+/qe
+
+/qb Phòng Điện toán đám mây phụ trách triển khai VDI cho nhân viên MB?
+/o /a Yes
+/o No
+/qe
+
+/qb Trong tình huống hệ thống MB bị tấn công DDoS, đơn vị nào xử lý đầu tiên?
+/o /a Phòng Giám sát và điều tra an ninh mạng
+/o Phòng Vận hành ATTT
+/o Phòng Đảm bảo ATTT
+/o Phòng Hạ tầng
+/qe
+
+/qb Để kiểm thử an ninh ứng dụng mới, cần liên hệ phòng nào?
+/o Phòng Hỗ trợ CNTT
+/o Phòng Vận hành an toàn thông tin
+/o /a Phòng Đảm bảo an toàn thông tin
+/o Phòng Quản trị rủi ro
+/qe
+
+/qb Nhân sự có thâm niên tại MB bao lâu để được hưởng bảo hiểm Mic đồng cấp cbnv miễn phí cho 2 người thân
+/o 1 năm
+/o /a 3 năm
+/o 5 năm
+/o 10 năm
+/qe
+
+/qb Theo chế độ Công đoàn mới của MBIT áp dụng từ ngày 1/7/2025, CBNV sinh con nhận được chế độ thăm hỏi  500.000nvđ mức Khối  và 1 triệu mức HO là đúng hay sai?
+/o /a Đúng
+/o Sai
+/qe
+
+/qb Chi phí hỗ trợ trông trẻ, mẫu giáo ( dưới 6 tuổi) là bao nhiêu?
+/o 100.000đ/con/tháng
+/o 120.000đ/con/tháng
+/o /a 150.000đ/con/tháng
+/o 200.000đ/con/tháng
+/qe
+
+/qb Hội đồng giải pháp nghiệp vụ - FDA (Functional Design Authority) có nhiệm vụ gì?
+/o /a Đánh giá/phê duyệt thiết kế nghiệp vụ.
+/o Đánh giá/phê duyệt thiết kế kỹ thuật.
+/o Đánh giá các thay đổi trên hệ thống Production
+/o Kiểm soát/phê duyệt các vấn đề chuyên môn
+/qe
+
+/qb Hội đồng giải pháp kỹ thuật – TDA (Technical Design Authority) có nhiệm vụ gì?
+/o Đánh giá/phê duyệt thiết kế nghiệp vụ.
+/o /a Đánh giá/phê duyệt thiết kế kỹ thuật.
+/o Đánh giá các thay đổi trên hệ thống Production
+/o Kiểm soát/phê duyệt các vấn đề chuyên môn
+/qe
+
+/qb Hội đồng CAB (Change Approval Board) có nhiệm vụ gì?
+/o Đánh giá/phê duyệt thiết kế nghiệp vụ.
+/o Đánh giá/phê duyệt thiết kế kỹ thuật.
+/o /a Đánh giá các thay đổi trên hệ thống Production
+/o Kiểm soát/phê duyệt các vấn đề chuyên môn
+/qe
+
+/qb Hệ thống đào tạo Online tập trung cho CBNV MB là ?
+/o HCM
+/o MO
+/o BPM
+/o /a LMS
+/qe
+
+/qb Một trong những chức năng của Khối CNTT là gì?
+/o Tư vấn đầu tư tài chính
+/o /a Tham mưu xây dựng định hướng chiến lược CNTT cho MBGroup
+/o Giám sát nhân sự khối nghiệp vụ
+/o Quản lý kinh doanh chuỗi cung ứng
+/qe
+
+/qb Chức năng “phát triển, vận hành và cung cấp sản phẩm dịch vụ CNTT phù hợp định hướng chiến lược MB” thuộc trách nhiệm của:
+/o /a Khối CNTT
+/o Khối Tài chính – Kế toán
+/o Khối Khách hàng cá nhân
+/o Khối Tổ chức nhân sự
+/qe
+
+/qb Khối CNTT chỉ có nhiệm vụ hỗ trợ kỹ thuật, không tham gia định hướng chiến lược CNTT của MBGroup.
+/o Đúng
+/o /a Sai
+/qe
+
+/qb Vì sao Khối CNTT phải “bám sát chiến lược của MBGroup” trong quản lý hoạt động CNTT?
+/o /a Để đồng bộ với mục tiêu phát triển chung của MB
+/o Để giảm số lượng nhân sự CNTT
+/o Để không cần báo cáo HĐQT
+/o Để tập trung vào kinh doanh bán lẻ
+/qe
+
+/qb /multi Các hoạt động nào nằm trong chức năng “quản lý và tổ chức triển khai các sản phẩm dịch vụ CNTT
+/o /a Phát triển ứng dụng Mobile Banking
+/o /a Vận hành hệ thống Core Banking
+/o /a Đảm bảo hạ tầng CNTT hoạt động ổn định
+/o Quản lý nhân sự nghiệp vụ kế toán
+/qe
+
+/qb Một trong các chức năng chính của Khối CNTT là cung cấp dịch vụ CNTT đáp ứng yêu cầu của đơn vị kinh doanh
+/o /a Đúng
+/o Sai
+/qe
+
+/qb Tham mưu cho Ban lãnh đạo Khối về các vấn đề an ninh của hệ thống là chức năng của trung tâm nào?
+/o Trung tâm Quản trị
+/o Trung tâm BA
+/o /a Trung tâm An toàn thông tin
+/o Trung tâm AI
+/qe
+
+/qb Hỗ trợ Tư vấn thiết kế mạng, vận hành TTDL, quản trị máy chủ và lưu trữ cho các công ty thành viên là chức năng của trung tâm nào?
+/o Trung tâm Quản trị
+/o /a Trung tâm Hạ tầng
+/o Trung tâm An toàn thông tin
+/o Trung tâm AI
+/qe
+
+/qb Hỗ trợ người dùng trong quá trình sử dụng các hệ thống CNTT có phải chức năng của Trung tâm Vận hành dịch vụ công nghệ không?
+/o /a Đúng
+/o Sai
+/qe
+
+/qb Beetech là tạp chí công nghệ của người MB đúng không?
+/o /a Đúng
+/o Sai
+/qe
+
+/qb Hệ thống gửi yêu cầu hỗ trợ CNTT?
+/o https://moffice.mbbank.com.vn/
+/o https://hcm.mbbank.com.vn/
+/o https://confluence.mbbank.com.vn/
+/o /a https://hotrocntt.mbbank.com.vn/
+/qe
+
+/qb /multi Trong gần 30 năm, chúng ta đã trở thành NH hiệu quả và nhiều KH nhất, Định hướng của MB cần thay đồi để trở thành ngân hàng như thế nào?
+/o MB nhân văn nghĩa tình
+/o /a MB tin cậy cao
+/o /a Ngân hàng Việt Nam có giá trị nhất đối với khách hàng
+/qe
+
+/qb Tầm nhìn của MB là gì?
+/o /a Doanh nghiệp số - Tập đoàn tài chính dẫn đầu
+/o Ngân hàng kinh doanh nền tảng hàng đầu
+/o Ngân hàng số hàng đầu
+/o Ngân hàng số dẫn đầu
+/o Tập đoàn tài chính dẫn đầu
+/qe
+
+/qb /multi Lựa chọn các câu đúng về tầm nhìn của MB
+/o /a Trở thành lựa chọn tốt nhất, dễ dàng nhất cho mọi khách hàng, mọi lúc mọi nơi với chi phí, thời gian tối ưu thì sẽ tăng trưởng nhanh, tiết kiệm chi phí và hiệu quả
+/o /a Trở thành ngân hảng số hàng đầu - Ngân hàng kinh doanh nền tảng - chú trọng tạo ra các giá trị vượt trội cho khách hàng - Hấp dẫn khách hàng
+/o /a Tập đoàn tài chính dẫn đầu về khả năng phục vụ khách hàng - Trải nghiệm dịch vụ và chăm sóc khách hàng xuất sắc nhất - Nền tảng kết nối sâu rộng nhất
+/qe
+
+/qb Tầm nhìn của MB nhằm mục tiêu trở thành ngân hàng như thế nào?
+/o /a Liên tục trở thành lựa chọn tốt nhất và dễ dàng nhất cho mọi khách hàng, mọi lúc mọi nơi với chi phí, thời gian tối ưu
+/o Liên tục trở thành lựa chọn tốt nhất và thuận tiện nhất cho mọi khách hàng
+/o Liên tục trở thành lựa chọn tốt nhất và dễ dàng nhất cho mọi khách hàng
+/o Liên tục trở thành lựa chọn tốt nhất và thuận tiện nhất cho mọi khách hàng, mọi lúc mọi nơi với chi phí, thời gian tối ưu
+/qe
+
+/qb /multi Tầm nhìn của MB nhằm mục tiêu doanh thu như thế nào?
+/o 50-70% khách hàng được phục vụ bằng nền tảng số
+/o 100% doanh thu từ nền tảng số
+/o /a 50-70% doanh thu từ nền tảng số
+/o /a 100% khách hàng được phục vụ bằng nền tảng số
+/qe
+
+/qb Tầm nhìn của MB nhằm đem lại cho KH những gì?
+/o Trải nghiệm KH xuất sắc nhất
+/o Trải nghiệm KH dễ dàng nhất
+/o /a Trải nghiệm KH xuất sắc nhất và nền tảng kết nối sâu rộng nhất
+/o Trải nghiệm KH tốt nhất
+/qe
+
+/qb 6 giá trị cốt lõi của MB là gì?
+/o Đoàn kết - Kỷ luật - Tận tâm - Thực thi - Tin cậy cao - Hiệu quả bền vững
+/o Đoàn kết - Kỷ luật - Tận tâm - Thực thi - Tin cậy - Vượt trội
+/o Đoàn kết - Kỷ luật - Tận tâm - Nhanh chóng - Tin cậy - Hiệu quả
+/o Đoàn kết - Kỷ luật - Sáng tạo - Thực thi - Tin cậy - Hiệu quả
+/o /a Đoàn kết - Kỷ luật - Tận tâm - Thực thi - Tin cậy - Hiệu quả
+/qe
+
+/qb /multi Để thực hiện giá trị cốt lõi Đoàn kết tại MB, người MB cần làm gì?
+/o Đoàn kết cùng hướng về mục tiêu chung
+/o Xây dựng mục tiêu nhất quán trong mọi hoạt động
+/o /a Cùng thống nhất một ý chí, hướng về mục tiêu chung
+/o /a Xây dựng mục tiêu rõ ràng và nhất quán trong mọi hoạt động
+/qe
+
+/qb Đoàn kết tốt tại MB để đem lại gì?
+/o /a Nhằm xây dựng mục tiêu rõ ràng và nhất quán trong mọi hoạt động
+/o Nhằm hướng về mục tiêu chung
+/o Nhằm xây dựng mục nhất quán trong mọi hoạt động
+/o Nhằm xây dựng mục tiêu rõ ràng và duy nhất trong mọi hoạt động
+/qe
+
+/qb /multi Giá trị cốt lõi Kỷ luật tại MB là gì?
+/o /a MB là tổ chức của những người kỷ luật tự nguyện
+/o MB là tổ chức kỷ luật quân đội
+/o /a Thượng tôn pháp luật và các chuẩn mực được MB lựa chọn
+/o Thượng tôn pháp luật và quy định nội bộ tại MB
+/qe
+
+/qb /multi Kỷ luật nghiêm tại MB đem lại giá trị gì?
+/o /a Nâng cao đạo đức nghề nghiệp
+/o /a Tạo sức mạnh tập thể
+/o /a Hạn chế rủi ro
+/o /a Nâng cao năng suất và hiệu quả hoạt động
+/qe
+
+/qb /multi Để đáp ứng giá trị cốt lõi Tận tâm, chúng ta phải làm gì?
+/o /a Sẵn sàng cam kết và thực hiện cam kết vì KH vì Tổ chức
+/o Chủ động hết lòng phục vụ KH và tổ chức
+/o Sẵn sàng cam kết và thực hiện cam kết vì KH
+/o /a Tận tâm thấu hiểu KH, chủ động hết lòng phục vụ KH
+/qe
+
+/qb Thực thi tại MB là gì?
+/o Nhanh chóng - chính xác - hiệu quả
+/o /a Nhanh chóng - chính xác - sáng tạo - bền bỉ
+/o Nhanh chóng - chính xác - Tiết kiệm - Hiệu quả
+/o Nhanh chóng - chính xác - sáng tạo
+/qe
+
+/qb Văn hóa Thực thi nhanh ở MB được hiểu như thế nào?
+/o Thời gian ngắn nhất, hiệu quả bền vững
+/o /a Thực thi nhanh nhằm tiết kiệm thời gian và nguồn lực, hướng đến kết quả
+/o Chi phí thấp nhất, hiệu quả lớn nhất
+/o Càng nhanh càng tốt
+/qe
+
+/qb Theo giá trị cốt lõi Tin cậy, MB là tổ chức như thế nào
+/o MB là tổ chức nghĩa tình
+/o /a MB là tổ chức nhân văn - nghĩa tình
+/o MB là tổ chức nhân văn
+/o MB là tổ chức của những người kỷ luật tự nguyện
+/qe
+
+/qb Tin cậy cao nhằm mục đích gì?
+/o Nhằm đạt được sự tín nhiệm của KH và cộng đồng
+/o Nhằm đạt được sự tín nhiệm của KH
+/o /a Nhằm đạt được sự tín nhiệm của KH và cổ đông
+/o Nhằm đạt được sự tín nhiệm của KH, cổ đông và cộng đồng
+/qe
+
+/qb Tin cậy tại MB là gì?
+/o /a Cam kết và thực hiện đúng cam kết
+/o Trung thực, tuân thủ mọi quy định của MB
+/o Sẵn sàng cam kết và thực hiện cam kết vì KH vì tổ chức
+/o Thực hiện cam kết vượt mong đợi của khách hàng
+/qe
+
+/qb /multi Phương pháp được lựa chọn để trở thành Ngân hàng VN có giá trị nhất với KH - Một MB tin cậy cao là gì?
+/o /a Thay đổi cách thức làm việc trong tổ chức 1 cách sâu rộng
+/o /a Thay đổi tổ chức bằng cách Kiên định định hướng và mục tiêu
+/o /a Củng cố văn hóa tìm kiếm và sử dụng nhân tài thật tâm
+/o Áp dụng tất cả 8 phương pháp làm việc
+/qe
+
+/qb /multi Lựa chọn nhận định đúng về Hiệu quả
+/o /a Hiệu quả tại MB là Tối thiểu đạt mục tiêu đề ra với nguồn lực nhỏ hơn và / hoặc tiến độ nhanh hơn, chất lượng tốt hơn
+/o Đạt mục tiêu đề ra với chi phí tiết kiệm nhất và hiệu quả lớn nhất
+/o /a Hiệu quả cao đem lại giá trị lớn nhất cho KH, cổ đông, cộng đồng và người lao động
+/o Hiệu quả cao đem lại giá trị lớn nhất cho KH, cổ đông
+/qe
+
+/qb Thước đo quan trọng nhất tại MB là gì?
+/o /a Hiệu quả
+/o Tận tâm
+/o Kỷ luật
+/o Tin cậy
+/o Đoàn kết
+/qe
+
+/qb MB có bao nhiêu phương pháp làm việc?
+/o 7 phương pháp
+/o 4 phương pháp
+/o 6 phương pháp
+/o 5 phương pháp
+/o /a 8 phương pháp
+/qe
+
+/qb Phương pháp sáng tạo là phương pháp nào?
+/o /a M1
+/o M3
+/o M4
+/o M2
+/qe
+
+/qb /multi Sáng tạo trong phương pháp M1 nghĩa là gì?
+/o /a Không có giải pháp - không có sáng tạo
+/o /a Tìm ra giải pháp có tính thực tiễn để giải quyết vấn đề
+/o /a Hướng đến giải quyết các mục tiêu, vấn đề quan trọng, trực tiếp của tổ chức
+/qe
+
+/qb /multi Năng lực trong phương pháp M1 là gì?
+/o /a Tư duy phát hiện và giải quyết vấn đề
+/o Tinh thông nghề nghiệp và áp dụng tư duy học hỏi
+/o /a Trau dồi kỹ năng, kiến thức, tinh thông nghề nghiệp
+/qe
+
+/qb Công thức sáng tạo của phương pháp M1 là gì?
+/o /a Sáng tạo = Tư duy giải quyết vấn đề + tò mò + năng lực
+/o Sáng tạo = Tư duy giải quyết vấn đề + Ham học hỏi + năng lực
+/o Sáng tạo = Tư duy + Ham học hỏi + năng lực
+/o Sáng tạo = Tư duy + tò mò + năng lực
+/qe
+
+/qb /multi Tò mò trong phương pháp M1 là gì?
+/o /a Thường xuyên đặt câu hỏi về hiện trạng, bài học thành công
+/o /a Trao đổi liên tục và cởi mở với các bên liên quan cả trong và ngoài MB
+/qe
+
+/qb Tư duy giải quyết vấn đề trong phương pháp M1 là gì?
+/o Tập trung tìm và giải quyết các vấn đề có giá trị, đặc biệt cho KH
+/o Tập trung vào vấn đề của chính mình, đơn vị mình phụ trách
+/o /a Tập trung vào vấn đề của chính mình, đơn vị mình phụ trách. Tập trung tìm và giải quyết các vấn đề có giá trị, đặc biệt cho KH
+/o Luôn ưu tiên và chỉ Tập trung tìm và giải quyết các vấn đề có giá trị, đặc biệt cho KH
+/qe
+
+/qb /multi Cách sử dụng hiệu quả phương pháp choice map
+/o /a Đặt câu hỏi mới
+/o Áp dụng tư duy phán xét (Judger Mindset)
+/o /a Áp dụng tư duy học hỏi cởi mở
+/o /a Tôn trọng sự khác biệt trong tổ chức (Learner Mindset)
+/qe
+
+/qb Tư duy nào được sử dụng khi áp dụng Choice map
+/o /a Tư duy học hỏi
+/o Tư duy phán xét
+/qe
+
+/qb Công cụ dùng để đánh giá giải pháp đưa ra đã toàn diện hay chưa?
+/o Tổ chức họp
+/o /a In and Out box
+/o Choice map
+/o Tò mò
+/qe
+
+/qb Công cụ nào sau đây có đánh giá sự tham gia và khả năng của đối thủ cạnh tranh
+/o Tư duy học hỏi mới
+/o /a In and Out box
+/o Đặt câu hỏi mới
+/o Choice map
+/qe
+
+/qb /multi Khi gặp vấn đề khó cần giải quyết, theo phương pháp M2, chúng ta cần thực hiện như thế nào?
+/o Lập danh sách các vấn đề cần giải quyết theo mức độ ưu tiên, sau đó chọn lựa các vấn đề có giá trị theo mức độ ưu tiên
+/o /a Lựa chọn tối đa 5 vấn đề thành phần có giá trị nhất và khả thi để giải quyết
+/o Nhận diện vấn đề và định nghĩa vấn đề với tư duy mở
+/o /a Chia vấn đề lớn thành các vấn đề nhỏ hơn và giải quyết từng phần
+/qe
+
+/qb /multi Các bước thực hiện của phương pháp M2: Phương pháp xác định vấn đề cần giải quyết là gì?
+/o /a Kết luận vấn đề
+/o /a Xác định vấn đề
+/o /a Chia nhỏ vấn đề
+/qe
+
+/qb Bước nào quan trọng nhất trong phương pháp M2?
+/o /a Xác định đúng vấn đề cần giải quyết
+/o Kết luận vấn đề
+/o Chia nhỏ vấn đề, và lựa chọn vấn đề có giá trị nhất và khả thi để giải quyết
+/qe
+
+/qb Công cụ giúp khám phá ra vấn đề mới khi áp dụng phương pháp làm việc M2 là gì?
+/o Tổ chức họp
+/o Tò mò
+/o /a Choice map
+/o In and Out box
+/qe
+
+/qb Hiệu quả của phương pháp Choice map là gì?
+/o Đưa ra giải pháp trọng tâm
+/o /a Lựa chọn các vấn đề cẩn trọng, đưa ra giải pháp trọng tâm và Win Win
+/o Lựa chọn các vấn đề cẩn trọng
+/qe
+
+/qb DI trong phương pháp M3 là gì?
+/o /a Discover: Xác định vấn đề cần giải quyết
+/o Develop: Thiết kế, xây dựng, thực thi giải pháp
+/o Define: Phân tích để hình dung các nguyên nhân của vấn đề
+/qe
+
+/qb VE trong phương pháp M3 là gì?
+/o /a Verify: Xác nhận lại nguyên nhân của vấn đề với KH và các bên liên quan
+/o Visualize: Mô hình hóa/ Lượng hóa các vấn đề cần giải quyết
+/o Verify: Xác nhận vấn đề cần giải quyết
+/qe
+
+/qb ME trong phương pháp M3 là gì?
+/o Measure: Cải tiến liên tục
+/o /a Measure: Đo lường hiệu quả của giải pháp và cải tiến liên tục
+/o Measure: Đo lường hiệu quả của giải pháp
+/qe
+
+/qb Phương pháp nào dùng để giải quyết trọn vẹn, triệt để vấn đề
+/o M4: PU EN DA SU
+/o M1: Phương pháp sáng tạo
+/o M2: Phương pháp xác định vấn đề cần giải quyết
+/o /a M3: DI DE VE DE ME
+/qe
+
+/qb Chữ DE - đứng thứ 4 trong phương pháp M3 (DI DE VE DE ME) là gì?
+/o Define: Phân tích để hình dung các nguyên nhân của vấn đề
+/o /a Develop: Thiết kế, xây dựng, thực thi giải pháp
+/o Discover: Xác định vấn đề cần giải quyết
+/qe
+
+/qb Chữ DE - đứng thứ 2 trong phương pháp M3 (DI DE VE DE ME) là gì?
+/o Develop: Thiết kế, xây dựng, thực thi giải pháp
+/o /a Define: Phân tích để hình dung các nguyên nhân của vấn đề
+/o Discover: Xác định vấn đề cần giải quyết
+/qe
+
+/qb Bước nào sử dụng để làm cơ sở ra quyết định trong phương pháp M4 (PU EN DA SU)
+/o Tóm tắt (Summary)
+/o /a Dữ liệu (Data)
+/o Purpose (mục đích)
+/o Encourge (khuyến khích)
+/qe
+
+/qb Các cuộc họp tại MB được thực hiện theo phương pháp nào
+/o M3: DI DE VE DE ME
+/o M1: Phương pháp sáng tạo
+/o /a M4: PU EN DA SU
+/o M2: Phương pháp xác định vấn đề cần giải quyết
+/qe
+
+/qb Điều kiện áp dụng với thành viên tham gia họp trong phương pháp M4
+/o Tối thiểu 3 thành viên tham gia họp
+/o /a Thành viên phù hợp, liên quan đến cuộc họp, có khả năng cho ý kiến hoặc quyết định vấn đề cần giải quyết
+/o Mỗi thành viên cho tối thiểu 3 ý kiến tại cuộc họp
+/qe
+
+/qb PU trong phương pháp M4 là gì?
+/o /a Purpose (Mục đích) Chủ trì phải nêu mục đích cuộc họp, mục tiêu cần đạt được, trình bày rõ ràng cho các thành phần dự họp
+/o Purpose (Mục đích) Xác định mục tiêu của cuộc họp
+/o Purpose (Mục đích) Xác định mục đích của cuộc họp
+/qe
+
+/qb EN trong phương pháp M4 là gì?
+/o Encourage (Khuyến khích): Bắt buộc các thành viên nêu ý kiến
+/o /a Encourage (Khuyến khích): Khuyến khích các thành viên nêu ý kiến, đảm bảo các thành viên dự họp có tiếng nói bình đẳng để phát huy trí tuệ tập thể
+/o Encourage (Khuyến khích): Các thành viên bình đẳng cho ý kiến như nhau
+/qe
+
+/qb Các công việc cần phải làm tại bước Summary ở phương pháp M4
+/o Tóm tắt điểm chính của buổi họp
+/o Kết luận các công việc cần thực hiện: Thời gian hoàn thành và người chịu trách nhiệm
+/o /a Tất cả đều đúng
+/qe
+
+/qb Tầm nhìn của MB là gì?
+/o Top 3 thị trường về hiệu quả, hướng đến Top đầu châu Á
+/o Tăng tốc số - Hấp dẫn khách hàng – Hiệp lực tập đoàn – An toàn bền vững
+/o /a Trở thành doanh nghiệp Số, tập đoàn tài chính dẫn đầu
+/o - Top 3 thị trường về hiệu quả, hướng đến Top đầu châu Á
+ - Tăng tốc số - Hấp dẫn khách hàng – Hiệp lực tập đoàn – An toàn bền vững
+/qe
+
+/qb Đoàn kết ở MB là gì?
+/o Đoàn kết ở MB là cùng thống nhất một ý chí, hướng về mục tiêu chung
+/o Đoàn kết tốt nhằm xây dựng mục tiêu rõ ràng và nhất quán trong mọi hoạt động
+/o Đoàn kết ở MB là sự đồng tình, sự hợp tác và sự tôn trọng lẫn nhau để tạo ra một sức mạnh lớn hơn, đem lại hiệu quả cao hơn và giải quyết các vấn đề khó khăn một cách nhanh chóng và hiệu quả hơn.
+/o /a Đáp án 1 và 2
+/qe
+
+/qb Kỷ luật ở MB là gì?
+/o Kỷ luật ở MB là Thượng tôn pháp luật và các chuẩn mực được MB lựa chọn
+/o /a - Kỷ luật ở MB là Thượng tôn pháp luật và các chuẩn mực được MB lựa chọn
+ - Kỷ luật nghiêm tạo sức mạnh tập thể, hạn chế rủi ro, nâng cao đạo đức nghề nghiệp, năng suất và hiệu quả hoạt động
+/o Kỷ luật nghiêm tạo sức mạnh tập thể, hạn chế rủi ro, nâng cao đạo đức nghề nghiệp, năng suất và hiệu quả hoạt động
+/o Kỷ luật ở MB là việc tuân thủ các quy tắc và tiêu chuẩn công việc, đảm bảo hiệu suất làm việc, thời gian và tài nguyên được sử dụng hiệu quả.
+/qe
+
+/qb Tận tâm ở MB là gì?
+/o /a - Tận tâm thấu hiểu khách hàng, chủ động, hết lòng phục vụ khách hàng
+ - Sẵn sàng cam kết và thực hiện cam kết vì khách hàng và tổ chức
+/o Tận tâm thấu hiểu khách hàng, chủ động, hết lòng phục vụ khách hàng
+/o Tận tâm là sẵn sàng cam kết và thực hiện cam kết vì khách hàng và tổ chức
+/o Tận tâm là cố gắng hết khả năng, sức lực, tâm huyết, để làm một công việc nào đó đạt đến kết quả cuối cùng và dám chịu trách nhiệm
+/qe
+
+/qb Thực thi ở MB là gì?
+/o Thực thi ở MB là Nhanh chóng - Chính xác - Sáng tạo - Bền bỉ
+/o Thực thi ở MB là thực hiện theo đúng yêu cầu của hệ thống và các khối trục dọc nhưng vẫn đảm bảo các quy định của Nhà nước và pháp luật
+/o Thực thi nhanh nhằm tiết kiệm thời gian và nguồn lực, hướng đến kết quả
+/o /a - Thực thi ở MB là Nhanh chóng - Chính xác - Sáng tạo - Bền bỉ
+ - Thực thi nhanh nhằm tiết kiệm thời gian và nguồn lực, hướng đến kết quả
+/qe
+
+/qb Tin cậy ở MB là gì?
+/o Tin cậy ở MB cao nhằm đạt được sự tín nhiệm của Khách hàng, cổ đông
+/o Tin cậy là mức độ tin có thể dựa hẳn vào, được giao nhiệm vụ phụ trách trong đơn vị kèm theo các hiệu quả hoạt động mục tiêu
+/o /a - Tin cậy ở MB là cam kết và thực hiện đúng cam kết
+ - Tin cậy cao nhằm đạt được sự tín nhiệm của Khách hàng, cổ đông
+ - MB là tổ chức nhân văn - nghĩa tình
+/o Tin cậy ở MB là cam kết và thực hiện đúng cam kết
+/qe
+
+/qb Hiệu quả ở MB là gì?
+/o /a - Hiệu quả ở MB là tối thiểu đạt mục tiêu đề ra với nguồn lực nhỏ hơn và/hoặc tiến độ nhanh hơn, chất lượng tốt hơn
+ - Hiệu quả cao nhằm đem lại giá trị lớn nhất cho khách hàng, cổ đông, cộng đồng và người lao động
+ - Hiệu quả là thước đo quan trọng nhất của MB
+/o Hiệu quả cao ở MB nhằm đem lại giá trị lớn nhất cho khách hàng, cổ đông, cộng đồng và người lao động
+/o Hiệu quả ở MB là tối thiểu đạt mục tiêu đề ra với nguồn lực nhỏ hơn và/hoặc tiến độ nhanh hơn, chất lượng tốt hơn
+/o Hiệu quả là thước đo quan trọng nhất của MB
+/qe
+
+/qb Phương pháp lựa chọn để thay đổi để trở thành "Ngân hàng Việt nam có giá trị nhất với khách hàng - Một MB tin cậy cao
+/o 1. Kiên định định hướng và mục tiêu
+2. Củng cố văn hóa - tìm kiếm và sử dụng nhân tài thật tâm
+/o 1. Kiên định định hướng và mục tiêu
+2. Thay đổi cách thức làm việc trong tổ chức một cách sâu rộng
+/o 1. Củng cố văn hóa - tìm kiếm và sử dụng nhân tài thật tâm
+2. Thay đổi cách thức làm việc trong tổ chức một cách sâu rộng
+/o /a 1. Kiên định định hướng và mục tiêu
+2. Củng cố văn hóa - tìm kiếm và sử dụng nhân tài thật tâm
+3. Thay đổi cách thức làm việc trong tổ chức một cách sâu rộng
+/qe
+
+/qb Phương pháp sáng tạo của Mbers (M1): Công thức sáng tạo là:
+/o Công thức sáng tạo = Tư duy giải quyết vấn đề  + Cách thức triển khai + Năng lực
+/o Công thức sáng tạo = Xác nhận vấn đề  + Tò mò + Năng lực
+/o /a Công thức sáng tạo = Tư duy giải quyết vấn đề  + Tò mò + Năng lực
+/o Công thức sáng tạo = Tư duy giải quyết vấn đề  + Tò mò + Kỹ năng tác nghiệp
+/qe
+
+/qb Phương pháp sáng tạo của Mbers (M1): Tư duy giải quyết vấn đề là như thế nào?
+/o Là tập trung tìm và giải quyết các vấn đề có giá trị, đặc biệt cho khách hàng
+/o /a Là tập trung tìm và giải quyết các vấn đề có giá trị, đặc biệt cho khách hàng
+ Tập trung vào những vấn đề chính mình, đơn vị mình đang phụ trách
+/o Tập trung vào những vấn đề chính mình, đơn vị mình đang phụ trách
+/o Là tập trung tìm và giải quyết các vấn đề có giá trị, đặc biệt MB
+/qe
+
+/qb Phương pháp sáng tạo của Mbers (M1): Tò mò là như thế nào?
+/o Là thường xuyên đặt câu hỏi về hiện trạng, quan sát và tìm hiểu các bài học thành công, thất bại, các thông lệ tốt, khám phá các lựa chọn, xem xét các mẫu và thử nghiệm, trao đổi liên tục và cởi mở với các bên liên quan trong MB
+/o Là thường xuyên đặt câu hỏi về hiện trạng, quan sát và tìm hiểu các bài học thành công, thất bại, các thông lệ tốt và rút kinh nghiệm áp dụng cho MB
+/o /a Là thường xuyên đặt câu hỏi về hiện trạng, quan sát và tìm hiểu các bài học thành công, thất bại, các thông lệ tốt, khám phá các lựa chọn, xem xét các mẫu và thử nghiệm, trao đổi liên tục và cởi mở với các bên liên quan cả trong và ngoài MB
+/o Không có đáp án nào đúng
+/qe
+
+/qb Phương pháp sáng tạo của Mbers (M1): Năng lực là như thế nào?
+/o Là trau dồi các kỹ năng, kiến thức, sự tinh thông nghề nghiệp;
+/o Tư duy phát hiện và giải quyết vấn đề
+/o Năng lực là khả năng, điều kiện chủ quan hoặc tự nhiên sẵn có để thực hiện về kiến thức, kỹ năng, tư duy sáng tạo
+/o /a Là trau dồi các kỹ năng, kiến thức, sự tinh thông nghề nghiệp; Tư duy phát hiện và giải quyết vấn đề
+/qe
+
+/qb Phương pháp sáng tạo của Mbers (M1): Sáng tạo là như thế nào?
+/o /a Sáng tạo có nghĩa là tìm ra giải pháp có tính thực tiễn, thuyết phục để giải quyết vấn đề, không có giải pháp - không sáng tạo
+Sáng tạo của MB là sáng tạo hướng đến giải quyết các mục tiêu, các vấn đề quan trọng, trực tiếp của tổ chức
+/o Sáng tạo có nghĩa là tìm ra giải pháp có tính thực tiễn, thuyết phục để giải quyết vấn đề, không có giải pháp - không sáng tạo
+/o Sáng tạo của MB là sáng tạo hướng đến giải quyết các mục tiêu, các vấn đề quan trọng, trực tiếp của tổ chức
+/o Sáng tạo là quá trình tạo ra cái mới, khám phá ý tưởng mới hoặc phát triển điều gì đó một cách độc đáo.
+/qe
+
+/qb Phương pháp xác định vấn đề cần giải quyết (M2): Thứ tự của pp xác định vấn đề?
+/o Chia nhỏ vấn đề=>Sử dụng Choice Map => In and Outbox=> kết luận vấn đề
+/o /a Xác định vấn đề=> Chia nhỏ vấn đề=>Sử dụng Choice Map => In and Outbox=> kết luận vấn đề
+/o Xác định vấn đề=> Chia nhỏ vấn đề=>Sử dụng Choice Map => In and Outbox
+/o Xác định vấn đề=> Chia nhỏ vấn đề => In and Outbox=> kết luận vấn đề
+/qe
+
+/qb PP DI - DE - VE - DE - ME là gì (M3)
+/o Nhận diện và phát hiện vấn đề => Phân tích => Xây dựng => Đo lường và cải tiến
+/o Nhận diện và phát hiện vấn đề => Phân tích => Xác nhận => Xây dựng
+/o /a Nhận diện và phát hiện vấn đề => Phân tích => Xác nhận => Xây dựng => Đo lường và cải tiến
+/o Nhận diện và phát hiện vấn đ => Xác nhận => Xây dựng => Đo lường và cải tiến
+/qe
+
+/qb PP PU - EN - DA - SU(M4)? Tại các cuộc họp MB được thực hiện theo mô hình nào?
+/o Mục đích => Khuyến khích => Dữ liệu => Thống kê
+/o Mục đích => Cải tiến => Dữ liệu => Tóm tắt
+/o Mục đích => Khuyến khích => Số liệu => Tóm tắt
+/o /a Mục đích => Khuyến khích => Dữ liệu => Tóm tắt
+/qe
+
+/qb /multi 1. Theo GHG Protocol, phát thải của 1 tổ chức bao gồm những loại nào sau đây?
+/o /a A. Phát thải phạm vị 3- phát thải gián tiếp do tiêu thụ năng lượng từ các nguồn bên ngoài liên quan tới hoạt động của tổ chức(gồm 15 nhóm hoạt động)
+/o /a B.Phát thải phạm vi 1- phát thải trực tiếp do tiêu thụ năng lượng từ các thiết bị do tổ chức sở hữu hoặc kiểm soát(VD máy phát, xe ô tô của công ty, khí gas sử dụng hệ thống lạnh, khí trong hệ thống phòng cháy chữa cháy)
+/o /a C. Phát thải phạm vi 2- phát thải gián tiếp do tiêu thụ năng lượng được mua từ bên ngoài tổ chức (vd. Điện năng mua từ bên ngoài hoặc di chuyển đi công tác)
+/qe
+
+/qb 2. Những ngành nào được coi là trọng điểm về giảm phát thải trong đóng góp quốc gia tự quyết định của chính phủ Việt Nam đén năm 2030?
+/o A. Năng lượng, Nông nghiệp, Công nghiệp
+/o B. Xử lý chất thải
+/o C. Lâm nghiệp và sử dụng đất
+/o /a D. Tất cả đều đúng
+/qe
+
+/qb 3. Theo kịch bản phát thải trung bình RCP 4.5 đến 2030 biến đổi khí hậu gây ra thiệt hại kinh tế cho Việt Nam ước là bao nhiêu
+/o A. 2.6 triệu USD
+/o B. 1 tỷ USD
+/o /a C. 4,3 tỷ USD
+/o D. Không có đáp án đúng
+/qe
+
+/qb /multi 4. Cách hiểu nào sau đây là đúng về rủi ro ESG
+/o /a A. Là các rủi ro tài chính phát sinh từ các sự kiện thời tiết/khí hậu cụ thể như lũ lụt, hạn hán, nhiệt độ tăng
+/o /a B.Là các rủi ro tài chính phát sinh từ các yếu tố xã hội do không tuân thủ/ thiếu đảm bảo tiêu chuẩn, an toàn sức khỏe lao động, sản phẩm và/ hoặc quản trị liên quan của tổ chức do không đáp ứng các yêu cầu thuế và chỉnh sách bảo mật thông tin/ dữ liệu
+/o /a C. Là các rủi ro tài chính phát sinh từ các yếu tố môi trường bao gồm rủi ro vật lý do tác động vật lý của biến đổi khí hậu và rủi ro chuyển đổi từ quá trình chuyển đổi sang nền kinh tế carbon thấp, thích ứng  với khi hậu hoặc bền vững môi trường
+/qe
+
+/qb 5. Trách nhiệm chủ động phòng ngừa, phát hiện, xử lý các vụ việc rủi ro phát sinh tại chi nhánh, chịu trách nhiệm chính trong công tác thu hồi tổn thất khi phát sinh rủi ro trong hoạt động cho vay SXKD KHCN gây tổn thất tài chính cho MB thuộc về đơn vị nào dưới đây
+/o /a A. Chi nhánh nơi phát sinh vụ việc rủi ro
+/o B. Khối quản trị rủi ro
+/o C. Khối khách hàng cá nhân
+/o D. Khối pháp chế và tuân thủ
+/qe
+
+/qb Khi tư vấn dịch vụ cho khách hàng điều Mbers cần ưu tiên nhất là gì
+/o /a Tập trung tạo ra giá trị cho khách hàng
+/o Tập trung tạo ra doanh số đột phá
+/o Tập trung tạo ra lợi nhuận tối đa
+/qe
+
+/qb /multi Hiệu quả cao tại MB nhằm đem lại giá trị lớn nhất cho ai
+/o /a Cổ đông
+/o /a Người lao động
+/o Cộng đồng
+/o /a Khách hàng
+/qe
+
+/qb /multi Case study: Anh B là Cán bộ quản lý tại khối Hội Sở. Đơn vị của anh B Thường phải tương tác với rất nhiều Đơn vị khác. Đến hết 6 tháng đầu năm, điểm đánh giá chất lượng dịch vụ của Đơn vị chưa cao. Theo bạn, anh B cần làm gì để cải thiện điểm CLDV của đơn vị mình
+/o Tất cả các Đáp án đều đúng
+/o Không hành động vì cho rằng chất lượng dịch vụ của Đơn vị đã tốt ở một số mặt khác, quá trình triển khai không thấy bất thường và các Đơn vị khác đã quá nghiêm khắc khi chấm điểm
+/o /a Tổ chức lấy ý kiến của các thành viên trong phòng để xây dựng giải pháp và lên kế hoạch triển khai
+/o /a Xem xét kỹ các ý kiến khảo sát CLDV, rà soát, đánh giá tại  các hoạt động của Đơn vị theo các tiêu chí cầu thành lên điểm đánh giá CLDV để xác định vấn đề ưu tiên cần cải thiện và tìm nguyên ngân gốc rể
+/qe
+
+/qb Các nền tảng App MBB, Biz MB, Baas MB được thiết kế thúc đẩy hành vi sử dụng sản phẩm dịch vụ và chăm sóc người dùng với quy mô và giá trị lớn, Đúng hay sai
+/o /a Đúng
+/o Sai
+/qe
+
+/qb /multi Phương châm hoạt động của MB là
+/o /a An toàn bền vững
+/o /a Hấp dẫn khách hàng
+/o /a Tăng tốc số
+/o /a Hiệp lực tập đoàn
+/qe
+
+/qb Bên cạnh các chế độ phúc lợi dành cho CBNV, MB còn quan tâm  đến người thân của các Mbers trong các dịp lễ, Tết. Điều này thể hiện MB là tổ chức như thế nào
+/o Sáng tạo, đổi mới
+/o Vì cộng đồng
+/o /a Nhân văn nghĩa tình
+/qe
+
+/qb Đâu là cấu phần chính của các nguyên tắc cốt lỗi áp dụng cho Khoản vay/ Trái phiếu xanh và Khoản vay/ Trái phiếu xã hội theo thông lệ
+/o Sử dụng nguồn vốn; Lựa chọn Kpis; Điều chỉnh và thiết lập mục tiêu hiệu suất bền vững (SPTs); báo cáo
+/o /a Sử dụng nguồn vốn, Quy trình đánh giá và lựa chọn dự án, quản lý nguồn vốn, báo cáo
+/o Mối liên hệ chiến lược về MTXH bên đi vay, thiết lập mục tiêu - đo lường hiệu suất bền vững, Báo cáo, rà soát
+/qe
+
+/qb Việc tin tường đồng nghiệp, bỏ sót một số bước, thủ tuc trong quá trình làm việc thuộc nhóm yếu tố nào trong các yếu tố cấu thành gian lận
+/o /a Thải đội sự hợp lý hóa
+/o Động cơ/ áp lưc
+/o Cơ hội
+/qe
+
+/qb Nếu phân loại gian lận theo đối tượng thực hiện thì có mấy loại gian lận
+/o Có 3 loại gian lận là khách hàng gian lận, nhân viên gian lận và bên thứ ba  gian lận
+/o /a Có 3 loại gian lận lầ gian lận bên trong, gian lận bên ngoài và gian lận hỗn hợp
+/o Có 2 loại gian lân bên trong và gian lận bên ngoài
+/qe
