@@ -1,8 +1,9 @@
 import { useState, useEffect } from 'react'; 
 import { Radio, Button, Checkbox } from 'antd'; 
+import { PushpinOutlined, PushpinFilled } from '@ant-design/icons';
 
 const QuestionDetail = (props) => { 
-    const { question, changeAnswer, curAnswer, nextPage, maxQuesNum, time, isEnd, onTimeOut } = props; 
+    const { question, changeAnswer, changePin, isPin, curAnswer, nextPage, maxQuesNum, time, isEnd, onTimeOut } = props; 
     const [timeTx, setTimeTx] = useState(""); 
     const [timeout, setTimeout] = useState(false); 
 
@@ -34,6 +35,10 @@ const QuestionDetail = (props) => {
         <> 
         <div className='question-detail'> 
             <div className="question" style={{whiteSpace: "pre-wrap"}}>
+                {isPin === 1
+                    ? <PushpinFilled style={{color: 'red'}} onClick={() => changePin(0)} />
+                    : <PushpinOutlined onClick={() => changePin(1)} />
+                }
                 <span className="fw-b">Câu {question.quesNum + 1}: </span>
                 {question.question}
             </div> 

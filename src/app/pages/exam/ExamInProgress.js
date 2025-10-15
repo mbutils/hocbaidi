@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { Row, Button, Modal } from "antd";
+import { PushpinFilled } from '@ant-design/icons';
 
 import QuestionDetail from "./QuestionDetail"; 
 
@@ -7,6 +8,7 @@ const ExamInProgress = (props) => {
     const {questions, time, onBack} = props;
     const [openConfirmModel, setOpenConfirmModel] = useState(false); 
     const [openTimeoutModel, setOpenTimeoutModel] = useState(false); 
+    const [pinQues, setPinQues] = useState({}); 
     const [userAnswer, setUserAnswers] = useState({}); 
     const [curQuestion, setCurQuestion] = useState(0); 
     const [resultImg, setResultImg] = useState(""); 
@@ -68,7 +70,9 @@ const ExamInProgress = (props) => {
                     nextPage={(p) => setCurQuestion(curQuestion + p)} 
                     maxQuesNum={questions.length} 
                     time={time} 
-                    isEnd={isEnd} 
+                    isEnd={isEnd}
+                    isPin={pinQues[curQuestion]}
+                    changePin={(val) => setPinQues({...pinQues, [curQuestion]: val})}
                     onTimeOut={() => { 
                         setOpenTimeoutModel(true);
                     }} 
@@ -94,7 +98,8 @@ const ExamInProgress = (props) => {
                         `} 
                             onClick={() => setCurQuestion(question.quesNum)} 
                         > 
-                            {question.quesNum + 1} 
+                            {question.quesNum + 1}
+                            {pinQues[question.quesNum] === 1 ? <PushpinFilled className="pin-question"/> : null}
                         </div> 
                     ))} 
                 </Row> 
