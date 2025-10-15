@@ -2,7 +2,8 @@ import { useEffect, useState } from 'react';
 import { Button, Row, Col } from 'antd'; 
 import { EditOutlined } from '@ant-design/icons';
 
-import "../../styles/Exam.scss"; 
+//import "../../styles/Exam.scss"; 
+import "../../styles/Exam copy.css";
 import ExamInProgress from './ExamInProgress';
 import SetupExam from './SetupExam';
 import {parseQuestions, shuffleQuestions, EXAM_SET} from "../../utils/examUtils"; 
