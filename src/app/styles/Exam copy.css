@@ -64,6 +64,8 @@
     padding: 6px 4px; 
     margin-right: 6px; 
     cursor: pointer; 
+    position: relative;
+    font-size: 12px;
 }
 .overview-question .question-status:hover { 
     background-color: #e6e6e6; 
@@ -94,4 +96,12 @@
 .overview-question .question-status.active.incorrect,
 .overview-question .question-status.active.correct { 
     opacity: 60%; 
+}
+
+.overview-question .pin-question {
+    color: red;
+    position: absolute;
+    right: 0;
+    top: 0;
+    font-size: x-small;
 }
