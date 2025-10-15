@@ -15,8 +15,8 @@ const Exam = () => {
     const [examSetup, setExamSetup] = useState({
         maxQuesNum: 50,
         time: 40,
-        selectExam: [1, 2],
-        ratioExam: {1: 80, 2: 20}
+        selectExam: [0],
+        ratioExam: {0: 100, 1: 80, 2: 20}
     });
 
     useEffect(() => {
