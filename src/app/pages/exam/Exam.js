@@ -88,7 +88,7 @@ const Exam = () => {
                                     if (!examSetup.selectExam.includes(a.value)) return;
                                     return (
                                     <Row>
-                                        <Col span={isMobile ? 4 : 3}>{examSetup.ratioExam[a.value]}%</Col>
+                                        <Col span={isMobile ? 5 : 3}>{examSetup.ratioExam[a.value]}%</Col>
                                         <Col>{a.label}</Col>
                                     </Row>
                                 )
