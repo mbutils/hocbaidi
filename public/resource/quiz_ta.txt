@@ -1,0 +1,864 @@
+
+/qb  Những lưu ý quan trọng trong suốt quá trình gây mê trên NB phẫu thuật có bệnh lý kèm theo đái tháo đường là:
+/o Tránh tình trạng hạ đường huyết quá mức dẫn đến hôn mê.
+/o Hôn mê do nhiễm toan.
+/o /a Hôn mê do hạ đường huyết, do tăng áp lực thẩm thấu, do nhiễm toan.
+/o Tránh tình trạng tăng đường huyết quá mức gây tăng áp lực thẩm thấu huyết tương dẫn đến hôn mê.
+/qe
+/qb  Thứ tự khởi mê nhanh trong gây mê trên người bệnh có dạ dày đầy:
+/o Thở oxy, tiêm thuốc khởi mê, đặt ống nội khí quản.
+/o Thở oxy, tiêm thuốc khởi mê, bóp bóng hô hấp, đặt ống.
+/o /a Thở oxy, tiêm thuốc khởi mê, sellick, đặt NKQ.
+/o Tất cả đều sai.
+/qe
+/qb  Phần hẹp nhất của đường thở ở trẻ sơ sinh và trẻ nhỏ là:
+/o /a Sụn nhẫn
+/o Thanh môn.
+/o Khí quản.
+/o Phế quản.
+/qe
+/qb  Bé An 2 tuổi, cân nặng 12kg, có lịch hẹn phẫu thuật thoát vị bẹn, hãy tính lượng dịch cơ bản cần truyền cho bé An:
+/o 40 ml/giờ.
+/o /a 44 ml/giờ.
+/o 48 ml/giờ.
+/o 52ml / giờ
+/qe
+/qb  Sản phụ 28 tuổi, được mổ đẻ theo chương trình vì mổ đẻ cũ cách 3 năm. Để phòng tránh tụt huyết áp do chèn ép sau khi gây tê tủy sống cần:
+/o Cho đầu bàn thấp.
+/o /a Cho bàn nghiêng trái
+/o Cho bàn nghiêng phải.
+/o Để bàn thẳng, không cần chỉnh tư thế bàn
+/qe
+/qb  Khi gây tê tủy sống trong mổ lấy thai, mức phong bế cần đạt khi giảm hoặc mất cảm giác lạnh với đá là:
+/o Phong bế đến T10.
+/o Phong bế đến T8.
+/o /a Phong bế đến T6.
+/o Phong bế đến T4.
+/qe
+/qb  Bệnh nhân nữ, 65 tuổi, ASA II, điều trị tăng huyết áp 3 năm nay, hiện HA ổn định 125/80mmHg, chẩn đoán thoái hóa khớp gối phải, chỉ định thay khớp gối, sau gây tê tủy sống 15 phút, nhịp tim 55 lần/phút (trước đó 80 lần/phút), huyết áp 90/50 mmHg. Bạn cần chuẩn bị thuốc nâng huyết áp nào?
+/o Phenylephrine
+/o /a Ephedine
+/o Adrenaline
+/o No-Adrenaline
+/qe
+/qb  Dẫn lưu ngực khi bị hở sẽ gây ra hậu quả:
+/o Hội chứng chèn ép khoang.
+/o Tràn khí màng phổi
+/o /a Mất áp lực âm khoang màng phổi và xẹp phổi
+/qe
+/qb  Người  bệnh 80 tuổi, ASA III, tiền sử tăng huyết áp, tiểu đường, điều trị không thường xuyên, gây tê tủy sống mổ cắt U xơ tiền liệt tuyến nội soi, được đặt sonde tiểu bằng sonde Foley, và có đường truyền rửa bàng quang qua sonde Foley. 30 phút sau khi đến hồi tỉnh, bạn nhận thấy nước tiểu hồng đậm hơn lúc mới ra, bạn sẽ làm gì:
+/o Kiểm tra huyết áp, báo bác sĩ hồi tỉnh.
+/o Kiểm tra bão hòa oxy, báo bác sĩ hồi tỉnh..
+/o Kiểm tra điểm đau, báo bác sĩ hồi tỉnh.
+/o /a Tăng tốc độ dịch rửa bàng quang, báo bác sĩ hồi tỉnh.
+/qe
+/qb  Các thuốc mê bốc hơi được điều chỉnh liều trong gây mê dựa theo:
+/o Phần trăm ghi trên vỏ bình.
+/o Mạch, huyết áp của bệnh nhân.
+/o Bão hòa oxy
+/o /a MAC
+/qe
+/qb  Bệnh nhân nam, 40 tuổi, chỉ định nội soi cắt túi mật, ASA I. Liều propofol khởi mê là:
+/o 1 – 1,5mg/kg.
+/o /a 2 – 2,5mg/kg.
+/o 2,5 – 3 mg/kg.
+/o 3 – 3,5mg/kg.
+/qe
+/qb   Bệnh nhân nam, 47 tuổi, ASA I, các chỉ số trước mổ: mạch 75 lần/phút, huyết áp 125/65 mmHg, nhiệt độ 36,5 độ C, SpO2 98%, được chỉ định mổ cắt đoạn đại tràng. BSGM chỉ định phương pháp vô cảm là gây mê NKQ. Sau mổ 2 giờ, các chỉ số của bệnh nhân là: huyết áp 130/60mmHg, mạch 78 lần/phút, SpO2 98%, nhiệt độ 36,7 độ C, EtCO2 45mmHg, FiO2 6mmHg. Xử trí của bạn là:
+
+/o Tăng tần số thở
+/o Tăng FiO2
+/o /a Thay vôi soda
+/o Tăng lưu lượng khí thở vào 
+
+
+
+/qe
+/qb  Tác dụng của vôi soda trong hệ thống máy gây mê là:
+/o Cung cấp thêm oxy cho bệnh nhân.
+/o /a Hấp thu CO2 trong khí thở ra của bệnh nhân.
+/o Làm tăng CO2 trong khí thở vào của bệnh nhân.
+/qe
+/qb  Khái niệm về nồng độ thuốc mê tối thiểu MAC:
+/o Nồng độ thuốc trong phế nang ở 1 atmosphere ngăn ngừa cử động ở 40% bệnh nhân tiếp xúc với kích thích đau khi rạch da
+/o /a Nồng độ thuốc trong phế nang ở 1 atmosphere ngăn ngừa cử động ở 50% bệnh nhân tiếp xúc với kích thích đau khi rạch da
+/o Nồng độ thuốc trong phế nang ở 1 atmosphere ngăn ngừa cử động ở 60% bệnh nhân tiếp xúc với kích thích đau khi rạch da
+/o Nồng độ thuốc trong phế nang ở 1 atmosphere ngăn ngừa cử động ở 70% bệnh nhân tiếp xúc với kích thích đau khi rạch da
+/qe
+/qb  Cần thay vôi soda khi:
+/o FiCO2 lớn hơn hoặc bằng 2 mmHg.
+/o /a FiCO2 lớn hơn hoặc bằng 3 mmHg.
+/o FiCO2 lớn hơn hoặc bằng 4 mmHg.
+/o FiCO2 lớn hơn hoặc bằng 5 mmHg.
+/qe
+/qb  Tác dụng không mong muốn của Fentanyl loại trừ:
+/o Nôn, buồn nôn.
+/o Hạ huyết áp thoáng qua, mạch chậm.
+/o /a Tăng huyết áp thoáng qua, mạch nhanh.
+/o Giảm hô hấp, ngừng thở, co cứng cơ.
+/qe
+/qb  Tác dụng không mong muốn khi dùng Nicardipine loại trừ:
+/o Đỏ bừng mặt, phù ngoại biên.
+/o /a Hạ huyết áp ,đánh trống ngực,mạch nhanh,đau ngực,nhịp nhanh thất, đau đầu,chóng mặt .
+/o Phù ngoại biên, tăng huyết áp
+/qe
+/qb  Lưu ý khi dùng Methyl Ergometrine:
+/o Tăng huyết áp.
+/o Nhiễm độc huyết.
+/o Không cho con bú sau 12h dùng thuốc
+/o /a Tất cả đáp án trên
+/qe
+/qb  Đặc điểm thuốc giảm đau Fentanyl:
+/o /a Fentanyl là thuốc giảm đau dòng họ Morphin, có tác dụng giảm đau mạnh hơn Morphin từ 50- 100 lần.
+/o Fentanyl và Morphin ít tan trong mỡ nên khó qua hàng rào máu não, có tác dụng giảm đau giống nhau.
+/o Fentanyl gây tiết Histamin nên gây co thắt phế quản như Morphin.
+/o Fentanyl là thuốc giảm đau gây nghiên, có tác dụng giảm đau mạnh nhất trong các dòng giảm đau.
+/qe
+/qb  Nguyên nhân gây tắc nghẽn đường thở sau mổ:
+/o Co thắt thanh quản (đặc biệt ở trẻ em), liệt dây thần kinh sau phẫu thuật tuyến giáp.
+/o Tụ máu hoặc phù nề lưỡi, hầu họng do đạt nội khí quản khó hoặc sau phẫu thuật.
+/o Ứ đọng đờm dãi do giảm trương lực cơ hầu họng (không ho được).
+/o /a Tất cả đáp án trên
+/qe
+/qb   Giá trị điểm Bromage 0 điểm có nghĩa là:
+/o /a Gấp gối được và bàn chân.
+/o Chỉ co được phần gối.
+/o Chỉ co được bàn chân.
+/o Không co được gối và bàn chân.
+/qe
+/qb  Trong các thuốc sau thuốc nào gây giải phóng histamine nhiều nhất:
+/o /a Morphin.
+/o Pethidin.
+/o Fentanyl.
+/o Sufentanyl.
+/qe
+/qb  Một bệnh nhân nam, 56 tuổi được chỉ định giảm đau catheter thần kinh đùi ,trước khi tiến hành phẫu thuật kết hợp xương đùi trái sau tai nạn giao thông. Sau thủ thuật, người bệnh được chỉ định tiêm 10ml Anaropin 0,5% qua catheter thần kinh đùi. Điều dưỡng cần thực hiện các bước tiếp theo là:
+/o Double check thuốc
+/o Thực hiện 7 đúng.
+/o Hút Catheter trước khi tiêm.
+/o /a Tất cả các đáp án trên.
+/qe
+/qb  Hãy cho biết có bao nhiêu loại đau được phân theo mức độ và cụ thể là:
+/o /a 3 loại: đau nhẹ, đau vừa, đau nặng.
+/o 2 loại: đau nhẹ và đau nặng.
+/o 4 loại: đau nhẹ, đau vừa, đau nặng, đau rất nặng.
+/o 2 loại: đau và không đau.
+/qe
+/qb  Lưu ý khi dùng Methyl Ergometrine:
+/o Tăng huyết áp.
+/o Nhiễm độc huyết.
+/o Không cho con bú sau 12h dùng thuố
+/o /a Tất cả các đáp án trên.
+/qe
+/qb  Giá trị điểm Bromage 1 điểm có nghĩa là:
+/o Gấp gối được và bàn chân.
+/o /a Chỉ co được phần gối.
+/o Chỉ co được bàn chân.
+/o Không co được gối và bàn chân
+/qe
+/qb  Các triệu chứng về thần kinh khi ngộ độc thuốc tê giai đoạn sớm là:
+/o /a Tê môi, lưỡi, ù tai, hoa mắt, chóng mặt, kích thích, vật vã.
+/o Co giât, lú lẫn, kích thích, vật vã.
+/o Co cứng, mất tri giác, khó thở, lú lẫn.
+/o Vị giác thay đổi, giảm thị lực, khó thở, kích thích.
+/qe
+/qb  Các triệu chứng về tim mạch khi ngộ độc thuốc tê là:
+/o Giai đoạn sớm: tăng nhịp tim, tăng huyết áp nếu dung dịch có chứa adrenalin, nếu không xảy ra nhịp chậm, tụt huyết áp.
+/o Giai đoạn muộn: phân ly nhĩ thất, ngừng tim.
+/o Tăng nhịp tim, tăng huyết áp, ngừng thở, ngừng tim.
+/o /a Giai đoạn sớm: tăng nhịp tim, tăng huyết áp nếu dung dịch có chứa adrenalin, nếu không xảy ra nhịp chậm, tụt huyết áp. Giai đoạn muộn: phân ly nhĩ thất, ngừng tim.
+/qe
+/qb  Các yếu tố nguy cơ làm tăng biến chứng hô hấp sau mổ, trừ
+/o Có bệnh lý hô hấp mạn tính.
+/o Phẫu thuật bụng cao.
+/o /a Mổ nội soi.
+/o Mổ mở.
+/qe
+/qb  Các yếu tố ảnh hưởng đến độ lan của thuốc tê trong dịch não tủy và mức độ phong bế đạt được là:
+/o Tỷ trọng, tốc độ bơm thuốc tê,
+/o Tư thế của bệnh nhân.
+/o Nồng độ và thể tích thuốc tê.
+/o /a Tất cả các đáp án trên .
+/qe
+/qb  Tăng khoảng chết thường gặp trong:
+/o Phù phổi cấp
+/o Hẹp van 2 lá 
+/o /a Thuyên tắc phổi
+/o Tràn khí màng phổi
+ /qe
+/qb Nam 65 tuổi, COPD, vào viện chuẩn bị mổ ruột thừa. Trong gây mê, SpO₂ giảm còn 85% dù FiO₂ 100%, ống không sâu. Nghi ngờ gì?
+/o Tắc ống NKQ
+/o /a Shunt trong phổi
+/o Gây mê quá sâu
+/o Giảm huyết áp 
+ /qe
+/qb  Sau đặt NKQ, SpO₂ giảm còn 78%, phổi P không nghe rì rào PN. Ưu tiên xử trí:
+/o Rút ống NKQ
+/o Gọi BS phẫu thuật
+/o Rút máu xét nghiệm
+/o /a Kiểm tra lại vị trí NKQ
+ /qe
+/qb Thuốc nào sau đây có nguy cơ gây độc gan cao nếu dùng liều cao hoặc kéo dài?
+/o Isoflurane
+/o Propofol
+/o /a Paracetamol
+/o Atracurium
+ /qe
+/qb  Khi bệnh nhân suy gan nặng, thuốc nào cần tránh dùng hoặc chỉnh liều cẩn thận?
+/o Sufentanil
+/o Cisatracurium
+/o Remifentanil
+/o /a Diazepam
+ /qe
+/qb  Biến chứng thường gặp trong phẫu thuật ở bệnh nhân suy gan là:
+/o /a Hạ đường huyết
+/o Tăng huyết áp
+/o Nhiễm toan hô hấp
+/o Nhiễm độc thần kinh trung ương
+/qe
+/qb  Nồng độ albumin giảm sẽ ảnh hưởng thế nào đến dược động học thuốc gây mê?
+/o Giảm tác dụng thuốc
+/o /a Tăng tác dụng thuốc do tăng phần tự do
+/o Không ảnh hưởng
+/o Làm giảm độ lọc cầu thận 
+/qe
+/qb  Bệnh nhân xơ gan có nguy cơ cao chảy máu khi mổ vì:
+/o Thiếu yếu tố đông máu
+/o Tăng áp lực tĩnh mạch cửa
+/o Giảm tiểu cầu
+/o /a Cả 3 nguyên nhân trên
+/qe
+/qb  Biến chứng thần kinh thường gặp ở bệnh nhân suy gan trong gây mê là:
+/o Co giật
+/o /a Hôn mê gan
+/o Tăng động
+/o Suy hô hấp
+/qe
+/qb  Những lưu ý khi kiểm tra dẫn truyền máy tạo nhịp tạm thời trên người bệnh  thay van 2 lá là:
+
+/o Kiểm tra kích thích dẫn truyền nhĩ thất 
+/o Kiểm tra cường độ và tần suất đáp ứng dẫn truyền 
+/o Kiểm tra shock chuyển nhịp 
+/o /a Kiểm tra kích thích dẫn truyền nhĩ thất, cường độ và tần suất đáp ứng dẫn truyền
+/qe
+
+
+
+
+
+
+
+
+
+
+
+
+
+/qb Khai thông đường thở là bước đầu tiên cần làm khi xử trí suy hô hấp:
+/o /a Đúng
+/o B. Sai
+/qe
+/qb Mặt nạ oxy là dụng cụ tạo dòng cao:
+/o Đúng
+/o /a Sai
+/qe
+/qb Khi bơm cuff nội khí quản phải bơm căng hết cỡ:
+/o Đúng.
+/o /a Sai
+/qe
+/qb Suy hô hấp là khi ( chọn câu trả lời đúng nhất):
+/o /a PaO2 < 60 mmHg
+/o PaO2 < 50 mmHg
+/o PaO2 > 40 mmHg
+/o PaO2 > 60 mmHg
+/qe
+/qb Số lượng oxy do máy thở cung cấp cho người bệnh là:
+/o /a Phần trăm oxy khí thở vào: FiO2
+/o Thể tích thở ra dương tính
+/o Áp lực thở vào
+/o Thể tích khí lưu thông
+/qe
+/qb Thời gian tối đa để lưu trữ dung dịch propofol đã pha loãng:
+/o 2 giờ
+/o /a 6 giờ
+/o 12 giờ
+/o 24 giờ
+/qe
+/qb Khi kiểm soát đường thở cho bệnh nhân: các việc quan trọng nhất cần phải làm
+/o Phải đặt được ống nội khí quản
+/o /a Phải phát hiện và giải phóng dị vật gây tắc nghẽn đường thở
+/o Tư thế bệnh nhân
+/o Phải chuẩn bị để bác sĩ mở khí quản ngay
+
+/qe
+/qb Cần hút đờm qua ống nội khí quản:
+/o Cứ 2 giờ/ lần
+/o /a Khi có chỉ định lâm sàng
+/o Khi người bệnh sốt
+/o Khi người bệnh được dùng an thần với Benzodiazepine
+/qe
+/qb Những thuốc nào được sử dụng làm an thần người bệnh thở máy:
+/o /a Benzodiazepine và Propofol
+/o Ức chế chọn lọc Serotonin và Haloperidol
+/o Fentanyl và Dextromethorphan
+/o Ketamine và Lithium carbonate
+/qe
+/qb Nguyên nhân gây thiếu oxy:
+/o Tắc nghẽn đường thở
+/o Các bệnh lý hô hấp
+/o Các bệnh lý là giảm sự vận chuyển oxy trong máu
+/o /a Tất cả các phương án trên
+/qe
+/qb Chỉ định của liệu pháp oxy khi nào:
+/o Tăng công cơ tim
+/o /a Tăng công cơ hô hấp
+/o Bệnh nhân nặng
+/o Bệnh nhân từng bị suy tim cấp
+/qe
+/qb Hệ thống cung cấp oxy lưu lượng cao:
+/o Mặt nạ hít lại một phần
+/o Canuyl mũi
+/o /a Mặt nạ không hít lại
+/o Ống chữ T
+/qe
+/qb Chỉ định thở khí dung cho người bênh:
+/o /a Hen phế quản
+/o Suy tim
+/o Bệnh nhân hôn mê
+/o Ho mạn tính
+/qe
+/qb Thuốc giảm đau Opioid không hấp thu theo đường nào:
+/o Đường uống
+/o Đường tiêm tĩnh mạch
+/o Đường tiêm bắp, tiêm dưới da
+/o /a Đường hô hấp
+/qe
+/qb Nhóm thuốc không sử dụng trong thở khí dung là:
+/o Thuốc giãn phế quản
+/o Thuốc nhóm corticoide
+/o Thuốc loãng đờm
+/o /a Thuốc điều trị suy tim
+/qe
+/qb Nhóm thuốc được sử dụng trong thở khí dung là:
+/o Thuốc giãn phế quản
+/o Thuốc nhóm corticoide
+/o Thuốc loãng đờm
+/o /a Tất cả các đáp án trên
+/qe
+/qb Theo dõi cơ bản trong gây mê
+/o CVP
+/o /a EtCO2
+/o BIS
+/o TOF
+/qe
+/qb Nên để cổ ở tư thế nào khi có chấn thương cột sống :
+/o /a Ngửa trung gian.
+/o Gập cổ
+/o Nghiêng trái
+/o Nghiêng phải
+
+/qe
+/qb Nguyên nhân chủ yếu gây tử vong trong sốc phản vệ là:
+/o /a Suy hô hấp, tụt huyết áp kéo dài
+/o Suy hô hấp, tăng huyết áp kéo dài
+/o Giảm thể tích tích trong lòng mạch nhanh
+/o Suy giảm nghiêm trọng khả năng co bóp của tim
+
+/qe
+/qb Khi xảy ra tình trạng thiếu oxy, cần kiểm tra ở:
+/o Bệnh nhân
+/o Thiết bị theo dõi
+/o /a Cả 2 đáp án trên
+/qe
+/qb Không cần tiến hành “3 kiểm tra, 5 đối chiếu” khi tiến hành gây tê cho người bệnh trên phòng mổ
+/o Đúng
+/o /a Sai
+/qe
+/qb Co cứng lồng ngực không xảy ra trên những người bệnh dùng thuốc Opioid:
+/o Dùng quá liều
+/o Dùng nhắc lại nhiều lần
+/o Dùng kéo dài
+/o /a Dùng liều thấp
+/qe
+/qb Gây tê tủy sống, chọn ý chưa đúng:
+/o /a Có thể áp dụng cho mọi loại phẫu thuật
+/o Đơn giản, dễ thực hiện
+/o Tỷ lệ thành công cao
+/o Có thể thực hiện ở tư thế nằm hoặc ngồi
+/qe
+/qb Gây tê ngoài màng cứng, chọn ý chưa đúng:
+/o Có thể áp dụng để giảm đau sau mổ
+/o /a Khởi phát tác dụng nhanh hơn tê tủy sống
+/o Kỹ thuật phức tạp hơn
+/o Có thể áp dụng cho các phẫu thuật từ vùng ngực cho đến chi dưới
+/qe
+/qb Các thông số cần theo dõi người bệnh sau gây tê.
+/o Mạch, huyết áp, nhịp thở
+/o Mạch, huyết áp
+/o Mạch, nhịp thở
+/o /a Mạch, huyết áp, nhịp thở, nước tiểu:
+/qe
+/qb Nguyên nhân gây suy thận cấp:
+/o Do giảm khối lượng tuần hoàn: mất máu, mất dịch
+/o Tắc nghẽn tại thận và sau thận
+/o Do viêm cầu thận
+/o /a Tất cả các ý trên
+/qe
+/qb Điều trị tăng Kali máu
+/o Calciclorua tiêm TM chậm
+/o Truyền TM glucose 20%, 30% có insuline
+/o Truyền Natribicarbonate 1,4% hoặc 4,2%
+/o /a Tất cả các ý trên
+/qe
+/qb Ký hiệu VT trên màn hình máy mê máy thở là:
+/o Thông khí phút
+/o /a Thể tích khí lưu thông
+/o Dung tích phổi giả
+/qe
+/qb Tại sao phải kiểm soát đau sau mổ:
+/o Đau gây ra các phản ứng bất thường cho cơ thể
+/o Đau sau mổ có nguy cơ trở thành đau mạn tính
+/o /a Tất cả các ý trên
+/qe
+/qb Đánh giá mức độ đau dựa vào thang điểm nào:
+/o /a Thang điểm đo số, thang điểm đo nhìn (VAS)
+/o Thang điểm Glasgow
+/o Thang điểm SOFA
+/qe
+/qb Theo dõi về hô hấp bệnh nhân kiểm soát đau sau mổ có sử dụng thuốc opioid:
+/o Tần số thở
+/o Khí máu động mạch
+/o /a Tần số thở và bão hòa oxy mao mạch (SpO2)
+/qe
+/qb Thời gian tác dụng theo lý thuyết của Bupivacain:
+/o 60-90 phút
+/o 90-120 phút
+/o /a 120-180 phút
+/o 180-600 phút
+
+/qe
+/qb Nguyên nhân gây tắc nghẽn đường thở sau mổ
+/o Co thắt thanh quản ( đặc biệt ở trẻ em)
+/o Tụ máu hoặc phù nề lưỡi, hầu họng do đặt nội khí quản khó hoặc sau phẫu thuật
+/o Ứ đọng đờm dãi do giảm trương lực cơ hầu họng (không ho được)
+/o /a Các ý trên đều đúng
+/qe
+/qb Các dấu hiệu thiếu oxy sau phẫu thuật:
+/o Ho, nghe phồi khò khè
+/o /a Bão hòa oxy giảm < 90%
+/o Có dịch dạ dày trong đường hô hấp
+/o Hình ảnh Xquang có mờ bất thường 2 trường phổi
+/qe
+/qb Các rối loạn về tim mạch sau mổ (chọn đáp án sai)
+/o Giảm huyết áp do thiếu dịch, và bồi phụ quá nhiều
+/o Giảm huyết áp do sốc mất máu trong hoặc sau mổ, sốc nhiễm khuẩn hoặc sốc tim
+/o Cao huyết áp thường do đau, ưu thán, thiếu oxy, buồn nôn và nôn sau phẫu thuật
+/o /a Cao huyết áp sau mổ không bao giờ xuất hiện trên bệnh nhân không có tiền sử cao huyết áp
+
+/qe
+/qb Thuốc dùng đầu tiên quan trọng nhất trong ngộ độc thuốc tê là:
+/o Midazolam 1mg
+/o /a Intralipid 20%
+/o Adrenalin 1mg
+/o Atropin 0,25mg
+
+/qe
+/qb Dấu hiệu sớm trên thần kinh trung ương của ngộ độc thuốc tê:
+/o Thay đổi vị giác, tê quanh miệng
+/o Hoa mắt, chóng mặt, nhìn đôi
+/o Ù tai, nói nhảm
+/o /a Cả 3 phương án trên
+
+/qe
+/qb Bóp bóng hỗ trợ cho người bệnh khi nào:
+/o Người bệnh suy hấp, khó thở, nhịp thở nhanh, SpO2 92%
+/o Người bệnh sốc, tự thở được, huyết áp thấp 80/50 mmHg
+/o /a Người bệnh suy hô hấp, khó thở, nhịp thở chậm, SpO2 < 80%
+/o Người bệnh suy tim: mệt, khó thở, nhịp thở 25 lần/phút
+
+/qe
+/qb Chống chỉ định của phương pháp kiểm soát đau:
+/o /a Đau bụng chưa rõ nguyên nhân
+/o Đau thần kinh tọa cấp
+/o Đau do phù phổi cấp
+/o Đau do viêm khớp gối
+
+/qe
+/qb Nguyên tắc đúng nhất trong kiểm soát đau:
+/o Kiểm soát đau cần được tiến hành trên mọi người bệnh bị đau
+/o Kiểm soát đau cần được tiến hành ở các cơ sở y tế
+/o /a Phối hợp đa phương thức trong kiểm soát đau
+/o Không được dùng thuốc morphin trong kiểm soát đau do thuốc gây nghiện
+
+/qe
+/qb Thuốc được dùng trong kiểm soát đau:
+/o Thuốc giảm đau chống viêm phi steroid
+/o Thuốc giảm đau trung ương
+/o Thuốc tê
+/o /a Cả 3 nhóm thuốc trên
+
+/qe
+/qb Khi vận chuyển người bệnh cần chú ý theo dõi:
+/o /a Theo dõi dấu hiệu sinh tồn
+/o Nước tiểu
+/o Tinh thần
+/o Chức năng vận động
+/qe
+/qb Tiêu chuẩn rút ống nội khí quản, mask thanh quản
+/o Người bệnh tỉnh làm theo lệnh: mở mắt, há miệng, nắm tay chặt, đầu cao giữ được 5 giây.
+/o Tự thở sâu, đều, tần số thở trong giới hạn bình thường, SpO2 98-100%, EtCO2 trong giới hạn bình thường, huyết động ổn định
+/o TOF > 0.9 (nếu có)
+/o /a Tất cả các đáp án trên
+/qe
+/qb Tác dụng giảm đau của thuốc họ opioids có đặc điểm:
+/o Có cường độ mạnh nhưng không ổn định
+/o /a Có liều càng cao tác dụng càng mạnh
+/o Không có hiệu quả với đau mãn tính
+/o Có thể tách rời khỏi tác dụng phụ trên hô hấp
+/qe
+/qb Thuốc tiền mê có tác dụng gì?
+/o /a An thần, gây ngủ
+/o Giảm vận động, giảm đau
+/o Gây ngủ và mất vận động
+Mất cảm giác đau hoàn toàn
+
+/qe
+/qb Áp lực của bóng chèn ống nội khí quản là bao nhiêu:
+/o 15-20 mmHg
+/o 35-40 mmHg
+/o 10-15 mmHg
+/o /a 20-25 mmHg
+/qe
+/qb Dung dịch sử dụng để đo áp lực tĩnh mạch trung tâm:
+/o Dung dịch keo
+/o Dung dịch cao phân tử
+/o /a Dung dịch đẳng trương
+/o Dung dịch ưu trương
+/qe
+/qb Các phương pháp cải thiện thông khí, ngoại trừ:
+/o Thuốc giãn phế quản, vỗ rung
+/o /a Thuốc lợi tiểu, an thần
+/o Dẫn lưu tư thế, hút đờm dãi
+/o Hướng dẫn người bệnh thở chậm và sâu
+/qe
+/qb Thuốc có tác dụng giảm đau mạnh nhất trong các thuốc sau là:
+/o Morphin
+/o Pethidin
+/o Fentanyl
+/o /a SuFentanyl
+/qe
+/qb Những người bệnh có nguy cơ suy hô hấp sau mổ cao:
+/o Người già > 70 tuổi
+/o Người bệnh có tiền sử hen
+/o Người bệnh nghiện thuốc lá
+/o /a Tất cả các đáp án trên
+/qe
+/qb Thứ tự tiêm thuốc gây mê trong khởi mê:
+/o Propofol => Fentanyl => Giãn cơ
+/o Fentanyl=> Giãn cơ => Propofol
+/o /a Fentanyl => Propofol=> Giãn cơ
+/o Fentanyl => Giãn cơ
+
+/qe
+/qb Liều đầu sử dụng Oxytoccin trong mổ lấy thai khi nào:
+/o Trước khi rạch da
+/o Trước khi kẹp dây rốn
+/o /a Sau khi kẹp dây rốn
+/o Sau khi khâu cơ tử cung
+
+/qe
+/qb Kích cỡ ống NKQ có cuff phù hợp cho trẻ 8 tuổi là:
+/o Số 4.5
+/o Số 5.0
+/o /a Số 5.5
+/o Số 6.0
+
+/qe
+/qb Ký hiệu VT trên màn hình máy mê máy thở là:
+/o Thông khí phút
+/o /a Thể tích khí lưu thông
+/o Dung tích phổi giả
+
+/qe
+/qb Tại sao không bơm cuff NKQ áp lực quá 30 cmH2O
+/o Vỡ cuff
+/o Khó cho đặt sonde dạ dày
+/o Không cho nước hầu họng đi xuống
+/o /a Gây thiếu máu tổ chức mô xung quanh
+
+/qe
+/qb Tần số ép tim thổi ngạt ở trẻ em khi có 2 người là:
+/o 30 : 2
+/o 20 : 2
+/o /a 15 :  2
+/o 15  : 1
+
+/qe
+/qb Tần số ép tim thổi ngạt ở trẻ em khi có 1 người là:
+/o 15 : 2
+/o /a 30 : 2
+/o 20 : 2
+/o 15 : 1
+
+/qe
+/qb Khi người ép tim không đạt do mệt có thể đổi người ép tim khi chưa hết 5 chu kỳ ép tim
+/o /a Đúng
+/o Sai
+
+/qe
+/qb Chữ A trong nguyên tắc kiểm soát ban đầu bệnh nhân cấp cứu là:
+/o Kiểm soát thân nhiệt
+/o /a Kiểm soát đường thở
+/o Hỗ trợ hô hấp
+/o Hỗ trợ tuần hoàn
+/qe
+/qb Chữ B trong nguyên tắc kiểm soát ban đầu bệnh nhân cấp cứu là:
+/o Kiểm soát thân nhiệt
+/o Kiểm soát đường thở
+/o /a Hỗ trợ hô hấp
+/o Hỗ trợ tuần hoàn
+/qe
+/qb Chữ C trong nguyên tắc kiểm soát ban đầu bệnh nhân cấp cứu là:
+/o Kiểm soát đường thở
+/o Hỗ trợ hô hấp
+/o /a Hỗ trợ tuần hoàn
+/o Kiểm soát thân nhiệt
+
+/qe
+/qb Thuốc cơ bản nhất để điều trị sốc phản vệ là:
+/o /a Adrenalin
+/o Solumedrol
+/o Depersolon
+/o Hydrocortison
+
+/qe
+/qb Cần theo dõi bệnh nhân sốc phản vệ tại cơ sở y tế tối thiểu:
+/o 12h
+/o /a 24h
+/o 48h
+/o 36h
+
+/qe
+/qb Các triệu chứng tim mạch thường gặp trong sốc phản vệ bao gồm, ngoại trừ:
+/o Nhịp tim nhanh
+/o Mạch nhanh hoặc yếu, không bắt được
+/o Huyết áp tụt
+/o /a Tăng huyết áp
+
+/qe
+/qb Tư thế xử trí cấp cứu sốc phản vệ là:
+/o Đầu cao, chân cao
+/o /a Đầu thấp, chân cao
+/o Đầu thấp, chân thấp
+/o Đầu cao, chân thấp
+
+/qe
+/qb Trong hộp chống sốc phản vệ, ngoài Adrenalin, có thể có thêm các loại thuốc sau, ngoại trừ:
+/o Solumedrol
+/o Hydrocortisone
+/o Depersolon
+/o /a Penicillin
+/qe
+/qb Tư thế thích hợp cho người bệnh suy hô hấp khi bị khó thở là:
+/o /a Nằm đầu cao
+/o Nằm đầu thấp
+/o Nằm đầu bằng
+/o Nằm nghiêng người
+/qe
+/qb Đề phòng loét cho bệnh nhân tai biến mạch não, cần thay đổi tư thế cho bệnh nhân ít nhất:
+/o 30 phút/ lần
+/o 1 giờ/ lần
+/o /a 2 giờ/lần
+/o 1 đến 2 giờ/lần
+/qe
+/qb Chỉ định đặt nội khí quản là:
+/o Sai khớp hàm
+/o U vòm họng
+/o Vỡ xương hàm
+/o /a Mất phản xạ thanh môn
+/qe
+/qb Các triệu chứng tiêu hóa thường gặp trong sốc phản vệ bao gồm, ngoại trừ:
+/o Nôn
+/o Iả chảy
+/o Đau bụng
+/o /a Chướng bụng
+/qe
+/qb 
+/o hức năng lọc của thận diễn ra chủ yếu ở:
+/o Ống lượn gần
+/o /a Cầu thận
+/o Quai Henle
+/o Ống góp
+/qe
+/qb Gây mê hô hấp luôn làm tăng lưu lượng máu thận.
+/o Đùng
+/o /a Sai
+/qe
+/qb Trong cơ chế điều hòa thể tích dịch ngoại bào, hormon quan trọng nhất là:
+/o /a ADH
+/o Insulin
+/o Cortisol
+/o Parathormon
+/qe
+/qb Vai trò chính của hệ thống renin–angiotensin–aldosterone là:
+/o Tăng lọc cầu thận
+/o Giảm huyết áp
+/o /a Duy trì huyết áp và thể tích tuần hoàn
+/o Tăng bài tiết kali
+/qe
+/qb Toan chuyển hóa trong suy thận là do:
+/o Tăng hấp thu HCO₃⁻
+/o Tăng thải H⁺
+/o /a Giảm khả năng đào thải acid
+/o Tăng sản xuất NH₄⁺
+/qe
+/qb Điện giải nào sau đây thường tăng trong suy thận mạn?
+/o Natri
+/o Canxi
+/o /a Kali
+/o Clorua
+/qe
+/qb Vai trò của thận trong cân bằng kiềm toan chủ yếu là:
+/o Đào thải CO₂
+/o Dự trữ protein
+/o /a Tái hấp thu HCO₃⁻ và thải H⁺
+/o Bài tiết insulin
+/qe
+/qb Chức năng nào sau đây không phải là chức năng của thận?
+/o Điều hòa thể tích dịch ngoại bào.
+/o Điều hòa cân bằng điện giải.
+/o /a Sản xuất hormone tiêu hóa.
+/o Bài tiết các chất thải của quá trình chuyển hóa
+/qe
+/qb Nguy cơ khi sử dụng thuốc mê ở bệnh nhân suy thận:
+/o Giảm thông khí
+/o Tăng chuyển hóa thuốc
+/o /a Tăng tích lũy thuốc và độc tính
+/o Rối loạn nhịp nhanh
+/qe
+/qb Triệu chứng phù trong hội chứng thận hư do:
+/o Tăng albumin máu
+/o Giảm áp lực keo huyết tương
+/o /a Tăng áp lực mao mạch
+/o Giảm bài tiết aldosterone
+/qe
+/qb Khi bệnh nhân được đặt nội khí quản và thở máy với FiO₂ = 100%, PaO₂ đo được là 60 mmHg. Điều này gợi ý:
+/o /a Shunt lớn trong phổi
+/o Tăng thông khí
+/o Giảm thông khí
+/o Hội chứng lo âu
+/qe
+/qb Trong thông khí cơ học, PEEP có tác dụng chính nào sau đây?
+/o Tăng CO2
+/o Giảm áp lực nội sọ
+/o /a Tăng dung tích cặn chức năng và cải thiện oxy hóa
+/o Giảm thể tích khí lưu thông
+/qe
+/qb Một bệnh nhân COPD được gây mê toàn thân. Điều cần lưu ý nhất là:
+/o Giảm PEEP
+/o /a Kéo dài thời gian thở ra
+/o Tăng tần số thở
+/o Sử dụng khí nén
+/qe
+/qb Chức năng trao đổi khí phụ thuộc chủ yếu vào:
+/o CO2
+/o Lưu lượng máu thận
+/o /a Diện tích bề mặt trao đổi khí
+/o Áp lực tĩnh mạch trung tâm
+/qe
+/qb Biến chứng thường gặp nhất khi thở máy không kiểm soát tốt là:
+/o Tăng đường huyết
+/o /a Barotrauma
+/o Co giật
+/o Hạ canxi máu
+/qe
+/qb Giá trị bình thường của PaCO₂ trong máu động mạch:
+/o 20–25 mmHg
+/o /a 35–45 mmHg
+/o 50–60 mmHg
+/o 80–100 mmHg
+/qe
+/qb Tăng khoảng chết thường gặp trong:
+/o Phù phổi cấp
+/o Hẹp van 2 lá
+/o /a Thuyên tắc phổi
+/o Tràn khí màng phổi
+/qe
+/qb Nam 65 tuổi, COPD, vào viện chuẩn bị mổ ruột thừa. Trong gây mê, SpO₂ giảm còn 85% dù FiO₂ 100%, ống không sâu. Nghi ngờ gì?
+/o Tắc ống NKQ
+/o /a Shunt trong phổi
+/o Gây mê quá sâu
+/o Giảm huyết áp
+/qe
+/qb BN thở máy: VT 500ml, RR 14, PEEP 5. ABG: pH 7.25, PaCO₂ 60 mmHg. Điều chỉnh nào phù hợp?
+/o Tăng PEEP
+/o Giảm tần số thở
+/o /a Tăng VT hoặc RR
+/o Giảm FiO₂
+/qe
+/qb Sau đặt NKQ, SpO₂ giảm còn 78%, phổi P không nghe rì rào PN. Ưu tiên xử trí:
+/o Rút ống NKQ
+/o Gọi BS phẫu thuật
+/o Rút máu xét nghiệm
+/o /a Kiểm tra lại vị trí NKQ
+/qe
+/qb Thuốc nào sau đây có chuyển hóa qua gan ít nhất, an toàn hơn cho bệnh nhân suy gan?
+/o Halothane
+/o /a Sevoflurane
+/o Thiopental
+/o Midazolam
+/qe
+/qb Khi gây mê cho bệnh nhân xơ gan, cần lưu ý điều gì về liều thuốc an thần?
+/o Tăng liều do giảm albumin
+/o /a Giảm liều do giảm chuyển hóa thuốc
+/o Không cần thay đổi liều
+/o Tăng tốc độ truyền dịch
+/qe
+/qb Chức năng gan ảnh hưởng đến giai đoạn nào của dược động học thuốc gây mê?
+/o Phân bố
+/o Thải trừ
+/o /a Chuyển hóa
+/o Tái hấp thu
+/qe
+/qb Thuốc nào sau đây có nguy cơ gây độc gan cao nếu dùng liều cao hoặc kéo dài?
+/o Isoflurane
+/o Propofol
+/o /a Paracetamol
+/o Atracurium
+/qe
+/qb Khi bệnh nhân suy gan nặng, thuốc nào cần tránh dùng hoặc chỉnh liều cẩn thận?
+/o Sufentanil
+/o Cisatracurium
+/o Remifentanil
+/o /a Diazepam
+/qe
+/qb Biến chứng thường gặp trong phẫu thuật ở bệnh nhân suy gan là:
+/o /a Hạ đường huyết
+/o Tăng huyết áp
+/o Nhiễm toan hô hấp
+/o Nhiễm độc thần kinh trung ương
+/qe
+/qb Nồng độ albumin giảm sẽ ảnh hưởng thế nào đến dược động học thuốc gây mê?
+/o Giảm tác dụng thuốc
+/o /a Tăng tác dụng thuốc do tăng phần tự do
+/o Không ảnh hưởng
+/o Làm giảm độ lọc cầu thận
+/qe
+/qb Bệnh nhân xơ gan có nguy cơ cao chảy máu khi mổ vì:
+/o Thiếu yếu tố đông máu
+/o Tăng áp lực tĩnh mạch cửa
+/o Giảm tiểu cầu
+/o /a Cả 3 nguyên nhân trên
+/qe
+/qb Biến chứng thần kinh thường gặp ở bệnh nhân suy gan trong gây mê là:
+/o Co giật
+/o /a Hôn mê gan
+/o Tăng động
+/o Suy hô hấp
+/qe
+/qb Khi gây mê cho bệnh nhân có gan nhiễm mỡ, điều cần chú ý là:
+/o Gan chuyển hóa thuốc nhanh hơn
+/o /a Giảm khả năng chuyển hóa thuốc
+/o Tăng sản xuất albumin
+/o Không ảnh hưởng gì
+/qe

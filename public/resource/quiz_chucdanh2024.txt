@@ -1,0 +1,859 @@
+/qb Khi trao đổi với nhóm PHÁT TRIỂN về giải pháp cho một YCPT, BA KHÔNG bắt buộc làm rõ nội dung nào sau đây?
+/o Mục đích của yêu cầu
+/o Tính khả thi của hệ thống hiện tại
+/o /a Chi tiết thiết kế (Cơ sở dữ liệu, Service tích hợp,…)
+/o Sơ đồ luồng dữ liệu giữa các hệ thống dự kiến
+/qe
+
+/qb /multi Nội dung TỐI THIỂU cần phải có trong tài liệu "Phiếu yêu cầu phát triển" là gì?
+/o /a Đơn vị và đầu mối liên hệ để làm rõ yêu cầu
+/o /a Sự cần thiết của yêu cầu (Mục đích, lợi ích mang lại)
+/o /a Mô tả sơ bộ các luồng chức năng và đối tượng sử dụng chức năng đó
+/qe
+
+/qb /multi Nội dung TỐI THIỂU cần phải có trong tài liệu "Thiết kế chi tiết kỹ thuật" là gì?
+/o /a Thiết kế chức năng: thiết kế giao diện, thiết kế dữ
+liệu, thiết kế logic xử lý
+/o /a Thiết kế báo cáo truy vấn
+/o /a Các hệ thống bị ảnh hưởng trong quá trình phát triển (chi tiết tới từng chức năng/Hệ thống)
+/o /a Thiết kế đảm bảo lập trình an toàn và Các tiêu chí về an toàn thông tin theo Quy chế ATTT ban hành theo từng thời kỳ
+/qe
+
+/qb /multi Nội dung TỐI THIỂU cần phải có trong tài liệu "Tài liệu thiết kế kiến trúc tổng thể" là gì?
+/o /a Tổng quan thiết kế: Sơ đồ tổng quan thiết kế kiến trúc hệ thống
+/o /a Sơ đồ luồng xử lý tập trung vào kết nối giữa các hệ thống
+/o /a Service tích hợp giữa hệ thống (Intergartion
+view)
+/qe
+
+/qb Tài liệu thiết kế kiến trúc tổng thể bắt buộc với các loại yêu cầu phát triển nào ?
+/o Bắt buộc với tất cả YCPT
+/o Bắt buộc với  YCPT L4
+/o /a Bắt buộc từ YCPT L3 trở lên
+/o Bắt buộc từ YCPT L2 trở lên
+/qe
+
+/qb Có bắt buộc phải sử dụng và đính kèm Checklist "Tiêu chí phân loại YCPT" lên Release Note khi tạo Change golive không?
+/o /a Bắt buộc
+/o Không bắt buộc
+/qe
+
+/qb /multi Cách thức gửi email thông báo tới đầu mối Khối TCKT để lấy ý kiến phản hồi liên quan đến "Hạch toán kế toán" (nếu có) cho YCPT là những cách nào sau đây?
+/o /a PO/BA gửi email tới địa chỉ: chedoketoanvathue@mbbank.com.vn
+/o /a Hệ thống Jira sẽ tự động gửi email cho khối TCKT khi YCPT/US được chuyển Status sang READY FOR DEV
+/o Không cần gửi email xin ý kiến TCKT, chỉ cần PO đồng ý
+/qe
+
+/qb /multi Nhóm công việc Scrum Master bao gồm những gì?
+/o /a Quản lý, điều phối Agile team
+/o Coaching đào tạo: Aglie/Scrum
+/o Xử lý Impediment
+/o /a Quản lý truyền thông thông tin
+/qe
+
+/qb Ai là chủ sở hữu của Product backlog
+/o Scrum Master
+/o /a Product Owner
+/o Product Manager
+/o The Customer
+/qe
+
+/qb Đâu KHÔNG phải là vai trò của Product Owner
+/o Chịu trách nhiệm trực tiếp về việc phát triển sản phẩm đáp ứng được các nhu cầu và mong muốn của người dung cuối cũng như kế hoạch phát triển sản phẩm theo các MVP
+/o Cung cấp đầy đủ các thông tin mô tả rõ ràng về yêu cầu phần mềm và xác nhận đặc tả yêu
+cầu
+/o /a Tổ chức và điều phối các sự kiện cho các team Agile : Daily, Sprint
+planning, sprint review, sprint retrospective
+/o Viết tài liệu hướng dẫn sử dụng và đào tạo người dùng cuối
+/qe
+
+/qb Yêu cầu phát triển Level 3 ( YCPT_L3) là
+/o Yêu cầu phát triển thông thường và có mức độ rủi ro thấp
+/o /a Yêu cầu phức tạp và có mức độ rủi ro thấp
+/o Yêu cầu phát triển thông thường và  có mức độ rủi ro cao
+/o Yêu cầu phức tạp và có mức độ rủi ro cao
+/qe
+
+/qb Cấp phê duyệt golive của NGHIỆP VỤ với Change YCPT_L4
+/o GĐ/PGĐ trung tâm Nghiệp vụ
+/o Trưởng/Phó phòng Nghiệp vụ
+/o /a PGĐK Nghiệp vụ
+/qe
+
+/qb Thời hạn đăng ký change bảo vệ và hoàn thiên điều kiện bảo vệ Change hàng tuần
+/o /a Trước 17h thứ 2 hàng tuần
+/o Trước 17h thứ 3 hàng tuần
+/o Trước 17h thứ 4 hàng tuần
+/qe
+
+/qb /multi Trong HƯỚNG DẪN ĐÁNH GIÁ VÀ THỰC HIỆN KIỂM THỬ HIỆU NĂNG Đầu mối đánh giá về việc cần Performance Test
+/o /a SA (Kiến trúc)
+/o /a DEV LEAD
+/o BA
+/qe
+
+/qb /multi Các Vai trò tham giá đánh giá ảnh hưởng dịch vụ thuộc trách nhiệm của role nào
+/o /a BA
+/o /a DEV
+/o /a TEST
+/o Kinh doanh
+/qe
+
+/qb Vai trò và trách nhiệm đánh giá ảnh hưởng dịch vụ của role Test
+/o Chịu trách nhiệm chỉ ra các thay đổi nghiệp vụ: Sản phẩm, chức năng trong tài liệu đặc tả( initiative/Epic/us/es)
+/o Chịu trách nhiệm chỉ ra các tác động những thay đổi về kiến trúc, thiết kế code, các tham số hệ thống …trong tài liệu thiết kế chi tiết và các tài liệu khác có liên quan
+/o /a Chịu trách nhiệm đánh giá phạm vi ảnh hưởng dựa trên tài liệu đặc tả và tài liệu thiết kế chi tiết để xây dựng chiến lược kịch bản test phù hợp
+/qe
+
+/qb Vai trò và trách nhiệm đánh giá ảnh hưởng dịch vụ của role BA
+/o /a Chịu trách nhiệm chỉ ra các thay đổi nghiệp vụ: Sản phẩm, chức năng trong tài liệu đặc tả( initiative/Epic/us/es)
+/o Chịu trách nhiệm chỉ ra các tác động những thay đổi về kiến trúc, thiết kế code, các tham số hệ thống …trong tài liệu thiết kế chi tiết và các tài liệu khác có liên quan
+/o Chịu trách nhiệm đánh giá phạm vi ảnh hưởng dựa trên tài liệu đặc tả và tài liệu thiết kế chi tiết để xây dựng chiến lược kịch bản test phù hợp
+/qe
+
+/qb Vai trò và trách nhiệm đánh giá ảnh hưởng dịch vụ của role DEV
+/o Chịu trách nhiệm chỉ ra các thay đổi nghiệp vụ: Sản phẩm, chức năng trong tài liệu đặc tả( initiative/Epic/us/es)
+/o /a Chịu trách nhiệm chỉ ra các tác động những thay đổi về kiến trúc, thiết kế code, các tham số hệ thống …trong tài liệu thiết kế chi tiết và các tài liệu khác có liên quan
+/o Chịu trách nhiệm đánh giá phạm vi ảnh hưởng dựa trên tài liệu đặc tả và tài liệu thiết kế chi tiết để xây dựng chiến lược kịch bản test phù hợp
+/qe
+
+/qb /multi Các YCPT bắt buộc phải thực hiện đánh giá an ninh (Pentest) trước khi golive
+/o /a Các hệ thống / dịch vụ / chức năng sẽ PUBLIC INTERNET
+/o /a Các hệ thống MỚI (chưa từng pentest) triển khai ở INTERNAL
+/o /a Các hệ thống / dịch vụ / chức năng  sẽ triển khai trên môi trường CLOUD
+/qe
+
+/qb Thành phần CAB của TTVH đối với change qua Hội đồng CAB tập trung
+/o GĐ TTVH (hoặc PGĐ TTVH được ủy quyền).
+/o TP/PP mảng AM, OM
+/o DBA; OPN (nếu có liên quan)
+/o /a Tất cả đáp án trên
+/qe
+
+/qb Là thành viên team Agile, trong quá trình thực hiện Sprint, bạn nhận thấy rằng một thành viên chủ chốt của team phải nghỉ phép khẩn cấp vì lý do cá nhân và sẽ vắng mặt một tuần. Công việc của người này rất quan trọng và không thể tiến hành mà không có họ. Bạn sẽ làm gì ?
+/o /a Thông báo ngay cho Scrum Master để tìm giải pháp
+/o Cố gắng phân công công việc của người này cho các thành viên khác
+/o Đợi người này quay lại rồi tiếp tục công việc
+/o Báo cáo vấn đề lên Product Owner
+/qe
+
+/qb /multi Trong quá trình thực hiện Sprint của Team Agile, tình huống nào là IMPEDIMENT ?
+/o /a Thiếu tài liệu hoặc hướng dẫn cần thiết.
+/o /a Thành viên team nghỉ phép hoặc ốm đau.
+/o /a Thiếu giao tiếp hoặc thông tin giữa các thành viên team
+/o /a Sự thiếu kết nối internet hoặc mạng nội bộ không ổn định.
+/qe
+
+/qb Trong một Sprint của team Agile, Mini Review được tổ chức mấy lần ?
+/o 1 lần
+/o 2 lần
+/o /a 1 lần hoặc nhiều lần phụ thuộc vào thời gian hoàn thiện của các giao phẩm
+/qe
+
+/qb /multi Trong một Sprint của team Agile, các tài liệu nào được review trong buổi Mini Review
+/o /a Tài liệu thiết kế chi tiết
+/o /a Test Design
+/o /a Testcases for DEV
+/o /a Testcases for Auto
+/qe
+
+/qb /multi Tài liệu Thiết kế kiến trúc hệ thống tổng thể cần những vai trò nào tham gia xây dựng/review/phê duyệt
+/o /a BA
+/o /a DEV
+/o TESTER
+/o /a Kiến trúc sư
+/qe
+
+/qb /multi Tài liệu Kịch bản kiểm thử và Biên bản kiểm thử cần những vai trò nào tham gia review/phê duyệt
+/o /a ĐVYC/PO
+/o BA
+/o DEV
+/o /a TESTER
+/qe
+
+/qb Theo Hướng  dẫn phân loại yêu cầu phát triển (YCPT). Yêu cầu phát triển được coi là có mức độ rủi ro Cao trong những tình huống nào?
+/o Không có tác động đến
+hệ thống cấp độ 3 trở lên theo danh sách phân loại cấp độ các hệ thống thông tin  của MB (ban hành theo từng thời kỳ)
+/o Không có tác động đến
+thông tin khách hàng đang quản lý tại hệ thống T24/ Way4 hoặc Có tác động đến số liệu tài chính của Khách hàng
+/o /a Có kết nối với các đối tác bên ngoài
+MB.. Có quy định về các tiêu chuẩn bảo mật riêng theo từng hệ thống
+/qe
+
+/qb Theo Hướng  dẫn phân loại yêu cầu phát triển (YCPT). Yêu cầu phát triển được coi là phức tạp trong những tình huống nào ?
+/o Áp dụng kiến trúc hiện có, đã và đang áp dụng tại MB
+/o /a Phát triển hệ thống mới,
+Phát triển module/Sản phẩm mới
+hoặc Phát triển quy trình nghiệp vụ mới.
+/o Chỉ chỉnh sửa trên một module sẵn có, đang triển khai tại MB
+/qe
+
+/qb DOD (Definition of Done) tiêu chí xác định hoàn thành đối với các yêu cầu được định nghĩa
+/o /a Là tập hợp các tiêu chí cần phải đạt được trước khi tuyên bố hoàn thành bất kỳ một giao phẩm hay một giai đoạn nào đó trong quá trình phát triển
+/o Là tập hợp các điều kiện thỏa mãn để đảm bảo tính sẵn sàng cho việc thực hiện 1 công việc, chuyển giao sang một giai đoạn khác của quá trình phát triển
+/qe
+
+/qb Definition of Ready – tiêu chí đầu vào, trước khi sản xuất được định nghĩa
+/o /a Là tập hợp các điều kiện thỏa mãn để đảm bảo tính sẵn sàng cho việc thực hiện 1 công việc, chuyển giao sang một giai đoạn khác của quá trình phát triển
+/o Là tập hợp các tiêu chí cần phải đạt được trước khi tuyên bố hoàn thành bất kỳ một giao phẩm hay một giai đoạn nào đó trong quá trình phát triển
+/qe
+
+/qb Theo quy trình quản lý yêu cầu khái niệm Yêu cầu dịch vụ (Service Request) được hiểu như thế nào là đúng nhất?
+/o là yêu cầu từ đối tác về thông tin hoặc cho những thay đổi nhỏ có rủi ro thấp, được thực hiện thường xuyên, chi phí thấp, v.v.
+/o là yêu cầu từ người dùng về phát triển phần mềm hoặc cho những thay đổi nhỏ có rủi ro thấp, được thực hiện thường xuyên, chi phí thấp, v.v.
+/o là yêu cầu từ người dùng về thông tin hoặc cho những thay đổi khẩn cấp, được thực hiện thường xuyên, chi phí thấp, v.v.
+/o /a là yêu cầu từ người dùng về thông tin hoặc cho những thay đổi nhỏ có rủi ro thấp, được thực hiện thường xuyên, chi phí thấp, v.v.
+/qe
+
+/qb Chọn các đáp án mô tả mục đích của quy trình Quản lý yêu cầu dịch vụ CNTT tại MB là gì?
+/o /a Quy trình nhằm chuẩn hóa các bước từ khi tiếp nhận đến khi xử lý và đóng yêu cầu của người dùng sử dụng các dịch vụ CNTT
+/o Kiếm soát được trạng thái, tiến độ của các sự cố CNTT từ lúc sự cố được phát hiện tới khi đóng sự cố
+/o /a Quản lý các yêu cầu dịch vụ CNTT của người dùng
+/o /a Kiểm soát được trạng thái của các yêu cầu kể từ thời điểm khởi tạo cho đến khi đóng yêu cầu nhằm đảm bảo chất lượng dịch vụ mà Khối CNTT cung cấp cho người dùng theo như SLA cam kết
+/qe
+
+/qb Trường hợp Anh/ Chị  là nhân sự Level 2 tiếp nhận được một Yêu cầu phối hợp để xử lý sự cố hoặc yêu cầu hỗ trợ nhưng OLA cho phép xử lý quá ít, Anh/ Chị  có thể tự ý điều chỉnh lại để tăng thời gian OLA lên không?
+/o Có thể điều chỉnh vì có quyền chỉnh sửa hầu hết các thuộc tính trên ticket.
+/o /a Không được phép tự ý thay đổi OLA vì OLA cần đảm bảo tuân thủ theo SLA cam kết với người dùng.
+/o Không cần quan tâm đến OLA, cứ làm theo khả năng bao giờ hoàn thành thì thôi.
+/o Từ chối yêu cầu phối hợp vì không đủ thời gian.
+/qe
+
+/qb /multi Anh/ Chị  là một nhân sự hỗ trợ Level 2. Anh/ Chị  nhận thấy thời gian gần đây yêu cầu từ L1 chuyển sang L2 quá nhiều làm Anh/ Chị  khá tốn thời gian xử lý. Anh/ Chị  nên làm gì?
+/o Cứ hỗ trợ theo yêu cầu, không cần làm gì cả.
+/o /a Rà soát xem tại sao các yêu cầu chuyển L2 lại phát sinh nhiều
+/o /a Suy nghĩ tìm phương án tối ưu, báo cáo CBQL để cùng thống nhất phương án hiệu quả
+/o Anh/ Chị  từ chối vì không đủ thời gian xử lý các yêu cầu hỗ trợ, các việc xử lý lỗi và triển khai dự án đã mất quá nhiều thời gian rồi
+/qe
+
+/qb Mục tiêu của Quy trình quản lý thay đổi
+/o Quy trình đảm bảo hoạt động bình thường của dịch vụ được khôi phục nhanh nhất có thể và giảm thiểu tối đa sự ảnh hưởng tới tổ chức kinh doanh
+/o Quy trình chịu trách nhiệm quản lý toàn bộ vòng đời của mọi yêu cầu dịch vụ
+/o /a Quy trình cho phép các thay đổi có lợi được thực hiện, đồng thời giảm thiểu tối đa gián đoạn dịch vụ CNTT
+/o Quản lý vấn đề chủ động chống lại các sự cố kể từ lúc xảy ra và tối thiểu hóa ảnh hưởng của các sự cố mà nó không thể ngăn chặn được
+/qe
+
+/qb Công tác phân loại mức độ ưu tiên của sự cố được dựa trên các yếu tố nào?
+/o /a Mức độ ảnh hưởng và mức độ khẩn cấp
+/o Mức độ ảnh hưởng và phạm vị ảnh hưởng
+/o Thời gian xử lý sự cố
+/o Mức độ quan trọng của hệ thống đang gặp sự cố
+/qe
+
+/qb Mục tiêu của Quy trình quản lý sự cố?
+/o Quản lý sự cố đảm bảo tìm ra nguyên nhân gốc rễ của sự cố lặp đi lặp lại nhiều lần và giảm thiểu tối đa sự ảnh hưởng tới tổ chức kinh doanh
+/o Quy trình chịu trách nhiệm quản lý toàn bộ vòng đời của mọi yêu cầu dịch vụ
+/o /a Quản lý sự cố đảm bảo hoạt động bình thường của dịch vụ được khôi phục nhanh nhất có thể và giảm thiểu tối đa sự ảnh hưởng tới tổ chức kinh doanh
+/o Quản lý chủ động chống lại các sự cố kể từ lúc xảy ra và tối thiểu hóa ảnh hưởng của các sự cố mà nó không thể ngăn chặn được
+/qe
+
+/qb Theo quy trình "Quản lý thay đổi" định nghĩa thế nào là "Thay đổi khẩn cấp"
+/o Là những thay đổi đã được đánh giá tác động và có các quy định hoặc hướng dẫn thực hiện đã được phê chuẩn
+/o Là những thay đổi không cần phê duyệt
+/o /a Là những thay đổi cần thực hiện càng sớm càng tót nhằm đối phó với các tính huống sự cố lớn hoặc ngăn chặn các rủi ro về an toàn và bảo mật thông tin
+/o Là các thay đổi thực hiện theo chỉ thị của Lãnh đạo
+/qe
+
+/qb /multi Anh/ Chị  là nhân sự tham gia trong nhóm xử lý sự cố. trách nhiệm của Anh/ Chị  gồm:
+/o /a Kịp thời nắm bắt thông tin sự cố, phối hợp các bên điều tra nguyên nhân và đưa ra biện pháp xử lý
+/o Thông báo tới Khối Chủ sở hữu dịch vụ và Đối tác
+/o /a Triển khai hoặc phối hợp triển khai giải pháp khôi phục dịch vụ kịp thời khi được phê duyệt giải pháp
+/o /a Thông tin tới Level 1 về thời gian dự kiến cho việc khôi phục lại dịch vụ
+/qe
+
+/qb Cam kết chất lượng dịch vụ nội bộ OLA (Operation Level Agreement), tại MB được định nghĩa như thế nào?
+/o Là văn bản thỏa
+thuận giữa Khối CNTT và Người dùng về thời gian và chất lượng dịch vụ được cung
+cấp.
+/o /a OLA (Operation Level Agreement): Cam kết chất lượng dịch vụ nội bộ đơn
+vị, là văn bản thỏa thuận giữa các Phòng/Trung tâm nội bộ trong Khối CNTT về thời
+gian và chất lượng dịch vụ được các Phòng/Trung tâm cung cấp cho nhanh
+/o Là cam kết về thời gian xử lý với đối tác của MBBank
+/o Là cam kết về thời gian xử lý đối với các bên liên quan
+/qe
+
+/qb Khái niệm cam kết chất lượng dịch vụ SLA (Service Level Agreement), tại MB được định nghĩa như thế nào?
+/o /a SLA (Service Level Agreement): Cam kết chất lượng dịch vụ, là văn bản thỏa
+thuận giữa Khối CNTT và Người dùng về thời gian và chất lượng dịch vụ được cung
+cấp.
+/o Là cam kết về thời gian xử lý đối với các bên liên quan
+/o Là cam kết về thời gian xử lý với đối tác của MBBank
+/o Cam kết chất lượng dịch vụ nội bộ đơn
+vị, là văn bản thỏa thuận giữa các Phòng/Trung tâm nội bộ trong Khối CNTT về thời
+gian và chất lượng dịch vụ được các Phòng/Trung tâm cung cấp cho nhanh
+/qe
+
+/qb Định nghĩa về "Mức độ khẩn cấp" theo quy trình quản lý yêu cầu
+/o Là mức độ quan trọng của yêu cầu
+/o Là mức độ rủi ro của yêu cầu
+/o /a Là mức độ cần phải đáp ứng nhanh chóng yêu cầu hỗ trợ mà người dùng đòi hỏi
+/o Là mức độ để đánh giá phạm vi ảnh hưởng, tính chất nghiêm trọng của sự cố
+/qe
+
+/qb Định nghĩa về "Mức độ ảnh hưởng" theo quy trình quản lý sự cố
+/o Là mức độ quan trọng của yêu cầu
+/o /a Là mức độ để đánh giá phạm vi ảnh hưởng, tính chất nghiêm trọng của sự cố
+/o Là mức độ cần phải đáp ứng nhanh chóng yêu cầu hỗ trợ mà người dùng đòi hỏi
+/o Là mức độ rủi ro của sự cố
+/qe
+
+/qb Định nghĩa về "giải pháp tạm thời" theo quy trình quản lý sự cố
+/o /a Là phương án xử lý tình thế để khắc phục sự việc ngay tại thời điểm phát sinh khi chưa có giải pháp xử lý triệt để
+/o Là phương án xử lý triệt để các vấn đề công nghệ thông tin
+/o Là nguyên nhân gốc rễ của một vấn đề
+/o Là một gián đoạn không có kế hoạch của dịch vụ công nghệ thông tin
+/qe
+
+/qb Định nghĩa đơn vị hỗ trợ mức 1 (level 1) theo quy trình quản lý yêu cầu
+/o IT hỗ trợ tại chi nhánh
+/o Cán bộ thuộc các đơn vị ngoài MB
+/o Cán bộ thuộc TTPT
+/o /a Cán bộ kỹ thuật xử lý ở cấp độ 1 bao gồm SD/OM, SD/OM manager, Phòng mạng và thiết bị đầu cuối
+/qe
+
+/qb Định nghĩa về nhóm xử lý sự cố
+/o Là một nhóm thuộc TTVH
+/o Một nhóm được thành lập riêng biệt để xử lý sự cố
+/o /a Tất cả các thành viên tham gia trong quá trình xử lý sự cố. Bao gồm các nhân sự chuyên trách thuộc khối CNTT, bao gồm nhưng không giới hạn Service Desk, Service Desk manager, Incident coor, L2 và nhân sự đối tác (nếu có), Incident manager nếu cần và nhân sự đại diện đơn vị nghiệp vụ trong trường hợp cần thiết
+/o Là một nhóm thuộc TTPT
+/qe
+
+/qb Trong quá trình xử lý sự cố, nếu sự cố phát sinh có rủi ro tài chính, gây ảnh hưởng về tài chính cho khách hàng hoặc MB, sự cố này sẽ được đánh giá ảnh hưởng như thế nào?
+/o Không có quy định
+/o /a Mức nghiêm trọng hoặc mức cao tùy vào số lượng tổn thất
+/o Mức trung bình
+/o Mức thấp
+/qe
+
+/qb Anh/ Chị tiếp nhận được một yêu cầu với nội dung hỗ trợ khách hàng đang liên hệ trực tiếp tại quầy, mức độ khẩn cấp của yêu cầu này sẽ là?
+/o /a Khẩn
+/o Thông thường
+/o Trung bình
+/o Thấp
+/qe
+
+/qb Theo quy trình quản lý thay đổi khái niệm thay đổi (change) được hiểu như thế nào là đúng nhất?
+/o Một gián đoạn có kế hoạch của dịch vụ CNTT hoặc giảm thiểu chất lượng dịch vụ CNTT.
+/o Một gián đoạn không có kế hoạch của dịch vụ CNTT hoặc suy giảm chất lượng dịch vụ CNTT.
+/o /a Là các tác động (thêm, chỉnh sửa, loại bỏ) làm một hoặc nhiều thành phần của hệ thống CNTT chuyển từ trạng thái hiện tại sang trạng thái mới, làm ảnh hưởng tới các dịch vụ/ sản phẩm
+/o Một yêu cầu phát triển để khắc phục sự cố phát sinh trong quá trình vận hành dịch vụ CNTT.
+/qe
+
+/qb Theo quy trình quản lý thay đổi, các thay đổi nào sẽ cần phải đi qua cuộc họp CAB tập trung
+/o Tất cả các thay đổi
+/o /a Các thay đổi thuộc loại: YCPT L3, L4 và YCPT L2 (có downtime, thay đổi về hạ tầng, tác động tới quy trình phối hợp giữa các đơn vị nghiệp vụ, làm thay đổi quy trình vận hành, có kết nối với đối tác ngoài MB, thay đổi luồng hạch toán giao dịch), nâng cấp phiên bản, thay đổi hạ tầng và các thay đổi được CAB hoặc Service Owner yêu cầu qua Hội đồng CAB tập trung
+/o Thay đổi là phát triển sản phẩm
+/o Thay đổi gây downtime
+/qe
+
+/qb Một thay đổi muốn được golive sẽ cần phải đi qua các bước phê duyệt nào?
+/o /a Phê duyệt lần 1: Change manager
+Phê duyệt lần 2: CAB
+Phê duyệt lần 3: Service Owner
+/o Phê duyệt lần 1: CAB
+Phê duyệt lần 2: Service Owner
+/o Phê duyệt lần 1: Change manager
+Phê duyệt lần 2: CAB
+/o Phê duyệt lần 1: Change manager
+Phê duyệt lần 2: Service Owner
+/qe
+
+/qb Theo hướng dẫn thực thi quy trình quản lý thay đổi, thời gian một thay đổi gây downtime được định nghĩa thế nào là đúng nhất?
+/o /a Là khoảng thời gian từ lúc bắt đầu downtime cho tới khi ON dịch vụ (không phải thời gian từ lúc bắt đầu golive cho tới khi hoàn thành golive)
+/o Là thời gian từ lúc bắt đầu golive cho tới khi hoàn thành golive
+/o Là thời gian restart dịch vụ
+/o Là thời gian deploy code
+/qe
+
+/qb Anh/ chị đang thực hiện vai trò điều phối thay đổi (change coor). Sau khi change team thực hiện thay đổi thành công trên hệ thống, bạn cần làm gì tiếp theo?
+/o Không cần làm gì
+/o Báo cáo kết quả thay đổi (email) đính kèm biên bản nghiệm thu tới Change manager
+/o Báo cáo kết quả thay đổi (email) đính kèm biên bản nghiệm thu tới Change manager, CAB, Change team, SO)
+/o /a Báo cáo kết quả thay đổi (email) đính kèm biên bản nghiệm thu tới Change manager, CAB, Change team, SO), đơn vị yêu cầu thay đổi trong vòng 1 ngày sau khi hoàn thành các công việc thay đổi. Điều phối change team cập nhật trạng thái task thực thi, cập nhật thông tin khai báo YCTĐ đúng với thực tế: Golive date, downtime thực tế .... chuyển trạng thái YCTĐ
+/qe
+
+/qb Đối với change có Reason for change là Dự án thì cần phân loại YCPT loại mấy?
+/o YCPT là: YCPT_L4
+/o YCPT là: Khác (Không là YCPT)
+/o /a YCPT là 1 trong 4 loại: YCPT_L1; YCPT_L2; YCPT_L3; YCPT_L4
+/qe
+
+/qb Phát biểu nào sau đây KHÔNG đúng về Tần suất
+Hoạt động của Hội đồng CAB (Change Advisory Board)
+/o /a Hội đồng CAB chỉ được tổ chức họp trực tiếp định kỳ 1 tuần 1 lần
+/o Hoạt động đột xuất theo yêu cầu; nhằm rà soát và đánh giá tác động.
+/o Hội đồng CAB được tổ chức họp trực tiếp định kỳ 1 tuần 1 lần
+/qe
+
+/qb /multi Change không qua hội đồng CAB tập trung bao gồm
+/o /a Change thuộc cấp phát hạ tầng, tài nguyên clone dữ liệu
+/o /a Change cấp Policy- cấp user đặc biệt
+/o /a SWAT change
+/o Change thuộc nhóm YCPT L3, L4
+/qe
+
+/qb Biểu mẫu BM05- Câu hỏi đánh giá tác động bắt buộc đối với loại change nào
+/o /a Change qua hội đồng CAB tập trung
+/o Change không qua hội đồng CAB tập trung
+/qe
+
+/qb Theo quy trình quản lý sự cố, Định nghĩa về sự cố mức ảnh hưởng cao?
+/o /a -Với hệ thống CNTT quan trọng: Tính năng chính bị gián đoạn hoặc hoạt động không ổn định vào giờ dịch vụ 
+- Với các hệ thống CNTT thông thường: gây gián đoạn toàn bộ dịch vụ nhưng có giải pháp thay thế 
+- Có khiếu nại về rủi ro hoặc nguy cơ tài chính
+/o Sự cố ảnh hưởng tới một nhóm người dùng cụ thể
+/o Sự cố đơn lẻ chỉ ảnh hưởng tới số lượng ít khách hàng
+/o Sự cố làm cho một tính năng bị gián đoạn hoặc không ổn định ngoài giờ dịch vụ
+/qe
+
+/qb Khái niệm Người dùng (Requester) tại MB được định nghĩa như thế nào là chính xác nhất?
+/o Là nhân viên thuộc Khối khách hàng lớn (CIB)
+/o Là nhân viên thuộc khối Tổ chức Nhân sự (HR)
+/o /a Là các cán bộ, nhân viên thuộc MB sử dụng các dịch vụ CNTT được Khối CNTT cung cấp
+/o Là nhân viên thuộc khối Vận hành
+/qe
+
+/qb Khi Anh/Chị phát sinh yêu cầu cần CNTT hỗ trợ thì anh chị sẽ làm gì?
+/o /a Vào trang https://hotrocntt.mbbank.com.vn tạo yêu cầu chọn mẫu gửi yêu cầu của  dịch vụ/hệ thống cần hỗ trợ.
+/o Vào trang https://portal.mbbank.com.vn vào mô hình tổ chức và lấy số điện thoại của bất kỳ nhân viên trong khối CNTT gọi và hỏi
+/o Chat Lync với bất kỳ nhân sự nào của Khối CNTT mà bạn biết để hỏi.
+/o Gọi điện hoặc nhắn tin qua các ứng dụng Zalo, Viber,…
+/qe
+
+/qb Có nên thiết kế kiến trúc hệ thống/dịch vụ tách biệt giữa người dùng quản trị và người dùng thường.
+/o Xây dựng được, vì đã phân quyền rõ ràng đảm bảo ATTT
+/o /a Nên phân chia vùng Quản trị và Người dùng thông thường;
+/o Không ảnh hưởng đảm bảo ATTT nên xây dựng bình thường
+/o Không cần thiết, xây dựng nhiều hệ thống dẫn tới tồn tài nguyên của MB
+/qe
+
+/qb /multi Một số các nguyên tắc thiết kế kiến trúc hệ thống vừa đảm bảo tính sẵn sàng vừa đảm bảo an toàn bao và toàn vẹn gồm:
+/o /a - Sử dụng giải pháp cân bằng tải
+- Sử dụng các giải pháp hạ tầng có hỗ trợ scale theo chiều ngang và chiều dọc
+- Thiết kế đảm bảo tính HA
+- Đảm bảo cơ chế sao lưu, đồng bộ trong trường hợp sự cố an ninh.
+/o /a Đảm bảo dịch vụ được quy hoạch trên đúng lớp mạng dành riêng cho môi trường LIVE hoặc DEV/ UAT
+/o Thiết kế dùng chung lớp mạng dành cho tất cả các môi trường
+/o Không có phương án đúng
+/qe
+
+/qb Kiến trúc đa tầng theo quy hoạch chung của MB bao gồm các phân lớp nào?
+/o Cả 3 phương án đều sai
+/o Lớp hiện diện, Lớp Logic nghiệp vụ
+/o Lớp Logic nghiệp vụ
+/o /a Đảm bảo tối thiêu 3 lớp: 
+Lớp hiện diện, Lớp Logic nghiệp vụ, Lớp truy xuất dữ liệu
+/qe
+
+/qb Đâu là nguyên tắc triển khai các cấu phần bảo mật theo kiến trúc SOA?
+/o - Identity Services - đảm bảo tính đồng nhất danh tính giữa các hệ thống, quản lý và bảo mật danh tính tập trung.
+- Authentication Services - Sử dụng SAML 2.0
+/o '-Authoraization Services - sử dụng RBAC hoặc ABAC nếu có thể
+- Confidentiality Services - Các webservice giao tiếp sử dụng SSL/TLS, bật LDAPS nếu có thể
+/o - Services - Lưu trữ khóa tại keystores, đảm bảo tính toàn vẹn trên cơ sở dữ liệu
+- Audit Services - Có các thành phần ghi log, kiểm toán truy cập Portal, ESB, danh tính, định danh.
+/o /a Cả 3 đáp án trên
+/qe
+
+/qb Yêu cầu tối thiểu khi triển khai các Microservice trên hạ tầng K8S cần bật mTLS là đúng hay sai?
+/o /a ĐÚNG
+/o SAI
+/qe
+
+/qb Điều kiện để CAB ATTT phê duyệt 1 change golive cơ bản của các yêu cầu phát triển là gì?
+/o Đảm bảo phạm vi đã được đánh giá ATTT tương đồng với phạm vi golive;
+/o Đảm bảo bổ sung đầy đủ các thông tin theo BM06 và quy định kiểm duyệt đã được ban hành;
+/o Biên bản đánh giá ATTT không quá hạn 6 tháng và không có sự thay đổi về Kiến trúc; logic nghiệp vụ; sourcecode,… sau khi đã hoàn thành pentest
+/o /a Cả 3 đáp án trên
+/qe
+
+/qb /multi Change coor lưu ý gì khi đính kèm tài liệu liên quan đến đánh giá ATTT?
+/o /a Không đính kèm biên bản đánh giá chi tiết (BM02) các lỗi hổng an ninh do trong biên bản có POC chi tiết step by step cách thức khai thác và chứa nhiều thông tin nhạy cảm của hệ thống.
+/o /a Với 01 change thực hiện pentest trên nhiều tính năng, Change coor lưu ý khi đính kèm BB Pentest (BM04) lên SDP, cần bổ sung vào trong mô tả (Descriptione) của change ghi rõ tên file kết quả tương ứng từng tính năng/chức năng Pentest
+/o Không cần lưu ý
+/o Đảm bảo phạm vi golive tương đồng với phạm vi đã được đánh giá ATTT
+/qe
+
+/qb Các change thuộc yêu cầu phát triển nào sẽ cần phải sử dụng BM06 và có sự tham gia review của nhân sự phòng Đảm bảo ATTT
+/o YCPT Loại 1,2,3,4
+/o /a YCPT loại 2,3,4
+/o YCPT loại 1
+/o Tất cả các change
+/qe
+
+/qb Duy trì an toàn thông tin, cải tiến liên tục hệ thống quản lý an toàn thông tin của MB là trách nhiệm của ai?
+/o Khối KTKSNB
+/o Khối CNTT
+/o Khối QTRR
+/o /a Là trách nhiệm chung của toàn bộ cán bộ, nhân viên MB
+/qe
+
+/qb Các bước thực hiện tạo/đánh giá ATTT là gì?
+/o /a PYC pentest trên jira --> Pentest --> Xử lý lỗi Pentest --> Re-pentest --> BM04 cuối --> Golive
+/o PYC pentest trên jira --> Pentest --> Xử lý lỗi Pentest --> BM04 cuối --> Golive
+/o PYC pentest trên jira --> Pentest --> BM04 cuối --> Golive
+/o Không có đáp án đúng
+/qe
+
+/qb /multi Trước khi gửi yêu cầu đanh giá ATTT sản phẩm, BDA cần đảm bảo điều kiện gì?
+/o /a Sảm phẩm đã được đóng gói, không còn sự tác động của các đơn vị khác ngoài team pentest
+/o Thực hiện song song giữa DEV/TEST và PENTEST
+/o /a Hoàn thành dev; test logic; test SIT/UAT
+/o Cả 3 đáp án trên
+/qe
+
+/qb Các YCPT bắt buộc phải thực hiện đánh giá an ninh trước khi golive là gì?
+/o Các hệ thống / dịch vụ / chức năng sẽ PUBLIC INTERNET
+/o Các hệ thống / dịch vụ / chức năng sẽ hoặc INTERNAL nhưng những thay đổi sẽ tác động hoặc có hiệu lực cho các hệ thống / dịch vụ / chức năng vùng INTERNET
+/o Các hệ thống MỚI (chưa từng pentest) triển khai ở INTERNAL
+Các hệ thống / dịch vụ / chức năng  sẽ triển khai trên môi trường CLOUD
+/o /a Cả 3 đáp án trên
+/qe
+
+/qb Phạm vi thực hiện đánh giá ATTT một hệ thống mới bao gồm các cấu phần nào?
+/o Phần ứng dụng tương tác với người dùng cuối (Bao gồm cả amin quản trị và người dùng thường)
+/o Kiến trúc an ninh
+/o Phần hạ tầng hệ thống server máy chủ
+/o /a Cả 3 đáp án trên
+/qe
+
+/qb Công cụ để thực hiện thống kê, lưu trữ, thực hiện luồng quy trình pentest tự động là gì?
+/o /a Hệ thống CSD (CYBER SECURITY
+DASHBOARD): https://csd.mbbank.com.vn/#/login
+/o Không có công cụ kiểm soát; thống kê theo dõi
+/o Chỉ có 1 cách thức duy nhất là trao đổi trực tiếp nhân sự pentest
+/o Không kiểm soát
+/qe
+
+/qb Bộ tiêu chuẩn đảm bảo an toàn thông tin trong lập trình và phát triển phần mềm nào là đúng
+/o /a OWASP, ISO/IEC 27001, NIST, PCI-DSS, CERT ,  ISO/IEC 27034-1
+/o OWASP, ISO/IEC 27001, IOS 20022, IEEE 802, TIA
+/o OWASP, ISO/IEC 27001, ISO 9001, TIA-568A, CERT , SO/IEC 20000
+/o OWASP,SEMI M5, IPC-A-610, TIA-568A, SEMI S2 , SO/IEC 20000
+/qe
+
+/qb Có cần thiết đào tạo nhận thức ATTT cho deverloper không?
+/o Không cần thiết, Deverloper chỉ cần phát triển cho chương trình chạy, theo yêu cầu
+/o Deverlop không có trách nhiệm trong đảm bảo ATTT
+/o /a Nhận thưc được ATTT của deverloper là điều quan trọng
+/o Đã có pentest trước golive, nên deverlop không cần quan tâm lắm
+/qe
+
+/qb Đâu là quy trình chuẩn cho lập trình ATTT
+/o /a Lập kế hoạch và Thiết kế , Phát triển, Kiểm thử, Triển khai, Giám sát và Bảo trì, Đánh giá và Cải tiến
+/o Lập kế hoạch và Thiết kế , Phát triển, Triển khai, Giám sát và Bảo trì ,Kiểm thử,  Đánh giá và Cải tiến
+/o Lập kế hoạch và Thiết kế ,Kiểm thử,  Phát triển, Triển khai, Giám sát và Bảo trì , Đánh giá và Cải tiến
+/o Lập kế hoạch và Thiết kế ,Triển khai, Đánh giá và Cải tiến
+/qe
+
+/qb Đâu KHÔNG PHẢI là nguyên tắc lập trình an toàn
+/o Kiểm tra đầu vào, Xác thực và Phân quyền, Quản lý phiên, Bảo mật mã nguồn
+/o /a Kiểm tra đầu vào, Xác thực và Phân quyền, Quản lý phiên, Chia sẽ mã nguồn
+/o Kiểm tra đầu vào, Đào tạo và nâng cao nhận thức, Quản lý phiên, Bảo mật mã nguồn
+/o Kiểm tra đầu vào, Xác thực và Phân quyền, Quản lý phiên, Cập nhật và vá lỗi
+/qe
+
+/qb Quy định của MB về độ dài của Mã khóa bí mật/mật khẩu là gì?
+/o /a Tối thiểu 10 kí tự
+/o Không giới hạn độ dài
+/o Tối thiểu 9 kí tự
+/o Tối thiểu 7 kí tự
+/qe
+
+/qb Cung cấp source code cho đối tác để đối tác tự tích hợp SDK của đối tác dễ dàng hơn được không?
+/o Đối tác đã ký NDA, nên hoàn toàn có thể chia sẽ được
+/o /a Không thực hiện chia sẽ source code ra bên ngoài, chỉ nhận SDK của đối tác để tích hợp lên app.
+/o Chia sẽ được nhưng chỉ dùng mạng nội bộ của MB để truy cập
+/o Không chia sẽ source code, nhưng hoàn toàn có thể chia sẽ logic hoạt động của Code
+/qe
+
+/qb Có nên cài đặt ứng dụng từ nguồn không an toàn?
+/o Có thể cài đặt từ nguồn bất kỳ, người quen giới thiệu
+/o /a Chỉ cài đặt từ nguồn tin cậy, chpay, app store, Amazon Appstore, samsung store, MB store
+/o Cài đặt từ zalo cho nhanh
+/o cả 3 đáp án trên
+/qe
+
+/qb Có nên cung cấp SMS-OTP trên App MB cho người khác hay không?
+/o Cung cấp được cho người thân
+/o Thực hiện làm theo hướng dẫn nếu người gọi nhận mình là công an
+/o /a Không làm theo bất kỳ hướng dẫn hoặc cung cấp cho bất kỳ người nào
+/o làm theo nếu người yêu cầu đưa được giấy tờ cá nhân
+/qe
+
+/qb Nên đưa điện thoại test của nhân sự về nhà, và cho bạn bè người thân sử dụng không?
+/o /a Điện thoại test do MB cung cấp là tài sản riêng của MB, chứa  thông tin dự án của MB. Không được sử dụng ngoài mục đích dưới mọi hình thức
+/o Thiết bị được đầu tư, chỉ dùng để test gây lãng phí, cho người thân, bạn bè sử dụng vẫn được
+/o Người thân sử dụng là người tin cậy. Không ảnh hưởng lộ thông tin riêng của MB ra ngoài
+/o Chỉ sử dụng thiết bị test của MB để chơi game, nên không ảnh hưởng
+/qe
+
+/qb Có nên sử dụng các ứng dụng auto click, game lậu trên điện thoại hay không?
+/o Có thể cài đặt được nhiều ứng dụng auto click, game trên điện thoài bình thường
+/o /a KHÔNG NÊN sử dụng chung các dịch vụ tài chính trên thiết bị cài nhiều app chơi game lậu
+/o NÊN sử dụng các ứng dụng auto click để thao thác vào App cho nhanh
+/o NÊN cài ứng dụng auto click từ các diễn đàn chơi game, chia sẽ tool hack game
+/qe
+
+/qb Phishing là gì?
+/o /a Phishing ( hay còn gọi là tấn công giả mạo) là hình thức tấn công mạng lừa đảo trực tuyến. Ở đó, kẻ tấn công thường giả mạo thành một đơn vị uy tín như: một trang web giao dịch trực tuyến,  tin nhắn,  hay qua email, nhằm nhằm chiếm đoạt tài khoản, mật khẩu, mật khẩu giao dịch, thẻ tín dụng và các thông tin nhạy cảm khác….
+/o Phishing là hình thức gửi mail, trao đổi thông tin thông thường của một đơn vị uy tín như: một trang web giao dịch trực tuyến,  tin nhắn,  hay qua email, nhằm nhằm thu thập thông tin tài khoản, mật khẩu, mật khẩu giao dịch, thẻ tín dụng và các thông tin nhạy cảm khác….
+/o Phishing là hình thức tấn công vật lý mà kẻ tấn công chính là một đơn vị uy tín và có nhu cầu thu thập thông tin cá nhân của người dùng
+/o Cả 3 đáp án trên
+/qe
+
+/qb Bạn đã nhận được một email với nội dung bên dưới; 
+Hãy cho chúng tôi biết đó có phải là email phishing hay không?
+/o SAI: Đây là một email hợp lệ, không phải email phishing
+/o /a ĐÚNG. Đây là email phishing
+/o Chưa xác định được
+/qe
+
+/qb /multi Các hình thức Phishing phổ biến?
+/o /a Phishing qua email; giả mạo website nội bộ; link liên kết;...
+/o /a Phishing qua các kênh tương tác nội bộ; tin nhắn; điện thoại,...
+/o Phishing trực tiếp
+/o Cả 3 đáp án trên
+/qe
+
+/qb Cách phòng chống Phishing?
+/o Không có biện pháp phòng chống
+/o - Không cần thiết phải Cảnh giác với các email lạ: yêu cầu đăng nhập tài khoản, thông tin cá nhân, mã OTP, link truy cập và chỉnh mở email khi xác định được cá nhân, tổ chức gửi tin cậy.
+- Clink ngay vào liên kết, Không cần kiểm tra kỹ tên miền, xác định đường dẫn thực sự phía sau các liên kết
+- Âm thầm tự xử lý
+/o Chuyển tiếp link phishing cho đồng nghiệp để cùng phân tích
+/o /a - Cảnh giác với các email lạ: yêu cầu đăng nhập tài khoản, thông tin cá nhân, mã OTP, link truy cập và chỉnh mở email khi xác định được cá nhân, tổ chức gửi tin cậy.
+- Cẩn trọng trước khi click liên kết, kiểm tra kỹ tên miền, xác định đường dẫn thực sự phía sau các liên kết
+- Báo cáo ngay cho CBQL trực tiếp và Cảnh Báo cho đồng nghiệp xung quanh"
+/qe
+
+/qb CBNV A đang nghỉ phép nhưng lại có công việc cần truy cập mạng nội bộ để xừ lý. CBNV A KHÔNG được phép thực hiện các biện pháp nào dưới đây:
+/o /a Gửi tài khoản, mật khảo tài khoản cá nhân cho đồng nghiệp nhờ xử lý
+/o Phản hồi với lãnh đạo/nhân sự phân giao công việc về hiện trạng của bản thân và hướng giải quyết
+/o Trao đổi thống nhất lại về thời gian xử lý công việc được giao
+/qe
+
+/qb /multi Các hành vi nào sau đây bị nghiêm cấm với tất cả cán bộ nhân viên tại MB?
+/o Sử dụng các thiết bị lưu trữ di động tại MB
+/o /a Thiết lập hệ thống thông tin giả mạo, lừa đảo, chiếm đoạt tài sản, đánh bạc, các hành động vi phạm pháp luật, kinh doanh trái pháp luật khác
+/o /a Lợi dụng hoặc lạm dụng sử dụng tài sản CNTT, hệ thống mạng, tài nguyên của MB để vi phạm pháp luật, gây mất trật tự, an toàn xã hội, xâm phạm quyền và lợi ích hợp pháp của cơ quan, tổ chức, cá nhân hoặc để trục lợi
+/o /a Thu thập, sử dụng, lưu trữ, phát tán các thông tin, tài liệu: vi phạm pháp luật, phản động, phá hoại khối đại đoàn kết toàn dân tộc, xuyên tạc, xúc phạm tôn giáo, phân biệt đối xử về giới, phân biệt chủng tộc, phá hoại thuần phong, mỹ tục của dân tộc, đạo đức xã hội, sức khỏe của cộng đồng
+/qe
+
+/qb Quyết định số 857/QĐ-MB-HĐQT ban hành Quy định, chức năng nhiệm vụ của Khối Công nghệ thông tin có hiệu lực từ thời điểm nào
+/o /a 2024-04-10 00:00:00
+/o 2024-06-11 00:00:00
+/o 2024-04-26 00:00:00
+/o 2024-07-02 00:00:00
+/qe
+
+/qb Theo mô hình tổ chức mới năm 2024, Khối CNTT gồm bao nhiêu trung tâm?
+/o 8
+/o /a 9
+/o 10
+/o 4
+/qe
+
+/qb Đơn vị nào thuộc Khối CNTT có chức năng quản lý hoạt động CNTT Tập đoàn
+/o Khối CNTT
+/o /a Trung tâm Quản trị CNTT
+/o Trung tâm Vận hành dịch vụ công nghệ
+/o Trung tâm BA
+/qe
+
+/qb /multi Chức năng nhiệm vụ của Khối CNTT gồm
+/o /a Tham mưu cho Hội đồng Quản trị, Tổng Giám Đốc về việc nghiên cứu, xây dựng định hướng chiến lược CNTT, ứng dụng và phát triển CNTT linh hoạt, tự chủ đáp ứng yêu cầu kinh doanh và quản trị điều hành của MBGroup theo từng thời kỳ
+/o /a Quản lý và tổ chức triển khai các hoạt động phát triển, vận hành, cung cấp các sản phẩm dịch vụ CNTT đáp ứng yêu cầu của đơn vị kinh doanh và phù hợp với định hướng chiến lược của MB
+/o /a Tổ chức, quản lý hoạt động CNTT Tập đoàn bám sát chiến lược của MBGroup
+/o Quản lý nhân sự CNTT
+/qe
+
+/qb Phối hợp xây dựng và quản lý kế hoạch triển khai các giải pháp CNTT cho Khối TCKT là nhiệm vụ của:
+/o Phòng BA Tín dụng và Quản trị rủi ro
+/o Phòng BA Nguồn vốn và ứng dụng quản lý
+/o /a Phòng BA Quản trị doanh nghiệp
+/o Phòng BA Hỗ trợ Kinh doanh
+/qe
+
+/qb Phối hợp với BA xây dựng và quản lý kế hoạch triển khai các giải pháp CNTT trên các hệ thống thẻ, ví của MB là chức năng nhiệm vụ của đơn vị nào?
+/o /a Phòng Công nghệ dịch vụ số
+/o Phòng Công nghệ quy trình tự động
+/o Phòng công nghệ Doanh nghiệp số
+/o Phòng công nghệ Khách hàng Cá nhân
+/qe
+
+/qb Hùng được giao triển khai dự án nâng cấp phần mềm T24; Hùng cần liên hệ đơn vị nào để cử nhân sự PM dự án?
+/o Phòng ngân hàng lõi
+/o Phòng Kiểm thử ứng dụng lõi
+/o /a Phòng Quản lý dự án và thiết kế trải nghiệm
+/o Phòng Quản trị và CNTT Tập đoàn
+/qe
+
+/qb /multi Đơn vị chịu trách nhiệm xử lý các yêu cầu mức 1 (Level 1) trong quá trình vận hành/sử dụng/khai thác hệ thống CNTT của người dùng
+/o /a Phòng Hỗ trợ dịch vụ CNTT
+/o /a Phòng CNTT Miền Trung
+/o /a Phòng CNTT Miền Nam
+/o Phòng Vận hành hệ thống CNTT
+/qe
+
+/qb Việc cài đặt và sửa chữa/bảo hành/bảo trì các thiết bị đầu cuối và các phần mềm trên các thiết bị đầu cuối trong hệ thống MB là trách nhiệm của
+/o Phòng Quản lý máy chủ
+/o /a Phòng Mạng và thiết bị đầu cuối
+/o Phòng Vận hành và đảm bảo an ninh
+/o Phòng Hỗ trợ dịch vụ CNTT
+/qe
+
+/qb Đơn vị được phép Thực hiện các tác động vào hệ thống theo kịch bản được phê duyệt.
+/o Phòng Kiểm soát tác động và Giải pháp nền tảng
+/o Phòng Quản trị ứng dụng CNTT
+/o Phòng Quản trị ứng dụng CNTT
+/o /a Phòng Vận hành hệ thống CNTT
+/qe
+
+/qb Để tra cứu, tìm kiếm các văn bản nội bộ Anh/Chị truy cập vào web nào dưới đây?
+/o /a https://vbnb.mbbank.com.vn/
+/o https://moffice.mbbank.com.vn/
+/o https://hcm.mbbank.com.vn/
+/o https://confluence.mbbank.com.vn/
+/qe
+
+/qb Trung tâm dữ liệu chính của MB đang được đặt ở đâu
+/o 21 Cát Linh
+/o /a Số 3 Liễu Giai
+/o 63 Lê Văn Lương
+/o Viettel IDC Pháp Vân
+/qe
+
+/qb Phòng BA Khách hàng số cần golive 1 sản phẩm trên APP thì cần liên hệ với đơn vị nào để thực hiện pentest
+/o /a Phòng Đảm bảo an toàn thông tin
+/o Phòng Vận hành an toàn thông tin
+/o Phòng Giám sát và Điều tra an ninh mạng
+/o Phòng Quản lý rủi ro và tuân thủ
+/qe
+
+/qb Huệ đang cần reboot VDI, Huệ có thể làm theo cách nào dưới đây?
+/o Liên hệ nhân sự hỗ trợ VDI  (Phòng Điện toán đám mây - TTHT)
+/o Gửi: rebootvdi@mbbank.com.vn 
+Tiêu đề: Rbtk: tai_khoan_nguoi_dung
+/o Tự thao tác bằng phím vật lý
+/o /a Cả 3 đáp án trên
+/qe
+
+/qb Công nghệ xử lý ngôn ngữ tự nhiên là phạm vi của đơn vị nào?
+/o Phòng Nghiên cứu phát triển và ứng dụng AI
+/o /a Phòng Công nghệ ngôn ngữ và tiếng nói
+/o Phòng Công nghệ thị giác máy tính
+/o Phòng Công nghệ trợ lý ảo
+/qe
+
+
+
+
+
+
+
+
+
+
+
+
+
+/qb Theo quy trình quản lý yêu cầu khái niệm Yêu cầu dịch vụ (Service Request) được hiểu như thế nào là đúng nhất?
+/o là yêu cầu từ đối tác về thông tin hoặc cho những thay đổi nhỏ có rủi ro thấp, được thực hiện thường xuyên, chi phí thấp, v.v.
+/o là yêu cầu từ người dùng về phát triển phần mềm hoặc cho những thay đổi nhỏ có rủi ro thấp, được thực hiện thường xuyên, chi phí thấp, v.v.
+/o là yêu cầu từ người dùng về thông tin hoặc cho những thay đổi khẩn cấp, được thực hiện thường xuyên, chi phí thấp, v.v.
+/o /a là yêu cầu từ người dùng về thông tin hoặc cho những thay đổi nhỏ có rủi ro thấp, được thực hiện thường xuyên, chi phí thấp, v.v.
+/qe
+
+/qb /multi Chọn các đáp án mô tả mục đích của quy trình Quản lý yêu cầu dịch vụ CNTT tại MB là gì?
+/o /a Quy trình nhằm chuẩn hóa các bước từ khi tiếp nhận đến khi xử lý và đóng yêu cầu của người dùng sử dụng các dịch vụ CNTT
+/o Kiếm soát được trạng thái, tiến độ của các sự cố CNTT từ lúc sự cố được phát hiện tới khi đóng sự cố
+/o /a Quản lý các yêu cầu dịch vụ CNTT của người dùng
+/o /a Kiểm soát được trạng thái của các yêu cầu kể từ thời điểm khởi tạo cho đến khi đóng yêu cầu nhằm đảm bảo chất lượng dịch vụ mà Khối CNTT cung cấp cho người dùng theo như SLA cam kết
+/qe
+
+/qb Trường hợp Anh/ Chị  là nhân sự Level 2 tiếp nhận được một Yêu cầu phối hợp để xử lý sự cố hoặc yêu cầu hỗ trợ nhưng OLA cho phép xử lý quá ít, Anh/ Chị  có thể tự ý điều chỉnh lại để tăng thời gian OLA lên không?
+/o Có thể điều chỉnh vì có quyền chỉnh sửa hầu hết các thuộc tính trên ticket.
+/o /a Không được phép tự ý thay đổi OLA vì OLA cần đảm bảo tuân thủ theo SLA cam kết với người dùng.
+/o Không cần quan tâm đến OLA, cứ làm theo khả năng bao giờ hoàn thành thì thôi.
+/o Từ chối yêu cầu phối hợp vì không đủ thời gian.
+/qe
+
+/qb /multi Anh/ Chị  là một nhân sự hỗ trợ Level 2. Anh/ Chị  nhận thấy thời gian gần đây yêu cầu từ L1 chuyển sang L2 quá nhiều làm Anh/ Chị  khá tốn thời gian xử lý. Anh/ Chị  nên làm gì?
+/o Cứ hỗ trợ theo yêu cầu, không cần làm gì cả.
+/o /a Rà soát xem tại sao các yêu cầu chuyển L2 lại phát sinh nhiều
+/o /a Suy nghĩ tìm phương án tối ưu, báo cáo CBQL để cùng thống nhất phương án hiệu quả
+/o Anh/ Chị  từ chối vì không đủ thời gian xử lý các yêu cầu hỗ trợ, các việc xử lý lỗi và triển khai dự án đã mất quá nhiều thời gian rồi
+/qe
+
+/qb Công tác phân loại mức độ ưu tiên của sự cố được dựa trên các yếu tố nào?
+/o /a Mức độ ảnh hưởng và mức độ khẩn cấp
+/o Mức độ ảnh hưởng và phạm vị ảnh hưởng
+/o Thời gian xử lý sự cố
+/o Mức độ quan trọng của hệ thống đang gặp sự cố
+/qe
+
+/qb Mục tiêu của Quy trình quản lý sự cố?
+/o Quản lý sự cố đảm bảo tìm ra nguyên nhân gốc rễ của sự cố lặp đi lặp lại nhiều lần và giảm thiểu tối đa sự ảnh hưởng tới tổ chức kinh doanh
+/o Quy trình chịu trách nhiệm quản lý toàn bộ vòng đời của mọi yêu cầu dịch vụ
+/o /a Quản lý sự cố đảm bảo hoạt động bình thường của dịch vụ được khôi phục nhanh nhất có thể và giảm thiểu tối đa sự ảnh hưởng tới tổ chức kinh doanh
+/o Quản lý chủ động chống lại các sự cố kể từ lúc xảy ra và tối thiểu hóa ảnh hưởng của các sự cố mà nó không thể ngăn chặn được
+/qe
+
+/qb /multi Anh/ Chị  là nhân sự tham gia trong nhóm xử lý sự cố. trách nhiệm của Anh/ Chị   gồm:
+/o /a Kịp thời nắm bắt thông tin sự cố, phối hợp các bên điều tra nguyên nhân và đưa ra biện pháp xử lý
+/o Thông báo tới Khối Chủ sở hữu dịch vụ và Đối tác
+/o /a Triển khai hoặc phối hợp triển khai giải pháp khôi phục dịch vụ kịp thời khi được phê duyệt giải pháp
+/o /a Thông tin tới Level 1 về thời gian dự kiến cho việc khôi phục lại dịch vụ
+/qe
+
+/qb Định nghĩa về "Mức độ khẩn cấp" theo quy trình quản lý yêu cầu
+/o Là mức độ quan trọng của yêu cầu
+/o Là mức độ rủi ro của yêu cầu
+/o /a Là mức độ cần phải đáp ứng nhanh chóng yêu cầu hỗ trợ mà người dùng đòi hỏi
+/o Là mức độ để đánh giá phạm vi ảnh hưởng, tính chất nghiêm trọng của sự cố
+/qe
+
+/qb Định nghĩa về "Mức độ ảnh hưởng" theo quy trình quản lý sự cố
+/o Là mức độ quan trọng của yêu cầu
+/o /a Là mức độ để đánh giá phạm vi ảnh hưởng, tính chất nghiêm trọng của sự cố
+/o Là mức độ cần phải đáp ứng nhanh chóng yêu cầu hỗ trợ mà người dùng đòi hỏi
+/o Là mức độ rủi ro của sự cố
+/qe
+
+/qb Định nghĩa về "giải pháp tạm thời" theo quy trình quản lý sự cố
+/o /a Là phương án xử lý tình thế để khắc phục sự việc ngay tại thời điểm phát sinh khi chưa có giải pháp xử lý triệt để
+/o Là phương án xử lý triệt để các vấn đề công nghệ thông tin
+/o Là nguyên nhân gốc rễ của một vấn đề
+/o Là một gián đoạn không có kế hoạch của dịch vụ công nghệ thông tin
+/qe
+
+/qb Định nghĩa đơn vị hỗ trợ mức 1 (level 1) theo quy trình quản lý yêu cầu
+/o IT hỗ trợ tại chi nhánh
+/o Cán bộ thuộc các đơn vị ngoài MB
+/o Cán bộ thuộc TTPT
+/o /a Cán bộ kỹ thuật xử lý ở cấp độ 1 bao gồm SD/OM, SD/OM manager, Phòng mạng và thiết bị đầu cuối
+/qe
+
+/qb Định nghĩa về nhóm xử lý sự cố
+/o Là một nhóm thuộc TTVH
+/o Một nhóm được thành lập riêng biệt để xử lý sự cố
+/o /a Tất cả các thành viên tham gia trong quá trình xử lý sự cố. Bao gồm các nhân sự chuyên trách thuộc khối CNTT, bao gồm nhưng không giới hạn Service Desk, Service Desk manager, Incident coor, L2 và nhân sự đối tác (nếu có), Incident manager nếu cần và nhân sự đại diện đơn vị nghiệp vụ trong trường hợp cần thiết
+/o Là một nhóm thuộc TTPT
+/qe
+
+/qb Trong quá trình xử lý sự cố, nếu sự cố phát sinh có rủi ro tài chính, gây ảnh hưởng về tài chính cho khách hàng hoặc MB, sự cố này sẽ được đánh giá ảnh hưởng như thế nào?
+/o Không có quy định
+/o /a Mức nghiêm trọng hoặc mức cao tùy vào số lượng tổn thất
+/o Mức trung bình
+/o Mức thấp
+/qe
+
+/qb Anh/ Chị tiếp nhận được một yêu cầu với nội dung hỗ trợ khách hàng đang liên hệ trực tiếp tại quầy, mức độ khẩn cấp của yêu cầu này sẽ là?
+/o /a Khẩn
+/o Thông thường
+/o Trung bình
+/o Thấp
+/qe
+
+
