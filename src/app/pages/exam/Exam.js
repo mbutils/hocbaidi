@@ -84,15 +84,14 @@ const Exam = () => {
                         <Row className='mt-2'>
                             <Col span={isMobile ? 6 : 2} offset={isMobile ? 4 : 10}>Bộ đề thi:</Col>
                             <Col span={12}>
+                            <ul style={{paddingLeft: 0, marginTop: 0}}>
                                 {EXAM_SET.map((a) => {
                                     if (!examSetup.selectExam.includes(a.value)) return;
-                                    return (
-                                    <Row>
-                                        <Col span={isMobile ? 5 : 3}>{examSetup.ratioExam[a.value]}%</Col>
-                                        <Col>{a.label}</Col>
-                                    </Row>
-                                )
+                                    return (<li>
+                                        <span style={{fontWeight: 600}}>{examSetup.ratioExam[a.value]}%</span> <i style={{fontSize: '12px'}}>{a.label}</i>
+                                    </li>)
                                 })}
+                                </ul>
                             </Col>
                         </Row>
                     </div>
