@@ -34,7 +34,7 @@ const QuestionDetail = (props) => {
     return ( 
         <> 
         <div className='question-detail'> 
-            <div className="question" style={{whiteSpace: "pre-wrap"}}>
+            <div className="question">
                 {isPin === 1
                     ? <PushpinFilled style={{color: 'red'}} onClick={() => changePin(0)} />
                     : <PushpinOutlined onClick={() => changePin(1)} />
@@ -46,7 +46,7 @@ const QuestionDetail = (props) => {
                 <div className='answer-correct'> 
                     Đáp án:
                     {question.answerTxt.map(a => (
-                        <pre><i>{a}</i></pre>
+                        <pre className='op-answer'><i>{a}</i></pre>
                     ))}
                 </div> 
             ) : null} 
