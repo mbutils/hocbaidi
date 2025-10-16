@@ -44,6 +44,10 @@
 } 
 .question-detail .question {
     font-weight: 500;
+    white-space: pre-wrap;
+}
+.question-detail .answer-correct .op-answer {
+    white-space: pre-wrap;
 }
 .nav-question-btn { 
     display: flex; 
