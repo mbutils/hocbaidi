@@ -549,8 +549,7 @@ CONSTRAINT emp deptno fk REFERENCES dept (deptno));
 /qb HTML dùng để
 /o Xử lý dữ liệu server
 
-/o /a 
-Thiết kế giao diện web
+/o /a Thiết kế giao diện web
 
 /o Viết API
 
@@ -1271,8 +1270,7 @@ Thành công
 /qb Trong Git, lệnh git clone dùng để?
 /o Tạo commit mới
 
-/o /a 
-Sao chép repo về máy
+/o /a Sao chép repo về máy
 
 /o Tải thư viện
 
