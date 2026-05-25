@@ -1,0 +1,678 @@
+/qb Ban điều hành yêu cầu dashboard doanh thu cập nhật hằng ngày, truy vấn dưới 10 giây, dữ liệu lịch sử 5 năm. Phương án kiến trúc nào phù hợp nhất để cân bằng hiệu năng và khả năng vận hành?
+/o /a Thiết kế lớp dữ liệu tổng hợp theo ngày/tháng, có cơ chế refresh kiểm soát và truy vết số liệu về dữ liệu gốc
+/o Cho dashboard truy vấn trực tiếp bảng giao dịch chi tiết để luôn đảm bảo dữ liệu mới nhất
+/o Tạo nhiều index trên hầu hết các cột được hiển thị để người dùng có thể lọc linh hoạt
+/o Tách riêng dashboard theo từng phòng ban để giảm số người truy cập cùng lúc
+/qe
+
+/qb /multi Bạn cần lấy tổng doanh thu theo từng phòng ban nhưng chỉ hiển thị các phòng ban có tổng doanh thu lớn hơn 100000. Mệnh đề nào nên dùng để lọc kết quả sau khi GROUP BY?
+/o WHERE total_sales > 100000
+/o /a HAVING SUM(sales) > 100000
+/o ORDER BY SUM(sales) > 100000
+/o DISTINCT SUM(sales) > 100000
+/o WHERE total_sales > 100000
+/o /a HAVING SUM(sales) > 100000
+/o ORDER BY SUM(sales) > 100000
+/o DISTINCT SUM(sales) > 100000
+/qe
+
+/qb /multi Chức năng của ms lưu ký là:
+/o /a Giao dịch trên KRX
+/o /a Lưu ký trái phiếu MB phát hành
+/o /a Giao dịch trái phiếu riêng lẻ trên HNX
+/o Giao dịch FX
+/qe
+
+/qb /multi Các loại change nào thuộc nhóm cần bảo vệ qua Hội đồng CAB tập trung theo hướng dẫn?
+/o Yêu cầu cung cấp dịch vụ thông thường
+/o /a Thay đổi hạ tầng.
+/o /a Nâng cấp phiên bản.
+/o /a Yêu cầu phát triển có phân loại YCPT_L3 hoặc YCPT_L4.
+/qe
+
+/qb /multi Các requesst truy vấn vào T24 nên gọi qua IL nào
+/o /a IL ENQ
+/o IL LIVE
+/o Cả 2
+/o /a IL ENQ
+/o IL LIVE
+/o Cả 2
+/qe
+
+/qb DB nào chứa dữ liệu realtime trong 7 ngày gần nhất?
+/o /a DB T24 LIVE
+/o DB DLM
+/o DB T24 ENQ
+/qe
+
+/qb Database đang phục vụ đồng thời OLTP ban ngày và OLAP/report cuối ngày. Gần đây giao dịch online bị chậm khi báo cáo lớn chạy. Quyết định quản lý nào phù hợp nhất trong ngắn hạn?
+/o /a Ưu tiên tài nguyên cho giao dịch trọng yếu, đặt lịch/giới hạn báo cáo nặng và theo dõi SLA sau điều chỉnh
+/o Cho phép báo cáo tiếp tục chạy để tránh ảnh hưởng cam kết cung cấp dữ liệu cho các phòng ban
+/o Tăng connection pool cho ứng dụng online để cạnh tranh tài nguyên tốt hơn với báo cáo
+/o Yêu cầu đội báo cáo thêm index cho toàn bộ điều kiện lọc thường gặp trước khi phân tích nguyên nhân
+/qe
+
+/qb /multi Foreign key dùng để làm gì?
+/o /a Ràng buộc quan hệ tham chiếu giữa hai bảng
+/o Tạo full text index
+/o Tự động backup dữ liệu
+/o Tự động phân vùng bảng
+/o /a Ràng buộc quan hệ tham chiếu giữa hai bảng
+/o Tạo full text index
+/o Tự động backup dữ liệu
+/o Tự động phân vùng bảng
+/qe
+
+/qb /multi Function-based index giúp gì?
+/o /a Index trên biểu thức/hàm
+/o Tăng số cột bảng
+/o Tự động partition
+/o Giảm dung lượng bảng
+/o /a Index trên biểu thức/hàm
+/o Tăng số cột bảng
+/o Tự động partition
+/o Giảm dung lượng bảng
+/qe
+
+/qb Hệ thống F2B của hãng Finastra là viết tắt của gì?
+/o Front-to-Bank
+/o /a Front-to-Back
+/o Finance-to-Banking
+/o Fast-to-Business
+/qe
+
+/qb /multi Khi báo cáo tình trạng database production cho ban lãnh đạo, những chỉ số nào phản ánh tốt cả sức khỏe kỹ thuật và tác động nghiệp vụ?
+/o /a Tỷ lệ giao dịch lỗi hoặc timeout theo khung giờ cao điểm
+/o /a P95/P99 response time của các luồng nghiệp vụ trọng yếu
+/o /a Mức sử dụng CPU/I/O kèm tương quan với throughput và SLA
+/o Số lượng object trong schema vì càng nhiều object thì rủi ro vận hành càng cao
+/qe
+
+/qb /multi Khi chuẩn bị hồ sơ cho change có yếu tố bảo mật và mức ảnh hưởng cao, những điểm nào cần lưu ý theo phần chú ý của hồ sơ thay đổi?
+/o Mọi change đều được miễn tài liệu nếu đã có email đồng ý miệng
+/o /a YCPT_L2 trở lên phải bổ sung BM06 - Biên bản kiểm tra hệ thống trước golive theo điều kiện quy định.
+/o /a Change có Pentest cần bổ sung BM04 - Biên bản kết quả khắc phục lỗ hổng/điểm yếu sau kiểm thử xâm nhập.
+/o /a Change qua CAB tập trung cần bổ sung BM05 - Câu hỏi đánh giá tác động.
+/qe
+
+/qb Khi ghi nhận downtime thực tế trên SDP, khoảng thời gian nào cần được tính?
+/o Từ lúc bắt đầu golive đến khi đóng change
+/o Từ lúc Change Manager phê duyệt đến khi CAB phê duyệt
+/o Từ lúc tạo task đến lúc CAB gửi email
+/o /a Từ lúc bắt đầu downtime đến khi ON dịch vụ
+/qe
+
+/qb /multi Khi giải pháp ảnh hưởng nhiều hệ thống, các vai trò nào nên tham gia theo thành phần hội đồng? (Chọn tối đa 3 đáp án)
+/o Task Owner không thuộc domain hoặc hệ thống tác động
+/o /a BA Leader tương ứng.
+/o Change Coordinator không liên quan hệ thống
+/o /a SA Leader tương ứng.
+/o /a TechLeader các hệ thống liên quan.
+/qe
+
+/qb Khi người phụ trách phê duyệt không thể tham gia, việc ủy quyền nên được hiểu thế nào?
+/o Tự động ủy quyền khi người phụ trách vắng mặt
+/o Thay bằng xác nhận miệng trong cuộc họp là đủ
+/o /a Có thể ủy quyền nhưng phải có sự đồng ý của LĐK.
+/o Ủy quyền không cần lưu vết hoặc phê duyệt liên quan
+/qe
+
+/qb /multi Khi phát sinh lỗi trong quá trình thay đổi, nguyên tắc rollback nào cần được tuân thủ?
+/o Chỉ rollback thành phần dễ làm nhất để giảm thời gian
+/o /a Change Team phối hợp đánh giá ảnh hưởng của lỗi phát sinh trước khi rollback.
+/o /a Mọi thay đổi ảnh hưởng đến chất lượng dịch vụ cung cấp cho nghiệp vụ đều thực hiện rollback.
+/o /a Rollback toàn bộ các thành phần đã thực hiện thay đổi trên tất cả hệ thống thuộc phạm vi tác động.
+/qe
+
+/qb /multi Khi phát triển API mở tài khoản trực tuyến, các kiểm soát nào nên được đưa vào thiết kế bảo mật?
+/o Tin cậy hoàn toàn dữ liệu đã được kiểm tra ở giao diện
+/o /a Rate limit hoặc kiểm soát lạm dụng cho các endpoint quan trọng.
+/o Log toàn bộ giấy tờ định danh để tiện tra cứu thủ công
+/o /a Xác thực và phân quyền ở server cho từng hành động nhạy cảm.
+/o /a Validate input và chuẩn hóa lỗi trả về để không lộ thông tin nhạy cảm.
+/qe
+
+/qb Khi thiết kế dashboard vận hành cho dịch vụ thanh toán, chỉ số nào phản ánh trực tiếp nhất trải nghiệm giao dịch của khách hàng?
+/o Số lượng file cấu hình trong repository
+/o /a Tỷ lệ giao dịch thành công, latency p95/p99 và số lỗi theo loại nghiệp vụ.
+/o Dung lượng ổ đĩa của máy chủ build
+/o Số dòng log được sinh ra mỗi phút
+/o Số developer tham gia dự án
+/qe
+
+/qb /multi Khi thực hiện thiết kế và triển khai tích hợp hệ thống với các đối tác bên ngoài, những yếu tố nào sau đây cần được ưu tiên hàng đầu?
+/o /a Bảo mật (Security)
+/o /a Cam kết chất lượng dịch vụ (SLA - Service Level Agreement)
+/o Chia sẻ cơ sở dữ liệu dùng chung (Shared Database)
+/o Thiết kế hệ thống Ignore Error
+/qe
+
+/qb Khi triển khai thay đổi database cho hệ thống đang chạy, phương án nào nên được ưu tiên để giảm rủi ro rollback?
+/o Chỉ backup schema, không cần backup dữ liệu
+/o /a Thiết kế migration theo hướng tương thích ngược: thêm cột/bảng trước, chuyển dữ liệu, sau đó mới loại bỏ phần cũ ở release sau.
+/o Xóa cột cũ ngay trong cùng release để tránh nợ kỹ thuật
+/o Không cần kế hoạch rollback nếu script đã chạy thành công ở môi trường DEV
+/o Cho phép script update dữ liệu chạy không giới hạn thời gian trong giờ cao điểm
+/qe
+
+/qb /multi Khi tối ưu truy vấn tìm kiếm dữ liệu trên cột thường xuyên được dùng trong điều kiện WHERE, giải pháp nào phù hợp nhất?
+/o /a Tạo INDEX trên cột tìm kiếm
+/o Xóa PRIMARY KEY của bảng
+/o Thay tất cả kiểu dữ liệu thành VARCHAR
+/o Loại bỏ toàn bộ điều kiện WHERE
+/o /a Tạo INDEX trên cột tìm kiếm
+/o Xóa PRIMARY KEY của bảng
+/o Thay tất cả kiểu dữ liệu thành VARCHAR
+/o Loại bỏ toàn bộ điều kiện WHERE
+/qe
+
+/qb Khi xây dựng API tích hợp nhiều hệ thống, một trong những best practice để đảm bảo khả năng mở rộng là gì?
+/o Thiết kế API tightly coupled với logic business của từng hệ thống
+/o /a Sử dụng API Gateway để quản lý routing, rate limit, auth.
+/o Luôn sử dụng synchronous API thay vì async
+/o Không sử dụng caching để đảm bảo dữ liệu real-time
+/qe
+
+/qb Khi xử lý giao dịch ghi nợ/ghi có qua nhiều bước, cách xử lý exception nào an toàn hơn?
+/o Chỉ ghi log lỗi và để dữ liệu được sửa thủ công sau
+/o Retry vô hạn đến khi thành công
+/o Bắt mọi exception rồi trả thành công để tránh khách hàng thấy lỗi
+/o Tắt kiểm tra exception ở tầng service để tối ưu hiệu năng
+/o /a Đặt ranh giới transaction rõ ràng, rollback khi lỗi chưa thể xác nhận trạng thái cuối cùng.
+/qe
+
+/qb /multi Khái niệm đầy đủ về hệ thống Account360 là gì?
+/o /a Hệ thống ACCOUNT360 cung cấp dịch vụ truy vấn thông tin tài khoản đang hoạt động trong core T24
+/o Kết quả tra cứu thông tin tài khoản trên hệ thống ACCOUNT360 hoàn toàn không có độ trễ
+/o /a Chỉ được truy vấn thông tin tài khoản trên hệ thống ACCOUNT360 đối với các quy trình/luồng sản phẩm không liên quan đến hạch toán tài chính
+/o Chỉ được truy vấn thông tin tài khoản trên hệ thống ACCOUNT360 đối với các quy trình/luồng sản phẩm liên quan đến hạch toán tài chính
+/qe
+
+/qb MVMT là loại dữ liệu gì của T24?
+/o Số dư cuối ngày của hợp đồng/tài khoản
+/o Số dư lũy kế theo key
+/o /a Bút toán phát sinh theo ngày của hệ thống
+/o Bút toán phát sinh theo tài khoản trong ngày
+/qe
+
+/qb Một backlog sprint có nhiều task kỹ thuật nhưng không rõ liên hệ với mục tiêu sản phẩm. Lập trình viên nên đề xuất điều gì trong refinement?
+/o Chỉ nhận task theo phân công để tránh tranh luận
+/o Ước lượng effort trước rồi mới hỏi mục tiêu nếu còn thời gian
+/o /a Làm rõ mục tiêu, giá trị nghiệp vụ, acceptance criteria và ràng buộc kỹ thuật của từng item.
+/o Xem mọi task kỹ thuật là giá trị tự thân, không cần outcome
+/o Tách business ra khỏi refinement để team dev tập trung code
+/qe
+
+/qb Một deployment mới làm tăng lỗi 5xx nhưng CPU và memory vẫn bình thường. Hướng kiểm tra nào hợp lý nhất?
+/o Rollback ngay mà không ghi nhận bằng chứng
+/o /a Kiểm tra log lỗi, trace request, dependency downstream và thay đổi cấu hình/package của bản triển khai.
+/o Bỏ qua vì chỉ số hạ tầng vẫn bình thường
+/o Tắt health check để traffic không bị chuyển hướng
+/o Chỉ tăng CPU vì 5xx luôn do thiếu tài nguyên
+/qe
+
+/qb Một endpoint chuyển tiền có thể bị gọi lại nhiều lần do timeout từ mobile app. Thiết kế nào phù hợp nhất để tránh ghi nhận trùng giao dịch?
+/o Chỉ kiểm tra trùng ở giao diện người dùng
+/o Cho phép tạo giao dịch mới ở mỗi lần retry rồi đối soát cuối ngày
+/o Tăng timeout của mobile app để giảm xác suất gọi lại
+/o /a Sử dụng idempotency key/requestId duy nhất và kiểm tra trạng thái giao dịch trước khi tạo mới.
+/o Gửi lại request bằng tài khoản kỹ thuật để tránh lỗi quyền
+/qe
+
+/qb /multi Một hệ thống OLTP phát sinh lock contention vào cuối ngày do nhiều tiến trình cập nhật cùng nhóm bản ghi giao dịch. Với vai trò cán bộ quản lý kỹ thuật, những hướng xử lý nào nên được ưu tiên đánh giá trước khi mở rộng hạ tầng?
+/o /a Rà soát thứ tự cập nhật dữ liệu giữa các tiến trình để giảm khả năng chờ khóa chéo
+/o /a Điều chỉnh batch thành các lô nhỏ hơn, commit theo ngưỡng kiểm soát được
+/o /a Bổ sung index phù hợp cho điều kiện định vị bản ghi cần cập nhật nếu execution plan đang quét quá rộng
+/o Tăng số session chạy song song để hoàn thành batch nhanh hơn mà không thay đổi thiết kế giao dịch
+/qe
+
+/qb Một hệ thống có nhiều job batch trước/sau giờ COB. Khi thêm job mới, lập trình viên cần ưu tiên kiểm tra điều gì?
+/o Cho job tự retry vô hạn khi lỗi
+/o /a Phụ thuộc dữ liệu, thời gian chạy, khả năng ảnh hưởng cửa sổ vận hành và phương án rollback nếu job lỗi.
+/o Chỉ cần đặt tên job theo chuẩn để dễ tìm
+/o Chạy job trong giờ cao điểm để có dữ liệu thật nhất
+/o Bỏ qua monitoring nếu job chỉ chạy nội bộ
+/qe
+
+/qb Một log ứng dụng đang ghi đầy đủ số thẻ và số giấy tờ tùy thân để debug lỗi giao dịch. Hành động phù hợp nhất là gì?
+/o Tăng retention log để debug dễ hơn
+/o /a Mask/tokenize dữ liệu nhạy cảm trong log và chỉ giữ thông tin đủ phục vụ truy vết.
+/o Gửi log chứa dữ liệu nhạy cảm qua email cho nhóm xử lý
+/o Giữ nguyên vì log chỉ dành cho đội kỹ thuật
+/o Chỉ đổi tên trường log để người khác khó hiểu
+/qe
+
+/qb Một microservice có tỷ lệ lỗi tăng sau khi số lượng request tăng 3 lần, nhưng database vẫn còn tài nguyên. Kiểm tra nào nên ưu tiên tiếp theo?
+/o Chỉ mở rộng storage database
+/o Tăng log level DEBUG cho toàn bộ traffic production
+/o Tắt giới hạn connection để request vào không bị chặn
+/o Bỏ circuit breaker để downstream nhận nhiều request hơn
+/o /a Pool kết nối, thread pool, timeout, queue và giới hạn tài nguyên của chính service.
+/qe
+
+/qb Một rủi ro thường gặp khi tích hợp qua API sync thay vì async là gì?
+/o Dữ liệu không đồng bộ tức thì
+/o /a Hệ thống bị block khi downstream chậm hoặc lỗi.
+/o Không thể triển khai load balancing
+/o Khó implement logging
+/qe
+
+/qb Một secret kết nối database đang được lưu trong file cấu hình của repository. Hành động nào phù hợp nhất?
+/o Mã hóa secret bằng Base64 rồi commit lại
+/o /a Di chuyển secret sang cơ chế quản lý bí mật, cấp quyền truy cập tối thiểu và rotate secret bị lộ.
+/o Giữ nguyên vì repository chỉ dành cho nội bộ
+/o Chỉ xóa secret ở branch hiện tại, không cần xử lý lịch sử hoặc rotate
+/o Đổi tên file cấu hình để khó tìm hơn
+/qe
+
+/qb Một service cần gọi hệ thống chấm điểm tín dụng bên ngoài. Cách thiết kế nào giúp tránh lỗi dây chuyền khi hệ thống bên ngoài chậm?
+/o Bỏ kiểm tra lỗi downstream để giữ luồng xử lý đơn giản
+/o Mở thêm kết nối không giới hạn tới downstream
+/o Retry liên tục đến khi downstream trả lời
+/o /a Đặt timeout, retry có giới hạn, circuit breaker và phương án xử lý khi dependency không sẵn sàng.
+/o Không đặt timeout để chờ kết quả chính xác nhất
+/qe
+
+/qb Một service gửi thông báo giao dịch qua message broker. Cách xử lý nào giúp tránh mất message khi consumer lỗi tạm thời?
+/o Tắt retry để tránh tạo tải cho hệ thống
+/o Cho consumer đọc trực tiếp database production thay cho broker
+/o Ack message ngay khi nhận, trước khi xử lý nghiệp vụ
+/o Xóa message lỗi để hàng đợi không bị đầy
+/o /a Sử dụng ack/nack đúng cách, retry có kiểm soát và dead-letter queue cho message lỗi kéo dài.
+/qe
+
+/qb Một service thường xuyên mở file cấu hình và kết nối I/O trong quá trình xử lý batch. Cách coding nào giảm rủi ro rò rỉ tài nguyên?
+/o Để hệ điều hành tự thu hồi tài nguyên khi đủ tải
+/o /a Sử dụng try-with-resources hoặc cơ chế đóng tài nguyên trong mọi nhánh xử lý.
+/o Tăng heap size để tránh lỗi file descriptor
+/o Bỏ logging để tài nguyên được giải phóng nhanh hơn
+/o Chỉ đóng tài nguyên khi batch kết thúc thành công
+/qe
+
+/qb Một service tính hạn mức tín dụng bị chậm do gọi nhiều hệ thống downstream. Dấu hiệu đầu tiên cần bổ sung để xác định điểm nghẽn là gì?
+/o Gộp tất cả log thành một file duy nhất trên từng server
+/o Tắt timeout đến downstream để request có thêm thời gian hoàn thành
+/o Tăng số replica của mọi service ngay lập tức
+/o /a Trace/correlation id xuyên suốt các service để đo thời gian từng bước.
+/o Chỉ kiểm tra CPU của service đầu vào
+/qe
+
+/qb /multi Một sprint đang có nhiều yêu cầu phát sinh từ pháp chế và rủi ro. Các phản ứng nào phù hợp với cách làm Agile trong môi trường tài chính?
+/o Bỏ qua yêu cầu pháp chế vì sprint đã khóa scope
+/o /a Làm rõ acceptance criteria và tác động tuân thủ trước khi bắt đầu phát triển.
+/o Tự ý thêm mọi yêu cầu mới vào sprint mà không trao đổi
+/o /a Cập nhật Sprint Backlog nếu team và Product Owner thống nhất cách đạt Sprint Goal.
+/o /a Trao đổi với Product Owner/stakeholder để sắp xếp lại ưu tiên theo giá trị và rủi ro.
+/qe
+
+/qb Một team muốn triển khai trực tiếp bản vá lên production mà bỏ qua môi trường kiểm thử vì lỗi nhỏ. Cách xử lý phù hợp nhất là gì?
+/o Đồng ý nếu developer cam kết đã sửa đúng
+/o Chỉ kiểm tra log sau khi khách hàng báo lỗi
+/o Cho triển khai trước rồi bổ sung hồ sơ sau khi có thời gian
+/o Bỏ qua review vì thay đổi nhỏ thường không gây lỗi
+/o /a Đánh giá mức độ khẩn cấp, rủi ro tác động, bằng chứng test tối thiểu và phê duyệt theo luồng change/hotfix.
+/qe
+
+/qb Một team triển khai ứng dụng lên nhiều vùng hạ tầng. Cách kiểm soát nào giúp phát hiện sớm sai khác version giữa các vùng?
+/o Chỉ kiểm tra version ở một vùng đại diện
+/o Đặt cùng tên file artifact cho mọi version để giảm nhầm lẫn
+/o Ẩn thông tin version để tránh lộ thông tin nội bộ
+/o /a Gắn version/build hash vào artifact, endpoint health/info và dashboard triển khai.
+/o Dựa vào ghi nhớ của người triển khai
+/qe
+
+/qb Một thay đổi database ảnh hưởng bảng giao dịch lõi cần triển khai ngoài giờ. Tiêu chí nào quan trọng nhất để cán bộ quản lý quyết định Go/No-Go?
+/o /a Có kết quả kiểm thử trên môi trường tương đương, kế hoạch rollback đã diễn tập và tiêu chí dừng triển khai rõ ràng
+/o Đội kỹ thuật đã tự tin với script và thời gian triển khai dự kiến ngắn hơn cửa sổ downtime
+/o Đã thông báo kế hoạch cho các bên liên quan nên có thể xử lý phát sinh sau triển khai
+/o Có DBA trực onsite trong thời gian triển khai để can thiệp khi có sự cố
+/qe
+
+/qb Một truy vấn báo cáo quản trị sử dụng nhiều CTE và chạy chậm sau khi dữ liệu tăng mạnh. AWR cho thấy phần lớn thời gian nằm ở I/O và optimizer chọn plan khác nhau theo từng kỳ báo cáo. Cách tiếp cận nào phù hợp nhất?
+/o Ép toàn bộ truy vấn dùng cùng một hint cố định để đảm bảo plan không thay đổi
+/o /a Phân tích execution plan, thống kê dữ liệu, độ chọn lọc predicate và cân nhắc materialize/pre-aggregate phần dữ liệu dùng lặp
+/o Chuyển tất cả CTE thành subquery lồng nhau để optimizer có ít lựa chọn hơn
+/o Tăng PGA cho toàn bộ database trước, vì mọi truy vấn báo cáo chậm thường do thiếu bộ nhớ sort
+/qe
+
+/qb /multi Một truy vấn cần sắp xếp dữ liệu theo lương giảm dần. Cú pháp ORDER BY nào đúng?
+/o ORDER BY salary ASC
+/o ORDER salary DESC
+/o /a ORDER BY salary DESC
+/o SORT BY salary DESC
+/o ORDER BY salary ASC
+/o ORDER salary DESC
+/o /a ORDER BY salary DESC
+/o SORT BY salary DESC
+/qe
+
+/qb Một tính năng định giá phí mới cần bật trước cho 5% khách hàng nội bộ. Cách kiểm soát nào phù hợp nhất?
+/o Deploy code riêng cho từng máy chủ theo danh sách khách hàng
+/o Để tester thay đổi dữ liệu production bằng tay
+/o Bật trực tiếp cho toàn bộ khách hàng để tiết kiệm thời gian test
+/o Chỉ dựa vào rollback database nếu có lỗi
+/o /a Dùng feature flag có phân nhóm đối tượng, cơ chế tắt nhanh và monitoring sau bật.
+/qe
+
+/qb Một yêu cầu mới đòi hỏi thêm thông tin định danh khách hàng vào nhiều hệ thống. Bước nào nên làm trước để tránh nhân bản dữ liệu thiếu kiểm soát?
+/o Cho mỗi hệ thống tự tạo bảng định danh riêng để nhanh triển khai
+/o Copy toàn bộ dữ liệu khách hàng sang mọi service cần dùng
+/o Chỉ thêm field vào API hiện tại mà không đánh giá tác động downstream
+/o /a Xác định owner dữ liệu, hệ thống nguồn, luồng đồng bộ và nguyên tắc sử dụng dữ liệu.
+/o Gửi file Excel hằng ngày cho các hệ thống tự import
+/qe
+
+/qb Một ứng dụng có nhiều cấu hình khác nhau giữa SIT, UAT và production. Cách quản lý nào giảm lỗi cấu hình khi deploy?
+/o Không cần quản lý cấu hình nếu code đã qua kiểm thử
+/o /a Tách cấu hình theo môi trường, quản lý phiên bản, kiểm tra khác biệt và hạn chế sửa tay trực tiếp trên production.
+/o Dùng một file cấu hình duy nhất cho mọi môi trường chứa toàn bộ secret
+/o Sửa cấu hình trực tiếp trên server production sau mỗi lần deploy
+/o Để mỗi người triển khai tự nhớ cấu hình cần thay
+/qe
+
+/qb /multi Những câu lệnh nào có thể được sử dụng để loại bỏ dữ liệu trùng lặp trong kết quả truy vấn?
+/o /a DISTINCT
+/o /a GROUP BY
+/o ORDER BY
+/o /a UNION
+/o /a DISTINCT
+/o /a GROUP BY
+/o ORDER BY
+/o /a UNION
+/qe
+
+/qb /multi Những hạng mục nào thuộc thiết kế kỹ thuật chi tiết? (Chọn tối đa 3 đáp án)
+/o Biên bản review golive anytime
+/o /a Thiết kế chức năng.
+/o /a Thiết kế dữ liệu.
+/o Kế hoạch downtime theo từng khung giờ golive
+/o /a Luồng giao tiếp cho từng nghiệp vụ.
+/qe
+
+/qb /multi Những yếu tố nào thường cần kiểm tra khi một câu SQL batch chạy lâu?
+/o /a Wait event/session active
+/o /a Execution plan thực tế
+/o /a Statistics và cardinality estimate
+/o Màu giao diện SQL client
+/o /a Wait event/session active
+/o /a Execution plan thực tế
+/o /a Statistics và cardinality estimate
+/o Màu giao diện SQL client
+/qe
+
+/qb /multi Những yếu tố nào ảnh hưởng đến việc optimizer chọn full table scan?
+/o /a Bảng nhỏ
+/o /a Không có index phù hợp
+/o /a Predicate selectivity thấp
+/o ORDER BY
+/qe
+
+/qb Nếu cần truy vấn thông tin trên bề mặt ACCOUNT và chấp nhận độ trễ thì nên tích hợp vào đâu là đúng về mặt quy hoạch nhất
+/o /a ACCOUNT 360
+/o T24 LIVE
+/o T24 ENQ
+/o MS ACCOUNT
+/qe
+
+/qb OLA “Phê duyệt hồ sơ yêu cầu” đo thời gian xử lý của vai trò nào?
+/o CAB
+/o Task Owner
+/o Service Owner
+/o /a Change Manager
+/qe
+
+/qb OLA “Thực hiện các thay đổi” được tính từ thời điểm nào đến thời điểm nào?
+/o Từ lúc kết thúc review đến lúc close change
+/o Từ lúc nhận email CAB đến lúc Service Owner phê duyệt
+/o /a Từ ngày thực hiện thay đổi (Golive date trên SDP) đến ngày task cuối cùng theo kế hoạch hoàn thành.
+/o Từ lúc tạo change đến lúc CAB họp
+/qe
+
+/qb PRAGMA UDF trong function PL/SQL có thể giúp gì khi function được gọi trong SQL?
+/o /a Giảm overhead gọi function từ SQL
+/o Tự động tạo index
+/o Bắt buộc parallel DDL
+/o Xóa context switch hoàn toàn trong mọi trường hợp
+/qe
+
+/qb /multi Primary key constraint đảm bảo điều gì?
+/o /a Giá trị khóa chính duy nhất và không NULL
+/o Tất cả cột đều NOT NULL
+/o Bảng luôn partition
+/o Query luôn nhanh
+/o /a Giá trị khóa chính duy nhất và không NULL
+/o Tất cả cột đều NOT NULL
+/o Bảng luôn partition
+/o Query luôn nhanh
+/qe
+
+/qb SOAP API khác với REST API ở điểm nào?
+/o SOAP chỉ hỗ trợ JSON
+/o REST sử dụng XML làm định dạng chính
+/o /a SOAP sử dụng XML và có tiêu chuẩn bảo mật tích hợp (WS-Security), trong khi REST linh hoạt hơn với JSON.
+/o SOAP không hỗ trợ phương thức HTTP
+/qe
+
+/qb /multi Sau buổi bảo vệ giải pháp, các hành động nào giúp bảo đảm không bỏ sót việc phải làm? (Chọn tối đa 3 đáp án)
+/o Chỉ trao đổi miệng, không cần ticket theo dõi
+/o /a Team phát triển xử lý các công việc phát sinh trong quá trình phát triển.
+/o /a BA/SA log công việc phát sinh lên Jira.
+/o /a SA trình ký biên bản theo biểu mẫu.
+/o Đợi đến sát ngày go-live mới kiểm tra phát sinh
+/qe
+
+/qb Sau khi Change Coordinator close change tại bước Đóng yêu cầu, hệ thống sẽ tự động thực hiện hành động nào?
+/o Tự động tạo Emergency Change mới
+/o Chuyển change quay lại stage Submission
+/o Xóa toàn bộ task triển khai đã hoàn thành
+/o /a Gửi yêu cầu phê duyệt nghiệm thu kết quả golive đến Change Manager.
+/qe
+
+/qb Sự khác biệt chính giữa SOA (Service-Oriented Architecture) và Microservices là gì?
+/o SOA không hỗ trợ tích hợp API
+/o Microservices tập trung vào các dịch vụ nhỏ, độc lập, trong khi SOA sử dụng các dịch vụ lớn hơn và thường chia sẻ dữ liệu
+/o /a Microservices nhấn mạnh tính độc lập cao hơn, với mỗi dịch vụ có cơ sở dữ liệu riêng, trong khi SOA thường sử dụng ESB trung tâm.
+/o SOA chỉ sử dụng REST, còn Microservices chỉ sử dụng SOAP
+/qe
+
+/qb Theo nguyên tắc HĐGP, danh sách bảo vệ offline cần được thư ký chốt vào thời điểm nào?
+/o Không cần chốt danh sách nếu đã có link Confluence
+/o Sau khi Change đã đóng trên hệ thống
+/o Ngay sau khi team tạo ticket giải pháp
+/o /a Trước họp offline 1 ngày làm việc.
+/qe
+
+/qb Theo quy hoạch kiến trúc, muốn lấy thông tin số dư khả dụng của  ACCOUNT để hạch toán giao dịch, thì sẽ kết nối vào hệ thống nào?
+/o ACCOUNT 360
+/o /a T24 LIVE
+/o T24 ENQ
+/o MS ACCOUNT
+/qe
+
+/qb /multi Thiết kế mã lỗi chuẩn trong microservice giúp gì?
+/o /a Thiết kế mã lỗi chuẩn trong microservice giúp gì?
+/o /a Giúp dễ monitor và phân loại lỗi theo nhóm (business/system/validation)
+/o Thay thế logging
+/o Giảm CPU usage
+/qe
+
+/qb Trong API tra cứu khoản vay, client gửi loanId và customerId. Cách kiểm soát truy cập nào nên được ưu tiên ở phía backend?
+/o Chỉ dựa vào HTTPS vì dữ liệu đã được mã hóa khi truyền
+/o Ẩn customerId trên giao diện để người dùng khó thay đổi tham số
+/o /a Kiểm tra quyền truy cập của người dùng với khoản vay ở server trước khi trả dữ liệu.
+/o Cho phép client tự xác nhận khoản vay thuộc về người dùng
+/o Ghi log toàn bộ thông tin khoản vay để phát hiện truy cập sai sau này
+/qe
+
+/qb Trong T24, Thông tin số dư của tài khoản/hợp đồng được lưu chung trong bảng nào sau đây
+/o ACCOUNT
+/o RE.CONSOL.CONTRACT
+/o /a EB.CONTRACT.BALANCES
+/o ACT.ACTIVITY
+/qe
+
+/qb Trong T24,Ứng dụng nào sau đây hỗ trợ thu phí 1 lần ngay theo mã phí không đi kèm giao dịch tài chính
+/o /a AC.CHARGE.REQUEST
+/o IC.CHARGE
+/o FUNDS.TRANSFER
+/o TELLER
+/qe
+
+/qb /multi Trong bulk insert lớn, vì sao nên dùng APPEND?
+/o /a Giảm redo và bypass buffer cache
+/o Tăng số index
+/o Tự động commit
+/o Xóa dữ liệu cũ
+/o /a Giảm redo và bypass buffer cache
+/o Tăng số index
+/o Tự động commit
+/o Xóa dữ liệu cũ
+/qe
+
+/qb Trong bối cảnh cần go-live anytime, source code trong mô hình HĐGP có vai trò chính nào?
+/o Chỉ là phụ lục tham khảo, không phục vụ review go-live
+/o Thay thế biên bản phê duyệt trên Confluence
+/o Thay thế toàn bộ thiết kế kỹ thuật chi tiết
+/o /a Phục vụ review golive anytime.
+/qe
+
+/qb Trong các hệ thống tài chính, việc sử dụng kiểu dữ liệu int (số nguyên 32-bit) cho trường "Số tiền" có thể gây ra rủi ro nghiêm trọng nào ?
+/o Gây sai lệch giao diện (UI)
+/o /a Bị tràn số (overflow) khi giao dịch lớn hoặc xuất hiện giá trị âm.
+/o Làm chậm tốc độ truy vấn cơ sở dữ liệu.
+/o  Không thể lưu trữ đơn vị tiền tệ (VND, USD)
+/qe
+
+/qb Trong hệ thống giao dịch tài chính (banking/payment), chữ ký số (digital signature) thường được sử dụng để đảm bảo yếu tố nào quan trọng nhất trong một giao dịch?
+/o /a  Đảm bảo tính toàn vẹn dữ liệu và xác thực nguồn gửi (authentication + integrity), giúp chống giả mạo và thay đổi nội dung giao dịch trong quá trình truyền
+/o Tăng tốc độ xử lý giao dịch bằng cách giảm số lần gọi database
+/o  Giảm dung lượng dữ liệu khi truyền qua mạng bằng cách nén payload
+/o Thay thế hoàn toàn cơ chế mã hóa (encryption) trong truyền thông dữ liệu
+/qe
+
+/qb /multi Trong hệ thống microservice, nếu chỉ dựa vào API Gateway để xác thực người dùng mà không kiểm tra lại ở từng service, rủi ro nào có thể xảy ra?
+/o /a Khi bypass được gateway, attacker có thể gọi trực tiếp vào service nội bộ
+/o /a Các service không có khả năng tự bảo vệ nếu bị gọi nội bộ sai quyền
+/o Tăng tốc độ xử lý API
+/o Giảm latency hệ thống một cách an toàn
+/qe
+
+/qb /multi Trong microservice banking system, phân quyền nên được thiết kế như thế nào?
+/o /a Authorization theo role/scope gắn với token (ví dụ JWT claims hoặc OAuth2 scope)
+/o /a Kiểm tra quyền tại từng service thay vì chỉ ở gateway
+/o Chỉ cần kiểm tra ở API Gateway là đủ
+/o Không cần phân quyền nếu internal network
+/qe
+
+/qb /multi Trong mô hình event-driven integration, việc sử dụng Kafka so với ETL truyền thống mang lại lợi ích gì?
+/o Đảm bảo dữ liệu luôn đúng 100% không cần xử lý lại
+/o /a Tăng khả năng xử lý theo thời gian thực.
+/o Giảm độ phức tạp triển khai
+/o /a Dễ dàng scale theo chiều ngang.
+/qe
+
+/qb Trong một dự án tích hợp hệ thống quy mô lớn, đâu là rủi ro quản trị thường gặp nhất?
+/o /a Thiếu đồng bộ về quy trình và tiêu chuẩn dữ liệu giữa các bên liên quan.
+/o Chưa chọn đúng công nghệ message broker
+/o Tốc độ xử lý ETL chưa đủ nhanh
+/o Đội ngũ kỹ sư không quen ngôn ngữ lập trình mới
+/qe
+
+/qb Trong một hệ thống tích hợp phức tạp, Event Sourcing kết hợp với CQRS (Command Query Responsibility Segregation) mang lại lợi ích gì?
+/o Giảm chi phí lưu trữ dữ liệu bằng cách xóa lịch sử giao dịch
+/o /a Tách biệt xử lý lệnh và truy vấn, lưu trữ lịch sử sự kiện để tái tạo trạng thái, hỗ trợ tích hợp không đồng bộ.
+/o Tăng tốc độ giao dịch bằng cách sử dụng cơ sở dữ liệu chung
+/o Tự động hóa việc tạo giao diện người dùng
+/qe
+
+/qb Trong một luồng mở tài khoản, hệ thống cần gọi eKYC, core banking và notification. Nếu một bước giữa thất bại, thiết kế nào phù hợp hơn cho nhất quán nghiệp vụ?
+/o Bỏ lưu trạng thái trung gian để giảm phức tạp
+/o Gọi lại vô hạn đến khi tất cả hệ thống thành công
+/o Chỉ gửi email cho vận hành sửa dữ liệu thủ công
+/o /a Thiết kế trạng thái giao dịch rõ ràng và cơ chế bù trừ/compensation cho các bước đã thực hiện.
+/o Xem toàn bộ luồng là thành công nếu bước đầu tiên thành công
+/qe
+
+/qb Trong quá trình review Pull Request cho module giao dịch, dấu hiệu nào cần được yêu cầu sửa trước khi merge?
+/o Branch được tạo từ main trong ngày
+/o /a Logic nghiệp vụ mới không có test cho nhánh lỗi và nhánh rollback.
+/o Tên biến ngắn nhưng vẫn đúng chuẩn team
+/o Comment mô tả nghiệp vụ dài hơn bình thường
+/o Developer đã tự chạy ứng dụng local thành công
+/qe
+
+/qb /multi Trong review thiết kế cloud cho ứng dụng tài chính, các yếu tố nào cần được cân bằng thay vì tối ưu riêng lẻ?
+/o Số lượng slide trình bày kiến trúc
+/o /a Chi phí vận hành và hiệu quả sử dụng tài nguyên.
+/o /a Bảo mật dữ liệu và quyền truy cập.
+/o /a Độ tin cậy/khả năng phục hồi của workload.
+/o Màu sắc giao diện quản trị cloud
+/qe
+
+/qb /multi Trong trường hợp cần hiển thị tất cả nhân viên kể cả khi họ chưa được phân công phòng ban, loại JOIN nào phù hợp nhất?
+/o INNER JOIN
+/o /a LEFT JOIN
+/o CROSS JOIN
+/o SELF JOIN
+/o INNER JOIN
+/o /a LEFT JOIN
+/o CROSS JOIN
+/o SELF JOIN
+/qe
+
+/qb Trong tích hợp hệ thống, API Gateway có vai trò gì?
+/o Lưu trữ dữ liệu giao dịch
+/o /a Quản lý, định tuyến và bảo mật các yêu cầu API giữa các hệ thống.
+/o Tạo giao diện người dùng cho ứng dụng
+/o Thực hiện phân tích dữ liệu lớn
+/qe
+
+/qb Trong tích hợp hệ thống, API RESTful thường sử dụng giao thức nào làm cơ sở?
+/o SOAP
+/o /a HTTP/HTTPS.
+/o JMS (Java Message Service)
+/o FTP
+/qe
+
+/qb Trong tích hợp hệ thống, API versioning được sử dụng để:
+/o Tăng tốc độ truyền dữ liệu
+/o Tạo giao diện người dùng
+/o /a Quản lý các phiên bản API để đảm bảo tính tương thích khi tích hợp.
+/o Tự động hóa sao lưu dữ liệu
+/qe
+
+/qb Trường hợp nào sau đây các kênh tích hợp nên tích hợp vào T24 DLM
+/o Khi thực hiện truy vấn thông tin tài khoản phục vụ thanh toán
+/o Khi thực hiện hạch toán FT
+/o Khi truy vấn thông tin ngày nghỉ
+/o /a Khi truy vấn dữ liệu lịch sử giao dịch 30 ngày
+/qe
+
+/qb /multi Trường hợp nào sau đây các kênh tích hợp nên tích hợp vào T24 LIVE
+/o /a Khi thực hiện truy vấn thông tin tài khoản phục vụ thanh toán
+/o /a Khi thực hiện hạch toán FT
+/o Khi truy vấn thông tin ngày nghỉ
+/o Khi truy vấn dữ liệu lịch sử giao dịch 30 ngày
+/qe
+
+/qb /multi Đâu là scope của IL T24
+/o /a t24-query/v1.0/version/post
+/o /a t24-query/v1.0/routine/post
+/o t24-query/v2.0/routine/post
+/o t24-query/v2.0/routine/post
+/qe
+
+/qb /multi Đặc điểm của tài khoản khi set HVT là gì?
+/o /a Là tài khoản có khối giao dịch cực lớn trong một thời gian ngắn
+/o Là tài khoản của đối tác, set HVT để ưu tiên xử lý
+/o /a Trên T24 không xem được số dư realtime
+/o Bút toán được lưu trong bảng STMT.ENTRY và STMT.ENTRY.DETAIL
+/qe
+
+/qb Để giám sát chất lượng tích hợp qua API Gateway, chỉ số (metric) nào quan trọng nhất để cấp quản lý kỹ thuật cần theo dõi?
+/o CPU usage của server Gateway
+/o /a Số lượng request, latency, error rate.
+/o Số dòng log sinh ra mỗi giờ
+/o Số lượng API được publish
+/qe
+

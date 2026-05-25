@@ -1,0 +1,1292 @@
+/qb /multi API trả về chậm bất thường chỉ ở giờ cao điểm. Cần kiểm tra gì?
+/o /a Connection pool
+/o /a Thread pool
+/o /a SQL execution time
+/o Tên package
+/qe
+
+/qb Adaptive execution plan là gì?
+/o Plan cố định
+/o /a Plan thay đổi runtime
+/o Không có cost
+/o Không dùng statistics
+/qe
+
+/qb B-tree index phù hợp khi?
+/o /a Cardinality cao
+/o Static data
+/o Low update
+/o DW only
+/qe
+
+/qb BULK COLLECT trong PL/SQL dùng để làm gì?
+/o /a Lấy nhiều dòng dữ liệu vào collection
+/o Xóa dữ liệu hàng loạt
+/o Tạo index
+/o Tạo partition
+/qe
+
+/qb Bind peeking là gì?
+/o Parse SQL
+/o /a Optimizer dùng giá trị bind đầu tiên
+/o Cache plan
+/o Lock data
+/qe
+
+/qb Bind variable không tốt khi?
+/o /a Data skew
+/o Uniform data
+/o Small table
+/o PK lookup
+/qe
+
+/qb Bitmap index phù hợp khi?
+/o OLTP
+/o /a Cardinality thấp
+/o High DML
+/o PK
+/qe
+
+/qb Buffer cache hit thấp nghĩa là gì?
+/o Query nhanh
+/o /a Nhiều physical read
+/o Ít IO
+/o Không cần tuning
+/qe
+
+/qb Bước đầu tiên khi tuning SQL?
+/o Rewrite ngay
+/o /a Check execution plan
+/o Tăng RAM
+/o Tạo index bừa
+/qe
+
+/qb Bảng log tăng 10 triệu dòng/ngày và thường xóa dữ liệu >1 năm. Cách phù hợp?
+/o /a Partition theo ngày/tháng
+/o Thêm nhiều trigger
+/o Dùng LONG
+/o Tắt redo
+/qe
+
+/qb /multi Cardinality sai gây?
+/o /a Bad plan
+/o Good plan
+/o No plan
+/o Fast query
+/o Join sai
+/o /a Plan kém
+/o Crash
+/o Lock
+/qe
+
+/qb /multi Causes of ORA-01555?
+/o /a Undo nhỏ
+/o /a Query lâu
+/o /a Commit nhiều
+/o Index thiếu
+/qe
+
+/qb Cold block là gì?
+/o /a Ít truy cập
+/o Hot
+/o New
+/o Active
+/qe
+
+/qb Cold partition là gì?
+/o /a Ít truy cập
+/o Hot
+/o New
+/o Active
+/qe
+
+/qb /multi Composite partition gồm?
+/o /a Range-Hash
+/o /a Range-List
+/o Hash-Hash
+/o /a List-Range
+/qe
+
+/qb Composite partition là gì?
+/o 1 loại
+/o /a Kết hợp nhiều loại
+/o Không index
+/o Không support
+/qe
+
+/qb Cost là gì?
+/o Time thực
+/o /a Ước lượng
+/o CPU
+/o IO
+/qe
+
+/qb Covering index là gì?
+/o /a Index chứa đủ cột query
+/o Index unique
+/o Index bitmap
+/o Index global
+/qe
+
+/qb /multi Các loại index scan?
+/o /a Unique scan
+/o /a Range scan
+/o Full scan
+/o /a Fast full scan
+/qe
+
+/qb Các thuộc tính của một giải thuật chữ ký số
+/o Phải xác nhận chính xác người ký và ngày giờ phát sinh chữ ký
+/o Phải xác thực nội dung thông tin ngay tại thời điểm phát sinh chữ ký
+/o Phải có khả năng cho phép kiểm chứng bởi một người thứ 3 để giải quyết các tranh chấp nếu có
+/o /a Tất cả các câu trên.
+/qe
+
+/qb /multi Cách fix cardinality sai?
+/o /a Gather stats
+/o /a Histogram
+/o /a Hint
+/o Delete data
+/qe
+
+/qb Cách giảm Full Table Scan hiệu quả nhất?
+/o Tăng CPU
+/o /a Tạo index phù hợp
+/o Tăng RAM OS
+/o Restart DB
+/qe
+
+/qb /multi Cách giảm IO?
+/o /a Index
+/o /a Partition
+/o /a Rewrite query
+/o Add column
+/qe
+
+/qb Câu 10: Mục đích của Connection Pool trong Java là gì?
+/o /a Tái sử dụng kết nối DB
+/o Tăng số class
+/o Tạo package
+/o Nén dữ liệu
+/qe
+
+/qb /multi Câu 11: Thành phần nào thuộc Oracle hoặc Java?
+/o /a JDK
+/o /a JRE
+/o /a Trigger
+/o Màn hình desktop
+/qe
+
+/qb Câu 12: Mục đích của Connection Pool trong Java là gì?
+/o /a Tái sử dụng kết nối DB
+/o Tăng số class
+/o Tạo package
+/o Nén dữ liệu
+/qe
+
+/qb /multi Câu 13: Thành phần nào thuộc Oracle hoặc Java?
+/o /a JDK
+/o /a JRE
+/o /a Trigger
+/o Màn hình desktop
+/qe
+
+/qb Câu 14: Mục đích của Connection Pool trong Java là gì?
+/o /a Tái sử dụng kết nối DB
+/o Tăng số class
+/o Tạo package
+/o Nén dữ liệu
+/qe
+
+/qb /multi Câu 15: Thành phần nào thuộc Oracle hoặc Java?
+/o /a JDK
+/o /a JRE
+/o /a Trigger
+/o Màn hình desktop
+/qe
+
+/qb Câu 16: Mục đích của Connection Pool trong Java là gì?
+/o /a Tái sử dụng kết nối DB
+/o Tăng số class
+/o Tạo package
+/o Nén dữ liệu
+/qe
+
+/qb /multi Câu 17: Thành phần nào thuộc Oracle hoặc Java?
+/o /a JDK
+/o /a JRE
+/o /a Trigger
+/o Màn hình desktop
+/qe
+
+/qb Câu 18: Mục đích của Connection Pool trong Java là gì?
+/o /a Tái sử dụng kết nối DB
+/o Tăng số class
+/o Tạo package
+/o Nén dữ liệu
+/qe
+
+/qb /multi Câu 19: Thành phần nào thuộc Oracle hoặc Java?
+/o /a JDK
+/o /a JRE
+/o /a Trigger
+/o Màn hình desktop
+/qe
+
+/qb Câu 20: Mục đích của Connection Pool trong Java là gì?
+/o /a Tái sử dụng kết nối DB
+/o Tăng số class
+/o Tạo package
+/o Nén dữ liệu
+/qe
+
+/qb /multi Câu 21: Thành phần nào thuộc Oracle hoặc Java?
+/o /a JDK
+/o /a JRE
+/o /a Trigger
+/o Màn hình desktop
+/qe
+
+/qb Câu 22: Mục đích của Connection Pool trong Java là gì?
+/o /a Tái sử dụng kết nối DB
+/o Tăng số class
+/o Tạo package
+/o Nén dữ liệu
+/qe
+
+/qb /multi Câu 23: Thành phần nào thuộc Oracle hoặc Java?
+/o /a JDK
+/o /a JRE
+/o /a Trigger
+/o Màn hình desktop
+/qe
+
+/qb Câu 24: Mục đích của Connection Pool trong Java là gì?
+/o /a Tái sử dụng kết nối DB
+/o Tăng số class
+/o Tạo package
+/o Nén dữ liệu
+/qe
+
+/qb /multi Câu 25: Thành phần nào thuộc Oracle hoặc Java?
+/o /a JDK
+/o /a JRE
+/o /a Trigger
+/o Màn hình desktop
+/qe
+
+/qb Câu 26: Mục đích của Connection Pool trong Java là gì?
+/o /a Tái sử dụng kết nối DB
+/o Tăng số class
+/o Tạo package
+/o Nén dữ liệu
+/qe
+
+/qb /multi Câu 27: Thành phần nào thuộc Oracle hoặc Java?
+/o /a JDK
+/o /a JRE
+/o /a Trigger
+/o Màn hình desktop
+/qe
+
+/qb Câu 28: Mục đích của Connection Pool trong Java là gì?
+/o /a Tái sử dụng kết nối DB
+/o Tăng số class
+/o Tạo package
+/o Nén dữ liệu
+/qe
+
+/qb /multi Câu 29: Thành phần nào thuộc Oracle hoặc Java?
+/o /a JDK
+/o /a JRE
+/o /a Trigger
+/o Màn hình desktop
+/qe
+
+/qb Câu 30: Mục đích của Connection Pool trong Java là gì?
+/o /a Tái sử dụng kết nối DB
+/o Tăng số class
+/o Tạo package
+/o Nén dữ liệu
+/qe
+
+/qb Câu 6: Mục đích của Connection Pool trong Java là gì?
+/o /a Tái sử dụng kết nối DB
+/o Tăng số class
+/o Tạo package
+/o Nén dữ liệu
+/qe
+
+/qb /multi Câu 7: Thành phần nào thuộc Oracle hoặc Java?
+/o /a JDK
+/o /a JRE
+/o /a Trigger
+/o Màn hình desktop
+/qe
+
+/qb Câu 8: Mục đích của Connection Pool trong Java là gì?
+/o /a Tái sử dụng kết nối DB
+/o Tăng số class
+/o Tạo package
+/o Nén dữ liệu
+/qe
+
+/qb /multi Câu 9: Thành phần nào thuộc Oracle hoặc Java?
+/o /a JDK
+/o /a JRE
+/o /a Trigger
+/o Màn hình desktop
+/qe
+
+/qb Câu SQL có điều kiện WHERE trunc(create_date)=sysdate. Điều gì dễ xảy ra?
+/o /a Index create_date khó được sử dụng
+/o Query luôn nhanh hơn
+/o Giảm redo
+/o Giảm undo
+/qe
+
+/qb Cấu trúc dữ liệu nào được sử dụng để duyệt qua các phần tử một cách tuần tự và dễ dàng thực hiện thêm/xóa phần tử ở cuối danh sách?
+/o Array
+/o Stack
+/o Queue
+/o /a Double Linked List.
+/qe
+
+/qb DROP PARTITION so với DELETE?
+/o Chậm hơn
+/o /a Nhanh hơn
+/o Giống nhau
+/o Không dùng
+/qe
+
+/qb Deadlock xảy ra khi?
+/o /a 2 session lock chéo
+/o 1 session
+/o No lock
+/o Full scan
+/qe
+
+/qb Detect deadlock bằng?
+/o /a Alert log
+/o Execution plan
+/o Index
+/o View
+/qe
+
+/qb ENABLE ROW MOVEMENT để làm gì?
+/o Tăng tốc query
+/o /a Cho phép row di chuyển
+/o Giảm index
+/o Tắt constraint
+/qe
+
+/qb Exchange partition không cần?
+/o /a Copy data
+/o Same structure
+/o Same column
+/o Same type
+/qe
+
+/qb Exchange partition nhanh vì?
+/o /a Không move data
+/o Copy data
+/o Delete
+/o Sort
+/qe
+
+/qb Execution Plan dùng để làm gì?
+/o /a Xem cách Oracle thực thi câu SQL
+/o Xóa dữ liệu
+/o Nén dữ liệu
+/o Tạo schema
+/qe
+
+/qb /multi Execution plan scan types?
+/o /a Table full
+/o /a Index range
+/o /a Index unique
+/o /a Bitmap
+/qe
+
+/qb Fast full index scan là gì?
+/o Scan theo key
+/o /a Scan toàn index như table
+/o Join
+/o Sort
+/qe
+
+/qb Full scan xảy ra khi?
+/o Có index tốt
+/o /a Không có filter tốt
+/o Join PK
+/o Single row
+/qe
+
+/qb Global index khi DROP PARTITION?
+/o Không ảnh hưởng
+/o /a Bị unusable
+/o Auto rebuild
+/o Bị xóa
+/qe
+
+/qb Global index nhược điểm?
+/o /a Khó maintain
+/o Nhanh
+/o Ít IO
+/o Không dùng
+/qe
+
+/qb Global index tốt khi?
+/o /a Query cross partition
+/o Single partition
+/o Small data
+/o No index
+/qe
+
+/qb Hash Join phù hợp khi?
+/o Dataset nhỏ
+/o /a Dataset lớn, không index
+/o Có index tốt
+/o Single row lookup
+/qe
+
+/qb Hash partition dùng khi?
+/o Data skew
+/o /a Even distribution
+/o Date range
+/o Static data
+/qe
+
+/qb High CPU thường do?
+/o /a Bad SQL
+/o Index tốt
+/o Low IO
+/o Cache hit cao
+/qe
+
+/qb High IO do?
+/o /a Full scan nhiều
+/o Index tốt
+/o Cache tốt
+/o Small data
+/qe
+
+/qb /multi Hints dùng để?
+/o /a Override optimizer
+/o /a Fix plan
+/o /a Debug
+/o Backup
+/qe
+
+/qb Histogram giúp gì cho optimizer?
+/o Giảm IO
+/o /a Estimate selectivity chính xác hơn
+/o Tăng index size
+/o Giảm redo
+/qe
+
+/qb Hot block là gì?
+/o /a Block truy cập nhiều
+/o Không dùng
+/o Delete
+/o Backup
+/qe
+
+/qb Hot partition là gì?
+/o /a Partition truy cập nhiều
+/o Không dùng
+/o Deleted
+/o Backup
+/qe
+
+/qb /multi Hệ thống Java đa luồng cập nhật biến đếm chung sai số liệu. Giải pháp?
+/o /a AtomicInteger
+/o /a Lock
+/o /a synchronized
+/o sleep(100)
+/qe
+
+/qb Hệ thống ngân hàng có bảng TRANSACTION 500 triệu bản ghi. Truy vấn tra cứu theo khoảng ngày và account_id chậm sau 6 tháng vận hành. Giải pháp ưu tiên?
+/o /a Partition theo ngày kết hợp index account_id
+/o Tăng kích thước VARCHAR2
+/o Tắt statistics
+/o Dùng SELECT *
+/qe
+
+/qb /multi Index KHÔNG được dùng khi?
+/o /a LIKE '%abc'
+/o /a FUNCTION(column)
+/o /a IS NULL
+/o =
+/qe
+
+/qb Index range scan xảy ra khi?
+/o /a Query nhiều dòng liên tiếp
+/o Full scan
+/o Join
+/o Insert
+/qe
+
+/qb Index skip scan là gì?
+/o Scan toàn index
+/o /a Dùng khi thiếu leading column
+/o Join scan
+/o Sort
+/qe
+
+/qb Interval partition auto create khi?
+/o /a Insert data mới
+/o Select
+/o Update
+/o Delete
+/qe
+
+/qb Interval partition là gì?
+/o Manual partition
+/o /a Auto tạo partition
+/o Hash partition
+/o List partition
+/qe
+
+/qb JVM là gì trong Java?
+/o /a Môi trường thực thi Java
+/o Trình soạn thảo code
+/o Database
+/o Framework
+/qe
+
+/qb Java service bị OutOfMemoryError khi đọc file 5GB. Nên xử lý?
+/o /a Đọc streaming từng phần
+/o Tăng timeout
+/o Đổi tên file
+/o Dùng String cho toàn bộ file
+/qe
+
+/qb Java service đọc dữ liệu DB rồi đưa toàn bộ vào List trước khi xử lý, gây OOM ở production. Giải pháp tốt nhất?
+/o /a Xử lý dạng stream/paging
+/o Tăng CPU
+/o Đổi tên biến
+/o Dùng StringBuffer
+/qe
+
+/qb Java ứng dụng xử lý queue có hiện tượng duplicate message khi restart service. Giải pháp tốt nhất?
+/o /a Thiết kế idempotent
+/o Tăng RAM
+/o Giảm log
+/o Tăng timeout
+/qe
+
+/qb Khi data bị skew, nên dùng gì?
+/o Index bitmap
+/o /a Histogram
+/o Partition
+/o Trigger
+/qe
+
+/qb Khi một transaction Oracle giữ lock lâu gây chờ, nên kiểm tra đầu tiên?
+/o /a Session đang giữ lock
+/o Kích thước TEMP
+/o Dung lượng RAM
+/o Tên schema
+/qe
+
+/qb Khi nào gather stats?
+/o /a Sau DML lớn
+/o Mỗi query
+/o Mỗi select
+/o Không cần
+/qe
+
+/qb /multi Khi nào nên rebuild index?
+/o /a Fragment cao
+/o /a Sau delete lớn
+/o Luôn luôn
+/o /a Index unusable
+/qe
+
+/qb /multi Khi tối ưu câu SQL Oracle có nhiều JOIN lớn, nên xem gì?
+/o /a Execution Plan
+/o /a Index
+/o /a Cardinality
+/o Màu giao diện SQL Developer
+/qe
+
+/qb /multi Kỹ thuật giảm N+1 query trong Java ORM?
+/o /a JOIN FETCH
+/o /a Batch fetching
+/o /a EntityGraph
+/o Random UUID
+/qe
+
+/qb Latch contention thường liên quan tới?
+/o Disk IO
+/o CPU
+/o /a Shared memory (SGA)
+/o Network
+/qe
+
+/qb List partition dùng khi?
+/o /a Giá trị cụ thể
+/o Date
+/o Random
+/o Numeric range
+/qe
+
+/qb Local index khi DROP PARTITION?
+/o Bị unusable
+/o /a Auto maintain
+/o Bị xóa
+/o Không ảnh hưởng
+/qe
+
+/qb Local index là gì?
+/o Index toàn bảng
+/o /a Index theo từng partition
+/o Không liên quan
+/o Index memory
+/qe
+
+/qb Local index tốt khi?
+/o /a Query partition-based
+/o Global query
+/o Join only
+/o No filter
+/qe
+
+/qb Local index ưu điểm?
+/o /a Dễ maintain
+/o Luôn nhanh
+/o Không stats
+/o Không rebuild
+/qe
+
+/qb /multi Lock types trong Oracle?
+/o /a Row lock
+/o /a Table lock
+/o Block lock
+/o File lock
+/qe
+
+/qb Merge Join yêu cầu gì?
+/o /a Data phải sorted
+/o Có index unique
+/o Không cần sort
+/o Chỉ dùng cho small table
+/qe
+
+/qb Merge partition dùng khi?
+/o /a Gộp partition
+/o Split
+/o Delete
+/o Insert
+/qe
+
+/qb /multi Một REST API Java phản hồi chậm, nên kiểm tra?
+/o /a Thread pool
+/o /a DB query
+/o /a Network latency
+/o Tên class
+/qe
+
+/qb Một bảng giao dịch Oracle có 200 triệu bản ghi, truy vấn theo transaction_date chậm. Dữ liệu chủ yếu tra cứu theo tháng. Giải pháp phù hợp nhất?
+/o /a Tạo partition theo transaction_date theo tháng
+/o Tăng PGA lên tối đa
+/o Đổi NUMBER sang VARCHAR2
+/o Xóa index
+/qe
+
+/qb Một bảng log cần xóa dữ liệu > 12 tháng mỗi ngày. Thiết kế tốt nhất?
+/o /a Partition để DROP partition
+/o DELETE toàn bảng
+/o TRUNCATE mỗi ngày
+/o Dùng trigger
+/qe
+
+/qb /multi Một procedure Oracle xử lý 5 triệu bản ghi bị chậm do commit cuối cùng. Nên làm gì?
+/o /a Commit theo batch
+/o /a Dùng BULK COLLECT
+/o /a Dùng FORALL
+/o Commit mỗi dòng
+/qe
+
+/qb /multi Một session Oracle gây lock toàn bộ tiến trình khác. Nên kiểm tra?
+/o /a Session holding lock
+/o /a Blocking session
+/o /a SQL đang chạy
+/o Dung lượng ổ cứng
+/qe
+
+/qb /multi Một truy vấn Oracle dùng JOIN 8 bảng bị chậm. Nên phân tích gì?
+/o /a Execution Plan
+/o /a Cardinality
+/o /a Index
+/o Màu giao diện SQL
+/qe
+
+/qb NO_INDEX để làm gì?
+/o /a Tránh index
+/o Force index
+/o Create
+/o Drop
+/qe
+
+/qb Nested Loop phù hợp khi?
+/o Table lớn không index
+/o /a Dataset nhỏ + có index
+/o Full scan
+/o Không join
+/qe
+
+/qb /multi Nguyên nhân slow query?
+/o /a Thiếu index
+/o /a Bad plan
+/o /a Data lớn
+/o Network
+/qe
+
+/qb /multi Optimizer phụ thuộc?
+/o /a Statistics
+/o /a Bind variable
+/o /a Parameter
+/o User
+/qe
+
+/qb Oracle query dùng hàm trên cột WHERE: upper(name)='A'. Điều gì có thể xảy ra?
+/o /a Index thường có thể không được dùng
+/o Truy vấn luôn nhanh hơn
+/o Redo giảm
+/o Table nhỏ lại
+/qe
+
+/qb /multi Parallel Query phù hợp khi?
+/o OLTP query nhỏ
+/o /a Batch lớn
+/o /a Report dữ liệu lớn
+/o Single row lookup
+/qe
+
+/qb /multi Partition benefits?
+/o /a Manageability
+/o /a Performance
+/o /a Scalability
+/o Security
+/qe
+
+/qb Partition exchange dùng để?
+/o /a Swap dữ liệu nhanh
+/o Delete data
+/o Update data
+/o Merge partition
+/qe
+
+/qb Partition exchange thường dùng cho?
+/o /a ETL load
+/o OLTP query
+/o Join
+/o Delete
+/qe
+
+/qb Partition giúp gì?
+/o Tăng performance
+/o Quản lý dữ liệu dễ hơn
+/o Giảm IO
+/o /a Tất cả
+/qe
+
+/qb /multi Partition key nên chọn?
+/o /a Query filter
+/o /a Join key
+/o Random column
+/o Update nhiều
+/qe
+
+/qb /multi Partition key tốt?
+/o /a Hay filter
+/o /a Ít update
+/o /a Phân bố đều
+/o Random
+/qe
+
+/qb Partition key update tốn gì?
+/o /a IO cao
+/o CPU thấp
+/o No cost
+/o No redo
+/qe
+
+/qb /multi Partition maintenance operations?
+/o /a Split
+/o /a Merge
+/o /a Drop
+/o Select
+/qe
+
+/qb /multi Partition pruning khi?
+/o /a Filter key
+/o /a Join key
+/o No filter
+/o /a Constant
+/qe
+
+/qb Partition pruning là gì?
+/o Scan toàn bộ bảng
+/o /a Chỉ scan partition liên quan
+/o Xóa partition
+/o Merge partition
+/qe
+
+/qb Partition pruning xảy ra khi?
+/o /a Có filter trên key
+/o No filter
+/o Join only
+/o Insert
+/qe
+
+/qb /multi Partition strategy trong bank?
+/o /a Date-based
+/o Customer-based
+/o Random
+/o /a Hash
+/qe
+
+/qb Partition-wise join cần?
+/o /a Same partition key
+/o Different key
+/o No key
+/o Index
+/qe
+
+/qb Partition-wise join là gì?
+/o Join toàn bảng
+/o /a Join từng partition
+/o Join không index
+/o Join random
+/qe
+
+/qb /multi Procedure xử lý đối soát 3 triệu dòng dùng cursor FOR LOOP và chạy 4 giờ. Hướng tối ưu phù hợp?
+/o /a Dùng BULK COLLECT
+/o /a Dùng FORALL
+/o /a Giảm số lần context switch
+/o Commit từng dòng
+/qe
+
+/qb /multi Query có function trong WHERE, cách tối ưu?
+/o /a Rewrite query
+/o /a Tạo function-based index
+/o Thêm hint FULL
+/o Dùng DISTINCT
+/qe
+
+/qb Quá trình truyền, nhận dữ liệu giữa client và server trong lập trình Socket dùng giao thức TCP/IP dữ liệu được truyền, nhận ở dạng nào sau đây?
+/o Dạng ký tự
+/o /a Dạng nhị phân.
+/o Dạng chuỗi
+/o Tất cả các câu trên
+/qe
+
+/qb Range partition phù hợp khi?
+/o ID random
+/o /a Date/time
+/o Text
+/o Boolean
+/qe
+
+/qb Redo log nhỏ gây vấn đề gì?
+/o Ít IO
+/o /a Log switch liên tục
+/o Giảm commit time
+/o Không ảnh hưởng
+/qe
+
+/qb /multi SELECT * gây ảnh hưởng gì?
+/o /a Tăng logical read
+/o /a Không dùng covering index
+/o /a Tăng network traffic
+/o Không ảnh hưởng
+/qe
+
+/qb SQL Plan Management dùng để?
+/o Optimize memory
+/o /a Fix execution plan ổn định
+/o Backup
+/o Index rebuild
+/qe
+
+/qb SQL baseline là gì?
+/o /a Fix plan
+/o Delete plan
+/o No plan
+/o Temp plan
+/qe
+
+/qb SQL có OR condition nên?
+/o /a Rewrite UNION
+/o Keep OR
+/o Add trigger
+/o Delete index
+/qe
+
+/qb SQL nhiều JOIN chậm,  bước đầu làm gì?
+/o Add index bừa
+/o /a Check execution plan
+/o Restart DB
+/o Delete data
+/qe
+
+/qb SQL profile dùng để?
+/o /a Tuning SQL
+/o Backup
+/o Restore
+/o Delete
+/qe
+
+/qb Split partition dùng khi?
+/o /a Chia nhỏ data
+/o Merge data
+/o Delete
+/o Join
+/qe
+
+/qb Stale stats gây?
+/o Good plan
+/o /a Bad plan
+/o No effect
+/o Fast
+/qe
+
+/qb Subpartition là gì?
+/o /a Partition nhỏ hơn
+/o Index
+/o Table
+/o View
+/qe
+
+/qb Too many partitions gây?
+/o /a Overhead
+/o Faster always
+/o No impact
+/o Less memory
+/qe
+
+/qb Trong Apache Kafka, cơ chế nào được sử dụng bởi Idempotent Producer để đảm bảo tính idempotent của các tin nhắn gửi đi?
+/o Message timestamp
+/o /a Sequence number.
+/o Producer Acknowledgements
+/o Message checksum
+/qe
+
+/qb Trong JWT, điều gì xác định việc token có thể được sử dụng cho các dịch vụ nào?
+/o Thuộc tính "sub"
+/o Thuộc tính "iss"
+/o /a Thuộc tính "aud".
+/o Thuộc tính "exp"
+/qe
+
+/qb /multi Trong Java đa luồng, vấn đề race condition có thể giảm bằng?
+/o /a synchronized
+/o /a Lock
+/o /a AtomicInteger
+/o Thread.sleep
+/qe
+
+/qb Trong Java, đối tượng nào được sử dụng để chờ cho một luồng kết thúc thực thi?
+/o CyclicBarrier
+/o /a CountDownLatch.
+/o Semaphore
+/o ExecutorService
+/qe
+
+/qb Trong Oracle, chức năng chính của index là gì?
+/o /a Tăng tốc truy vấn dữ liệu
+/o Giảm kích thước bảng
+/o Tăng redo log
+/o Giảm số cột
+/qe
+
+/qb Trong Spring Boot, cách nào sau đây được sử dụng để gọi một phương thức bất đồng bộ và không chờ kết quả?
+/o Sử dụng phương thức run() của Future
+/o /a Sử dụng phương thức async() của CompletableFuture.
+/o Sử dụng phương thức await() của AsyncTask
+/o Sử dụng phương thức start() của ExecutorService
+/qe
+
+/qb Trong microservices, cách nào sau đây được sử dụng để xử lý vấn đề giữa các dịch vụ khi một dịch vụ gây ra lỗi và không thể xử lý yêu cầu?
+/o Service Mesh
+/o Service Discovery
+/o Load Balancer
+/o /a Circuit Breaker.
+/qe
+
+/qb Trong microservices, cơ chế nào được sử dụng để quản lý và tìm kiếm các dịch vụ?
+/o API Gateway
+/o /a Service Registry.
+/o Load Balancer
+/o Circuit Breaker
+/qe
+
+/qb Trong quá trình thiết lập kết nối HTTPS, giao thức nào được sử dụng để trao đổi khóa và thiết lập kết nối bảo mật?
+/o SSL
+/o /a TLS. 
+/o HTTP
+/o SSH
+/qe
+
+/qb /multi Tình huống 11: Deadlock Oracle khi nhiều giao dịch cập nhật chéo. Các hành động hợp lý?
+/o /a Phân tích log/monitoring
+/o /a Kiểm tra cấu hình và tài nguyên
+/o /a Phân tích luồng xử lý
+/o Đổi màu IDE
+/qe
+
+/qb Tình huống 12: Java GC pause kéo dài. Giải pháp phù hợp nhất?
+/o /a Phân tích nguyên nhân gốc và tối ưu đúng điểm nghẽn
+/o Tăng số lượng comment code
+/o Đổi tên schema
+/o Xóa log
+/qe
+
+/qb /multi Tình huống 13: Microservice timeout chuỗi. Các hành động hợp lý?
+/o /a Phân tích log/monitoring
+/o /a Kiểm tra cấu hình và tài nguyên
+/o /a Phân tích luồng xử lý
+/o Đổi màu IDE
+/qe
+
+/qb Tình huống 14: ORA-01555 snapshot too old. Giải pháp phù hợp nhất?
+/o /a Phân tích nguyên nhân gốc và tối ưu đúng điểm nghẽn
+/o Tăng số lượng comment code
+/o Đổi tên schema
+/o Xóa log
+/qe
+
+/qb /multi Tình huống 15: N+1 query Hibernate. Các hành động hợp lý?
+/o /a Phân tích log/monitoring
+/o /a Kiểm tra cấu hình và tài nguyên
+/o /a Phân tích luồng xử lý
+/o Đổi màu IDE
+/qe
+
+/qb Tình huống 16: Slow query sau khi thêm index. Giải pháp phù hợp nhất?
+/o /a Phân tích nguyên nhân gốc và tối ưu đúng điểm nghẽn
+/o Tăng số lượng comment code
+/o Đổi tên schema
+/o Xóa log
+/qe
+
+/qb /multi Tình huống 17: Scheduler job chạy trùng. Các hành động hợp lý?
+/o /a Phân tích log/monitoring
+/o /a Kiểm tra cấu hình và tài nguyên
+/o /a Phân tích luồng xử lý
+/o Đổi màu IDE
+/qe
+
+/qb Tình huống 18: Memory leak Java. Giải pháp phù hợp nhất?
+/o /a Phân tích nguyên nhân gốc và tối ưu đúng điểm nghẽn
+/o Tăng số lượng comment code
+/o Đổi tên schema
+/o Xóa log
+/qe
+
+/qb /multi Tình huống 19: REST retry gây duplicate. Các hành động hợp lý?
+/o /a Phân tích log/monitoring
+/o /a Kiểm tra cấu hình và tài nguyên
+/o /a Phân tích luồng xử lý
+/o Đổi màu IDE
+/qe
+
+/qb Tình huống 20: Batch insert chậm. Giải pháp phù hợp nhất?
+/o /a Phân tích nguyên nhân gốc và tối ưu đúng điểm nghẽn
+/o Tăng số lượng comment code
+/o Đổi tên schema
+/o Xóa log
+/qe
+
+/qb /multi Tình huống 21: Deadlock Oracle khi nhiều giao dịch cập nhật chéo. Các hành động hợp lý?
+/o /a Phân tích log/monitoring
+/o /a Kiểm tra cấu hình và tài nguyên
+/o /a Phân tích luồng xử lý
+/o Đổi màu IDE
+/qe
+
+/qb Tình huống 22: Java GC pause kéo dài. Giải pháp phù hợp nhất?
+/o /a Phân tích nguyên nhân gốc và tối ưu đúng điểm nghẽn
+/o Tăng số lượng comment code
+/o Đổi tên schema
+/o Xóa log
+/qe
+
+/qb /multi Tình huống 23: Microservice timeout chuỗi. Các hành động hợp lý?
+/o /a Phân tích log/monitoring
+/o /a Kiểm tra cấu hình và tài nguyên
+/o /a Phân tích luồng xử lý
+/o Đổi màu IDE
+/qe
+
+/qb Tình huống 24: ORA-01555 snapshot too old. Giải pháp phù hợp nhất?
+/o /a Phân tích nguyên nhân gốc và tối ưu đúng điểm nghẽn
+/o Tăng số lượng comment code
+/o Đổi tên schema
+/o Xóa log
+/qe
+
+/qb /multi Tình huống 25: N+1 query Hibernate. Các hành động hợp lý?
+/o /a Phân tích log/monitoring
+/o /a Kiểm tra cấu hình và tài nguyên
+/o /a Phân tích luồng xử lý
+/o Đổi màu IDE
+/qe
+
+/qb Tình huống 26: Slow query sau khi thêm index. Giải pháp phù hợp nhất?
+/o /a Phân tích nguyên nhân gốc và tối ưu đúng điểm nghẽn
+/o Tăng số lượng comment code
+/o Đổi tên schema
+/o Xóa log
+/qe
+
+/qb /multi Tình huống 27: Scheduler job chạy trùng. Các hành động hợp lý?
+/o /a Phân tích log/monitoring
+/o /a Kiểm tra cấu hình và tài nguyên
+/o /a Phân tích luồng xử lý
+/o Đổi màu IDE
+/qe
+
+/qb Tình huống 28: Memory leak Java. Giải pháp phù hợp nhất?
+/o /a Phân tích nguyên nhân gốc và tối ưu đúng điểm nghẽn
+/o Tăng số lượng comment code
+/o Đổi tên schema
+/o Xóa log
+/qe
+
+/qb /multi Tình huống 29: REST retry gây duplicate. Các hành động hợp lý?
+/o /a Phân tích log/monitoring
+/o /a Kiểm tra cấu hình và tài nguyên
+/o /a Phân tích luồng xử lý
+/o Đổi màu IDE
+/qe
+
+/qb Tình huống 30: Batch insert chậm. Giải pháp phù hợp nhất?
+/o /a Phân tích nguyên nhân gốc và tối ưu đúng điểm nghẽn
+/o Tăng số lượng comment code
+/o Đổi tên schema
+/o Xóa log
+/qe
+
+/qb /multi Tình huống 31: Deadlock Oracle khi nhiều giao dịch cập nhật chéo. Các hành động hợp lý?
+/o /a Phân tích log/monitoring
+/o /a Kiểm tra cấu hình và tài nguyên
+/o /a Phân tích luồng xử lý
+/o Đổi màu IDE
+/qe
+
+/qb Tình huống 32: Java GC pause kéo dài. Giải pháp phù hợp nhất?
+/o /a Phân tích nguyên nhân gốc và tối ưu đúng điểm nghẽn
+/o Tăng số lượng comment code
+/o Đổi tên schema
+/o Xóa log
+/qe
+
+/qb /multi Tình huống 33: Microservice timeout chuỗi. Các hành động hợp lý?
+/o /a Phân tích log/monitoring
+/o /a Kiểm tra cấu hình và tài nguyên
+/o /a Phân tích luồng xử lý
+/o Đổi màu IDE
+/qe
+
+/qb Tình huống 34: ORA-01555 snapshot too old. Giải pháp phù hợp nhất?
+/o /a Phân tích nguyên nhân gốc và tối ưu đúng điểm nghẽn
+/o Tăng số lượng comment code
+/o Đổi tên schema
+/o Xóa log
+/qe
+
+/qb /multi Tình huống 35: N+1 query Hibernate. Các hành động hợp lý?
+/o /a Phân tích log/monitoring
+/o /a Kiểm tra cấu hình và tài nguyên
+/o /a Phân tích luồng xử lý
+/o Đổi màu IDE
+/qe
+
+/qb Tình huống 36: Slow query sau khi thêm index. Giải pháp phù hợp nhất?
+/o /a Phân tích nguyên nhân gốc và tối ưu đúng điểm nghẽn
+/o Tăng số lượng comment code
+/o Đổi tên schema
+/o Xóa log
+/qe
+
+/qb /multi Tình huống 37: Scheduler job chạy trùng. Các hành động hợp lý?
+/o /a Phân tích log/monitoring
+/o /a Kiểm tra cấu hình và tài nguyên
+/o /a Phân tích luồng xử lý
+/o Đổi màu IDE
+/qe
+
+/qb Tình huống 38: Memory leak Java. Giải pháp phù hợp nhất?
+/o /a Phân tích nguyên nhân gốc và tối ưu đúng điểm nghẽn
+/o Tăng số lượng comment code
+/o Đổi tên schema
+/o Xóa log
+/qe
+
+/qb /multi Tình huống 39: REST retry gây duplicate. Các hành động hợp lý?
+/o /a Phân tích log/monitoring
+/o /a Kiểm tra cấu hình và tài nguyên
+/o /a Phân tích luồng xử lý
+/o Đổi màu IDE
+/qe
+
+/qb Tình huống 40: Batch insert chậm. Giải pháp phù hợp nhất?
+/o /a Phân tích nguyên nhân gốc và tối ưu đúng điểm nghẽn
+/o Tăng số lượng comment code
+/o Đổi tên schema
+/o Xóa log
+/qe
+
+/qb USE_HASH dùng để?
+/o /a Hash join
+/o Nested loop
+/o Index
+/o Sort
+/qe
+
+/qb USE_NL dùng để?
+/o Hash join
+/o /a Nested loop
+/o Merge join
+/o Full scan
+/qe
+
+/qb Update partition key gây gì?
+/o Không ảnh hưởng
+/o /a Row movement
+/o Lock table
+/o Deadlock
+/qe
+
+/qb /multi Wait event nào thường gặp?
+/o /a db file sequential read
+/o /a log file sync
+/o latch free
+/o control file read
+/qe
+
+/qb db file scattered read là gì?
+/o Index scan
+/o /a Full table scan
+/o Insert
+/o Commit
+/qe
+
+/qb db file sequential read là gì?
+/o Full scan
+/o /a Index lookup
+/o Sort
+/o Network
+/qe
+
+/qb /multi Đâu là collection trong PL/SQL?
+/o /a Nested Table
+/o /a VARRAY
+/o /a Associative Array
+/o Trigger
+/qe
+
