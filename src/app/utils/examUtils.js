@@ -86,9 +86,12 @@ export function shuffleQuestions(array, limit) {
 }
 
 export const EXAM_SET = [
-    { value: 0, label: "Đề gây mê TA (140 câu)", file: "quiz_ta.txt" },
-    { value: 1, label: "Đề chuyên môn 2025 (263 câu)", file: "quiz_chuyenmon2025.txt" },
-    { value: 2, label: "Đề chức danh 2024 (119 câu)", file: "quiz_chucdanh2024.txt" },
-    { value: 3, label: "Đề 1688 + ESG 2025 (128 câu)", file: "quiz_1688.txt" },
-    { value: 4, label: "Đề tổng hợp CV 2025 (255 câu)", file: "quiz_tonghop_cv.txt" },
+   { value: 0, label: "Đề gây mê TA (140 câu)", file: "quiz_ta.txt" },
+   { value: 1, label: "Đề chuyên môn 2025 (263 câu)", file: "quiz_chuyenmon2025.txt" },
+   { value: 2, label: "Đề chức danh 2024 (119 câu)", file: "quiz_chucdanh2024.txt" },
+   { value: 3, label: "Đề 1688 + ESG 2025 (128 câu)", file: "quiz_1688.txt" },
+   { value: 4, label: "Đề tổng hợp CV 2025 (255 câu)", file: "quiz_tonghop_cv.txt" },
+   { value: 5, label: "Đề CNS_chung 2026 (100 câu)", file: "quiz_CNS_2026.txt" },
+   { value: 6, label: "Đề CNS_DVS 2026 (184 câu)", file: "quiz_DVS_2026.txt" },
+   { value: 7, label: "Đề CNTT_chung 2026 (87 câu)", file: "quiz_CNTT_2026.txt" },
 ];
